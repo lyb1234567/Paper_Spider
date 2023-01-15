@@ -1,0 +1,3 @@
+KRED:Knowledge-Aware Document Representation for News Recommendations
+News Recommendation with Topic-Enriched Knowledge Graphs
+The Interaction between Political Typology and Filter Bubbles in News Recommendation Algorithms

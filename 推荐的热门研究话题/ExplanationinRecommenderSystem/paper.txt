@@ -1,0 +1,8 @@
+Try This Instead: Personalized and Interpretable Substitute Recommendation
+CAFE: Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation
+Explainable Recommender Systems via Resolving Learning Representations
+Generate Neural Template Explanations for Recommendation
+Explainable Recommendation with Comparative Constraints on Product Aspects
+Explanation as a Defense of Recommendation
+EX^3: Explainable Product Set Recommendation for Comparison Shopping
+Learning from User Feedback on Explanations to Improve Recommender Models

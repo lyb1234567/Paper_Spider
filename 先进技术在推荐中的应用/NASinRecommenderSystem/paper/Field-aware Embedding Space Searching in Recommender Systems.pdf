@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en"     class="pb-page"  data-request-id="e83100cb-8760-435e-94f8-5116f7140400"  
+><head data-pb-dropzone="head"><meta name="pbContext" content=";taxonomy:taxonomy:conference-collections;wgroup:string:ACM Publication Websites;groupTopic:topic:acm-pubtype&gt;proceeding;subPage:string:Access Denial;ctype:string:Book Content;article:article:doi\:10.1145/3442381.3450124;topic:topic:conference-collections&gt;www;page:string:Article/Chapter View;issue:issue:doi\:10.1145/3442381;csubtype:string:Conference Proceedings;website:website:dl-site;journal:journal:acmconferences;pageGroup:string:Publication Pages"/>
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"></link><meta name="dc.Format" content="text/HTML"></meta><meta name="dc.Identifier" scheme="acm-id" content="3450124"></meta><meta name="dc.Identifier" scheme="doi" content="10.1145/3442381.3450124"></meta><meta name="dc.Language" content="EN"></meta><meta name="dc.Coverage" content="world"></meta><!-- ${citation_fulltext_world_readable:10.1145/3442381.3450124} -->
+
+
+
+
+
+
+<style id="pb-theme">
+.theme {
+
+}
+</style>
+
+<title>AutoDim: Field-aware Embedding Dimension Searchin Recommender Systems | Proceedings of the Web Conference 2021</title>
+
+
+
+
+
+
+<meta charset="UTF-8">
+<meta name="robots" content="noarchive,noindex,nofollow"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <meta property="og:title" content="AutoDim: Field-aware Embedding Dimension Searchin Recommender Systems | Proceedings of the Web Conference 2021"/>
+    
+
+
+        <meta property="og:type" content="Chapter"/>
+    
+
+
+        <meta property="og:url" content="https://dl.acm.org/doi/10.1145/3442381.3450124"/>
+    
+
+        <meta property="og:image" content="https://dl.acm.org/cms/asset/143b6123-79ee-4aca-bbda-688c4234301d/3442381.cover.jpg" />
+        
+            <meta property="og:image:width" content="132" />
+            <meta property="og:image:height" content="171" />
+        
+    
+
+
+        <meta property="og:site_name" content="ACM Conferences"/>
+    
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="/products/acm/releasedAssets/css/build-10b34c3531a1779749cd.css"/><link rel="stylesheet" href="/products/acm/releasedAssets/css/print-10b34c3531a1779749cd.css" media="print"/>
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="/pb-assets/styles/acm-custom-1671447210097.css">
+<script defer src="https://scholar.google.com/scholar_js/casa.js" async></script>
+<script type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+      heap.load("1083010732");
+</script>
+<link rel="apple-touch-icon" sizes="180x180" href="/pb-assets/head-metadata/apple-touch-icon-1574252172393.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/pb-assets/head-metadata/favicon-32x32-1574252172003.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/pb-assets/head-metadata/favicon-16x16-1574252172937.png">
+<link rel="manifest" href="/pb-assets/head-metadata/site-1574252171130.webmanifest" crossorigin="use-credentials">
+<link rel="mask-icon" href="/pb-assets/head-metadata/safari-pinned-tab-1574252171193.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="theme-color" content="#ffffff">
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6e539318ac0a38db","token":"b7f168b3cd354a55a4dd51b513830799","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+
+    <!-- Google Tag Manager -->
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NFGCMX');</script>
+    <!-- End Google Tag Manager -->
+
+
+
+
+
+</head>
+<body class="pb-ui">
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFGCMX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    if(false) {
+        document.getElementById("skipNavigationLink").onclick =function skipElement () {
+            var element = document.getElementById('');
+            if(element == null || element == undefined) {
+                element = document.getElementsByClassName('').item(0);
+            }
+            element.setAttribute('tabindex','0');
+            element.focus();
+
+        }
+
+    }
+
+</script>
+
+
+
+
+
+    <div id="pb-page-content" data-ng-non-bindable>
+        <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        <header data-widget-def="ux3-layout-widget" data-widget-id="88f434fd-b4d9-4f0e-b7b6-cde0fadcc9ef" class="header base www">
+        
+
+
+
+        
+        <div class="header__fixed-items fixed fixed-element">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="c844bab8-b1d5-4df4-8bea-71f6156459e4" class="container header--first-row">
+        
+
+
+
+        
+        <div class="pull-left">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="83eada61-9003-4cb3-99a8-a38fa7692761" class="header__logo1">
+        
+
+
+
+        
+        <a href="/" title="ACM Digital Library home"><img id="" alt="ACM Digital Library home" src="/specs/products/acm/releasedAssets/images/acm-dl-logo-white.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="5517ee17-e847-46ff-b42e-c5a6754e032d" class="header__logo2">
+        
+
+
+
+        
+        <a href="https://www.acm.org" title="ACM home"><img id="" alt="ACM home" src="specs/products/acm/releasedAssets/images/acm-logo-1.png"/></a>
+
+        </div>
+    
+</div><div class="pull-right">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="ab4ba9a1-6e57-4b90-b9c2-fc7914d9a3a1" class="header__quick-menu text-onDark">
+        
+
+
+
+        
+        <ul class="rlist--inline"><li class="advanced-search-link hidden-lg hidden-md hidden-sm">
+
+
+
+        
+        <a href="/search/advanced" >Advanced Search</a>
+</li><li class="show-on-mobile">
+
+
+
+        
+        <a href="/browse/" title="browse by title or publisher">Browse</a>
+</li><li class="show-on-mobile">
+
+
+
+        
+        <a href="/about" title="About the ACM Digital Library">About</a>
+</li><li class="login-list">
+
+
+
+        
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropBlock loginBar login-open">
+    <ul class="rlist--inline">
+        <li class="login-link">
+            <a href="/action/showLogin?redirectUri=%2Fdoi%2Fpdf%2F10.1145%2F3442381.3450124%3Fcasa_token%3D3-WRjhSNPIkAAAAA%253AX_A28EVCXPvSyprAJ_2dGKQBQLEw4TkhqgrQd4O_BINdaAPxHzUIG6r3tLLbt7seEQjts7ceGI7m%250A">
+                Sign in
+            </a>
+        </li>
+        <li class="register-link">
+            
+                    <a href="https://accounts.acm.org?redirectUri=%2Fdoi%2Fpdf%2F10.1145%2F3442381.3450124%3Fcasa_token%3D3-WRjhSNPIkAAAAA%253AX_A28EVCXPvSyprAJ_2dGKQBQLEw4TkhqgrQd4O_BINdaAPxHzUIG6r3tLLbt7seEQjts7ceGI7m%250A" class="btn" title="Register">
+                        Register
+                    </a>
+                
+        </li>
+    </ul>
+</div>
+
+
+
+    
+
+</li></ul>
+
+        </div>
+    
+</div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="menuWidget" data-widget-id="13da1316-80a7-4370-a291-8968cd9cb35e" class="container header--second-row">
+        
+
+
+
+        
+        <div class="responsive-menu-container clearfix"><div class="left-section pull-left"></div><div class="menu-section"><div class="main-nav responsive-menu-nav"><a href="#global-menu" data-target="global-menu" data-toggle="nav" title="menu drawer"><span class="drawer__icons-box"><span class="drawer__icons-controls"></span></span></a><nav role="navigation" id="global-menu" data-ctrl-res="screen-sm" class="drawer__nav container gutterless hidden-sm hidden-xs"><ul id="menubar" role="menubar" class="menubar rlist--inline"><li class="hidden-lg hidden-md"><div data-toggle="transplant" data-target-class="hidden-xs hidden-sm" data-target=".header--second-row .quick-search--form" data-direction="from" data-transplant="self" class="quick-search-mobile"></div></li><li role="menuitem" aria-label="Advanced Search" id="menu-item-global-menu-0" class="menu-item mobile-menu-item"><a href="/search/advanced"><span>Advanced Search</span></a></li><li role="menuitem" aria-label="Journals" id="menu-item-global-menu-1" class="menu-item"><a href="/journals"><span>Journals</span></a></li><li role="menuitem" aria-label="Magazines" id="menu-item-global-menu-2" class="menu-item"><a href="/magazines"><span>Magazines</span></a></li><li role="menuitem" aria-label="Proceedings" id="menu-item-global-menu-3" class="menu-item"><a href="/proceedings"><span>Proceedings</span></a></li><li role="menuitem" aria-label="Books" id="menu-item-global-menu-4" class="menu-item"><a href="/acmbooks"><span>Books</span></a></li><li role="menuitem" aria-label="SIGs" id="menu-item-global-menu-5" class="menu-item"><a href="/sigs"><span>SIGs</span></a></li><li role="menuitem" aria-label="Conferences" id="menu-item-global-menu-6" class="menu-item"><a href="/conferences"><span>Conferences</span></a></li><li role="menuitem" aria-label="People" id="menu-item-global-menu-7" class="menu-item"><a href="/people"><span>People</span></a></li><li class="hidden-lg hidden-md"><div data-toggle="transplant" data-target-class="hidden-xs hidden-sm" data-target=".header__quick-menu .show-on-mobile" data-direction="from" data-transplant="self"></div></li><li role="menuitem" aria-haspopup="true" aria-label="More" class="dropdown-more hidden dropdown menu-parent"><a href="#" title="More" data-toggle="dropdown" class="dropdown__toggle"><span>More</span><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="main0-1" aria-hidden="true" role="menu" class="rlist dropdown__menu"></ul></li><li class="menubar__extra-mob-links"></li></ul></nav></div></div><div class="right-section pull-right">
+
+
+
+        
+        <div class="quickSearchFormContainer"><div class="quick-search"><div class="clearfix quick-search__clearfix"><form action="/action/doSearch" name="defaultQuickSearch" method="get" title="Quick Search" class="quick-search--form"><div class="quick-search--input"><div class="input-group option-0"><label for="AllFieldf73847c0-d936-48ec-9bf9-139b3828507f" class="sr-only">Search ACM Digital Library</label><input id="AllFieldf73847c0-d936-48ec-9bf9-139b3828507f" type="search" name="AllField" placeholder="Search ACM Digital Library" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" data-group-titles-conf="3" value="" class="autocomplete quick-search__input"/></div></div><div class="quick-search--button"><button type="submit" title="Search" aria-label="Search" class="btn quick-search__button icon-Icon_Search"><span class="sr-only">Search</span><span>Search</span></button></div></form></div>
+
+
+
+        
+        <a class="quick-search__advancedHeader" title="link to Advanced Search form" href="/search/advanced">Advanced Search</a>
+</div></div>
+</div></div><div class="header__dropzone"></div>
+
+        </div>
+    
+
+
+
+
+        
+        <span style="display: none;">10.1145/3442381.3450124</span><span style="display: none;">acmconferences</span><span style="display: none;">Article/Chapter View</span><span style="display: none;">Access Denial</span><span style="display: none;">Publication Pages</span><span style="display: none;">www</span><span style="display: none;">Conference Proceedings</span><span style="display: none;">conference-collections</span><div class="sub-nav fixed-element"><a href="#" data-db-target-for="sub-nav__items" data-more="false" data-lines="1" style="text-transform: uppercase;" class="sub-nav__toggle hidden-lg truncate-text-css">www</a><div class="sub-nav__container"><div class="container"><div data-ctrl-res="screen-md" class="responsive-menu-container"><div class="left-section pull-left"></div><div class="menu-section"><div style="display: block" class="responsive-menu-nav"><nav id="sub-nav__items" data-db-target-of="sub-nav__items" class="sub-nav__holder drawer__nav"><ul role="menu" class="rlist--inline menubar"><li role="menuitem"><a href="/conference/www" class="sub-nav__item">Conference</a></li><li role="menuitem"><a href="/conference/www/proceedings" class="sub-nav__item">Proceedings</a></li><li role="menuitem"><a href="/conference/www/upcoming" class="sub-nav__item">Upcoming Events</a></li><li role="menuitem"><a href="/conference/www/authors" class="sub-nav__item">Authors</a></li><li role="menuitem"><a href="/conference/www/affiliations" class="sub-nav__item">Affiliations</a></li><li role="menuitem"><a href="/conference/www/award-winners" class="sub-nav__item">Award Winners</a></li><li role="menuitem" aria-haspopup="true" aria-label="More" class="dropdown-more hidden dropdown menu-parent"><a href="#" title="More" data-toggle="dropdown" class="dropdown__toggle hidden-md hidden-sm hidden-xs"><span>More</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><ul aria-labelledby="main0-1" aria-hidden="true" role="menu" class="rlist dropdown__menu visible-md visible-sm visible-xs"></ul></li></ul></nav></div></div><div class="right-section hidden-md hidden-sm hidden-xs"></div></div></div></div><div class="hidden-xs hidden-sm"><div class="progress-bar--wrapper"><div style="width: 0.116818%;" class="progress-bar"></div></div></div></div>
+</div><div></div><div class="banner conference-landing"></div><div class="header-breadcrumb">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="f5f275c5-a862-48bf-8119-8528d04615da" class="container">
+        
+
+
+
+        
+        <div>
+
+
+
+        
+        
+
+
+
+        
+        <nav aria-label="Breadcrumbs" class="article__breadcrumbs separator"><ul><li><a href="https://dl.acm.org/" class="article__tocHeading">Home</a></li><li><a href="/conferences" class="article__tocHeading">Conferences</a></li><li><a href="/conference/www" class="article__tocHeading">WWW</a></li><li><a href="/conference/www/proceedings" class="article__tocHeading">Proceedings</a></li><li><a href="/doi/proceedings/10.1145/3442381" class="article__tocHeading">WWW '21</a></li><li><a href="/doi/pdf/10.1145/3442381.3450124?casa_token=3-WRjhSNPIkAAAAA%3AX_A28EVCXPvSyprAJ_2dGKQBQLEw4TkhqgrQd4O_BINdaAPxHzUIG6r3tLLbt7seEQjts7ceGI7m%0A" aria-current="page" class="article__tocHeading">AutoDim: Field-aware Embedding Dimension Searchin Recommender Systems</a></li></ul></nav>
+
+</div>
+
+        </div>
+    
+</div>
+
+        </header>
+    
+
+
+
+
+
+
+        
+        <main class="content www loi-page no-margin">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-accessDenial-widget" data-widget-id="8e46140b-7e42-4c62-9295-13ae241fcad0" class="container">
+        
+
+
+
+        
+        <article data-enable-mathjax="true" data-citationInfo="/action/acmCitationInfo?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&ajax=true&doi=10.1145%2F3442381.3450124&pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3450124%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" data-proceedingInfo="/action/proceedingArticleMeta?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&ajax=true&doi=10.1145%2F3442381.3450124&pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3450124%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages"><div class="row"><div class="col-md-2 col-sm-3"></div><div class="col-md-8 col-sm-7"><div class="article-citations"><div class="citation"><div class="issue-item__citation clearfix"><span class="issue-heading">research-article </span><span class="article__access ml-3"><span></span></span>
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" defer="defer" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><div class="share__block share__inline-links"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><div class="rlist--inline addthis addthis_toolbox addthis_default_style addthis_32x32_style"><a role="link" class="addthis_button_twitter"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_Twitter"></i></a><a role="link" class="addthis_button_linkedin"><i aria-hidden="true" class="at-icon-wrapper icon-linkedin"></i></a><a role="link" class="addthis_button_reddit"><i aria-hidden="true" class="at-icon-wrapper icon-riddit-filled"></i></a><a role="link" class="addthis_button_facebook"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_Facebook"></i></a><a role="link" class="addthis_button_email"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_mail"></i></a><div class="pb-dropzone" data-pb-dropzone="share-additional-links" title="share-additional-links"></div></div></div>
+</div><div class="border-bottom clearfix"><h1 class="citation__title">AutoDim: Field-aware Embedding Dimension Searchin Recommender Systems</h1></div><div class="border-bottom clearfix"> <div id="sb-1"> <ul data-lines="2" ariaa-label="authors" class="rlist--inline loa truncate-list"> <li class="label"><b>Authors: </b></li> <li class="loa__item"><a id="arnd_61603402767033216_Ctrl" href="javascript:void(0);" aria-controls="arnd_61603402767033216" aria-haspopup="true" class="author-name" title="Xiangyu Zhao"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Xiangyu Zhao</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_61603402767033216" data-doi="10.1145/contrib-99659217646">Michigan State University and City University of Hong Kong, United States</p></span></span></a><div id="arnd_61603402767033216" aria-labelledby="arnd_61603402767033216_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d16840029e113"></div> <div class="author-info__body"> <p data-pill-inst="d16840029e113" data-doi="10.1145/contrib-99659217646">Michigan State University and City University of Hong Kong, United States</p><a href="/profile/99659217646" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_61603402767592388_Ctrl" href="javascript:void(0);" aria-controls="arnd_61603402767592388" aria-haspopup="true" class="author-name" title="Haochen Liu"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Haochen Liu</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_61603402767592388" data-doi="10.1145/contrib-99659566198">Michigan State University, USA</p></span></span></a><div id="arnd_61603402767592388" aria-labelledby="arnd_61603402767592388_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d16840029e127"></div> <div class="author-info__body"> <p data-pill-inst="d16840029e127" data-doi="10.1145/contrib-99659566198">Michigan State University, USA</p><a href="/profile/99659566198" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_61603402767932277_Ctrl" href="javascript:void(0);" aria-controls="arnd_61603402767932277" aria-haspopup="true" class="author-name" title="Hui Liu"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Hui Liu</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_61603402767932277" data-doi="10.1145/contrib-99659588949">Michigan State University, USA</p></span></span></a><div id="arnd_61603402767932277" aria-labelledby="arnd_61603402767932277_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d16840029e141"></div> <div class="author-info__body"> <p data-pill-inst="d16840029e141" data-doi="10.1145/contrib-99659588949">Michigan State University, USA</p><a href="/profile/99659588949" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_61603402768305139_Ctrl" href="javascript:void(0);" aria-controls="arnd_61603402768305139" aria-haspopup="true" class="author-name" title="Jiliang Tang"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Jiliang Tang</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_61603402768305139" data-doi="10.1145/contrib-81496640622">Michigan State University, USA</p></span></span></a><div id="arnd_61603402768305139" aria-labelledby="arnd_61603402768305139_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d16840029e155"></div> <div class="author-info__body"> <p data-pill-inst="d16840029e155" data-doi="10.1145/contrib-81496640622">Michigan State University, USA</p><a href="/profile/81496640622" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_61603402768651811_Ctrl" href="javascript:void(0);" aria-controls="arnd_61603402768651811" aria-haspopup="true" class="author-name" title="Weiwei Guo"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Weiwei Guo</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_61603402768651811" data-doi="10.1145/contrib-99659450897">Linkedin Corporation, USA</p></span></span></a><div id="arnd_61603402768651811" aria-labelledby="arnd_61603402768651811_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d16840029e169"></div> <div class="author-info__body"> <p data-pill-inst="d16840029e169" data-doi="10.1145/contrib-99659450897">Linkedin Corporation, USA</p><a href="/profile/99659450897" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_61603402768970340_Ctrl" href="javascript:void(0);" aria-controls="arnd_61603402768970340" aria-haspopup="true" class="author-name" title="Jun Shi"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Jun Shi</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_61603402768970340" data-doi="10.1145/contrib-99659451818">Linkedin Corporation, USA</p></span></span></a><div id="arnd_61603402768970340" aria-labelledby="arnd_61603402768970340_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d16840029e183"></div> <div class="author-info__body"> <p data-pill-inst="d16840029e183" data-doi="10.1145/contrib-99659451818">Linkedin Corporation, USA</p><a href="/profile/99659451818" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_61603402769302636_Ctrl" href="javascript:void(0);" aria-controls="arnd_61603402769302636" aria-haspopup="true" class="author-name" title="Sida Wang"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Sida Wang</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_61603402769302636" data-doi="10.1145/contrib-99659575226">Linkedin Corporation, USA</p></span></span></a><div id="arnd_61603402769302636" aria-labelledby="arnd_61603402769302636_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d16840029e197"></div> <div class="author-info__body"> <p data-pill-inst="d16840029e197" data-doi="10.1145/contrib-99659575226">Linkedin Corporation, USA</p><a href="/profile/99659575226" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_61603402769648366_Ctrl" href="javascript:void(0);" aria-controls="arnd_61603402769648366" aria-haspopup="true" class="author-name" title="Huiji Gao"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Huiji Gao</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_61603402769648366" data-doi="10.1145/contrib-81466643026">Linkedin Corporation, USA</p></span></span></a><div id="arnd_61603402769648366" aria-labelledby="arnd_61603402769648366_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d16840029e211"></div> <div class="author-info__body"> <p data-pill-inst="d16840029e211" data-doi="10.1145/contrib-81466643026">Linkedin Corporation, USA</p><a href="/profile/81466643026" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_61603402769985230_Ctrl" href="javascript:void(0);" aria-controls="arnd_61603402769985230" aria-haspopup="true" class="author-name" title="Bo Long"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Bo Long</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_61603402769985230" data-doi="10.1145/contrib-99660593694">JD.com, USA</p></span></span></a><div id="arnd_61603402769985230" aria-labelledby="arnd_61603402769985230_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d16840029e225"></div> <div class="author-info__body"> <p data-pill-inst="d16840029e225" data-doi="10.1145/contrib-99660593694">JD.com, USA</p><a href="/profile/99660593694" class="btn blue stretched">View Profile</a></div> </div> </li> </ul><a href="#pill-authors__contentcon" data-slide-target="#pill-information" data-full-screen="false" data-ctrl-res="screen-xlg" data-tab="pill-authors__content" data-label="<i class='icon-Icon_Information'&gt;</i&gt; Information &amp; Authors" class="loa__link w-slide__btn tab-link slide-active">Authors Info &amp; Claims </a></div> </div> <div class="border-bottom clearfix"><div class="issue-item__detail"><a href="/doi/proceedings/10.1145/3442381" title="WWW '21: Proceedings of the Web Conference 2021"><span class="epub-section__title">WWW '21: Proceedings of the Web Conference 2021</span></a><span class="dot-separator"><span class="epub-section__date">April 2021  </span></span><span class="dot-separator"><span class="epub-section__pagerange">Pages   3015–3022</span></span><span class="dot-separator"><a href="https://doi.org/10.1145/3442381.3450124" class="issue-item__doi">https://doi.org/10.1145/3442381.3450124</a></span></div></div><div class="border-bottom clearfix"><span class="bold label">Published:</span><span class="CitationCoverDate">03 June 2021</span><a href="#" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-information__content" class="publication-history-link w-slide__btn tab-link">Publication History</a></div><div class="border-bottom clearfix"><div class="issue-item__footer"><div class="issue-item__footer-info pull-left"><div tabindex="0" class="tooltip"><ul title="Click to stay open" class="rlist--inline"><li><span class="citation"><i class="icon-quote"></i><span>6</span><span class="sr-only">citation</span></span></li><li><span class="metric"><i class="icon-metric"></i><span>428</span></span></li><li><span class="sr-only">Downloads</span></li></ul><div class="tooltip__body"><span class="arrow"></span><div class="left-bordered-title">Metrics</div><a href="javascript:void(0);" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-citations__content" title="See Bibliometrics &amp; Citations section" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="w-slide__btn tab-link"><div class="citation">Total Citations<span class="bold">6</span></div></a><a href="javascript:void(0);" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-bibliometrics__content" title="See Bibliometrics &amp; Citations section" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="w-slide__btn tab-link"><div class="metric">Total Downloads<span class="bold">428</span></div></a><div class="info">Last 12 Months<span class="bold">278</span></div><div class="info">Last 6 weeks<span class="bold">38</span></div></div></div></div><div class="issue-item__footer-links pull-right"><ul class="rlist--inline"><li>
+
+
+
+        
+        <li role="menu" class="article-tool"><a id="manageAlert__crtl" href="/action/addCitationAlert?doi=10.1145/3442381.3450124" data-toggle="modal" role="menuitem" data-title="Get Citation Alerts" data-target="#manageAlert" aria-label="Get Citation Alerts" class="btn--icon simple-tooltip__block--b"><i aria-hidden="true" class="icon-Icon_Alerts"></i><span class="visibility-hidden">Get Citation Alerts</span></a><div role="dialog" aria-labelledby="id-hatemile-navigation-6073290063892647-6" class="ux-modal-container"><div id="manageAlert" class="modal"><div class="modal__dialog"><div class="modal__dialog--success"><div class="modal__header"><button type="button" data-dismiss="modal" aria-label="close popup" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><a id="id-hatemile-navigation-6073290063892647-7" name="id-hatemile-navigation-6073290063892647-7" data-headinganchorfor="id-hatemile-navigation-6073290063892647-6" class="heading-anchor"></a><div id="id-hatemile-navigation-6073290063892647-6"><strong>New Citation Alert added!</strong></div></div><div class="modal__body"><p>This alert has been successfully added and will be sent to:<span class="email"></span></p><p>You will be notified whenever a record that you have chosen has been cited.</p></div><div class="modal__footer"><p>To manage your alert preferences, click on the button below.</p><a href="/action/showPreferences?menuTab=Alerts" title="Manage my Alerts" id="id-hatemile-display-1019331959102511-5" class="btn blue big stretched manageAlert__btn"><span data-attributetitleof="id-hatemile-display-1019331959102511-5" class="force-read-before">Manage my Alerts</span></a></div></div><div class="modal__dialog--error"><div class="modal__header"><button type="button" data-dismiss="modal" aria-label="close popup" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><a id="id-hatemile-navigation-6073290063892647-9" name="id-hatemile-navigation-6073290063892647-9" data-headinganchorfor="id-hatemile-navigation-6073290063892647-8" class="heading-anchor"></a><div id="id-hatemile-navigation-6073290063892647-8"> <strong>New Citation Alert!</strong></div></div><div class="modal__body"><p>Please <a href="/action/showLogin?redirectUri=/doi/pdf/10.1145/3442381.3450124?casa_token=3-WRjhSNPIkAAAAA%3AX_A28EVCXPvSyprAJ_2dGKQBQLEw4TkhqgrQd4O_BINdaAPxHzUIG6r3tLLbt7seEQjts7ceGI7m%0A" title="Sign In" class="link">log in to your account</a></p></div></div></div></div></div></li>
+</li><li role="menu" class="article-tool"><a href="javascript:void(0)" role="menuitem" data-title="Save to Binder" data-db-target-for="save-to-binder" data-link="/action/binderList?doi=10.1145/3442381.3450124" aria-label="save to binder" class="btn--icon simple-tooltip__block--b saveToBinders"><i aria-hidden="true" class="icon-add-folder"></i><span class="visibility-hidden">Save to Binder</span></a><div data-db-target-of="save-to-binder"><div class="saveToBinders-list"><input type="hidden" name="doiVal" value="10.1145/3442381.3450124"/><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" aria-label="close popup" class="icon-close_thin"></i></button><h5>Save to Binder</h5><div class="binder-list-alerts"></div><div class="saveToBinders-list__container"><ul class="rlist saveToBinders-list__items"><div class="loader"><img src="/specs/products/acm/releasedAssets/images/loader.gif"/></div></ul></div><div class="binder__create"><a data-action="show" href="/action/showMyBinders" title="Create a New Binder" class="show-binder-form toggle-binder-form"><i class="icon-plus-light"></i>Create a New Binder</a><div class="binder-create-form binder__create-mini-form"><div class="input-group input-group--gray-bg"><label>Name</label><div class="input-group__field-container--right-icon"><input type="text" placeholder="My new Binder" name="binderName" data-maxChar="256" class="binder-create-form__name charCount__text form-control"/><span class="input-group-addon input-group-addon--right"><span class="charLimit"></span></span></div></div><div><ul class="rlist--inline binder__create-btns-container"><li><button type="reset" value="Cancel" data-action="hide" class="toggle-binder-form btn btn--border-less btn transparent binder__create-cancel">Cancel</button></li><li class="pull-right"><button type="submit" value="Create Binder" disabled="disabled" data-append-newbinder-link="/action/createBinder" class="btn btn--no-margin blue big binder__create-submit binder-create-form__create"><i aria-hidden="true" class="icon-plus-light"></i>Create</button></li></ul></div></div></div></div></div></li><li role="menu" class="article-tool"><a href="/" role="menuitem" data-title="Export Citation" data-toggle="modal" data-target="#exportCitation" aria-label="Export Citations" class="btn--icon simple-tooltip__block--b"><i aria-hidden="true" class="icon-quote"></i><span class="visibility-hidden">Export Citation</span><input type="hidden" name="doiVal" value="10.1145/3442381.3450124"/></a></li><li class="publisher-site article-tool"><a href="#" class="btn blue"><span>Publisher Site</span><i aria-hidden="true" class="icon-export"></i></a></li></ul><ul class="rlist--inline right"><li><input type="hidden" id="formatsCount" value="1"/></li><li><a href="javascript:void(0);" data-slide-target="#pill-access" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-get-access&quot;&gt;&lt;/i&gt;Get Access" title="Get Access" class="get-access w-slide__btn"><i class="icon-get-access"></i><span>Get Access</span></a></li></ul></div></div></div></div></div></div><div class="col-sm-2"></div></div><div class="row"><div class="col-md-2 col-sm-3 sidebar-section article-sidebar-section"><div class="article__sections"><div class="sections-box"><div><div class="sections-box__static-items"><div class="parent-item"><h2 class="parent-item__title"><a href="/doi/proceedings/10.1145/3442381" data-lines="2" data-title="WWW '21: Proceedings of the Web Conference 2021" class="simple-tooltip__inline--r truncate-text-css">WWW '21: Proceedings of the Web Conference 2021</a></h2><span href="/doi/proceedings/10.1145/3442381" data-lines="2" data-title="AutoDim: Field-aware Embedding Dimension Searchin Recommender Systems" class="parent-item__subtitle simple-tooltip__inline--r truncate-text-css">AutoDim: Field-aware Embedding Dimension Searchin Recommender Systems</span><div class="pageRange">Pages   3015–3022</div></div>
+
+
+
+        
+        <div class="content-navigation clearfix"><a href="/doi/10.1145/3442381.3449813" title="Previous item in TOC" class="content-navigation__btn--pre "><span><i class="icon-Arrow-Stroke"></i></span><span class="control">Previous</span><span class="type">Chapter</span></a><a href="/doi/10.1145/3442381.3449931" title="Next item in TOC" class="content-navigation__btn--next "><span class="control">Next</span><span class="type">Chapter</span><span><i class="icon-Arrow-Stroke"></i></span></a></div>
+</div><div class="sections-block scroll-to-target"></div></div><div class="logo"><img src="/specs/products/acm/releasedAssets/images/footer-logo1.png" alt="ACM Digital Library" title="ACM Digital Library"/></div></div></div></div><div class="col-md-8 col-sm-7 sticko__side-content"><div class="stickybar__original__position"></div><nav class="stickybar coolBar trans visible-xs visible-sm"><div class="stickybar__wrapper coolBar__wrapper clearfix"><div class="coolBar__section"><a id="article_Ctrl" href="#" data-db-target-for="article-sec_Pop" role="button" aria-expanded="false" aria-label="Sections Menu" class="coolBar__ctrl"><i class="icon-burger"></i></a><div id="article_Pop" data-db-target-of="article-sec_Pop" aria-hidden="true" class="coolBar__drop fixed rlist"><div data-target=".article__sections" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></div><div data-target=".pill-section .pill-list" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></nav><div class="article__body"><!-- abstract content --><div class="hlFld-Abstract"><div class="article__section article__abstract hlFld-Abstract"><div class="colored-block__title"><h2 id="d16840089e1" class="section__title left-bordered-title">ABSTRACT</h2></div><div class="abstractSection abstractInFull">
+		<p> Practical large-scale recommender systems usually contain thousands of feature fields from users, items, contextual information, and their interactions. Most of them empirically allocate a unified dimension to all feature fields, which is memory inefficient. Thus it is highly desired to assign various embedding dimensions to different feature fields according to their importance and predictability. Due to the large amounts of feature fields and the nuanced relationship between embedding dimensions with feature distributions and neural network architectures, manually allocating embedding dimensions in practical recommender systems can be challenging. To this end, we propose an AutoML-based framework (AutoDim) in this paper, which can automatically select dimensions for different feature fields in a data-driven fashion. Specifically, we first proposed an end-to-end differentiable framework that can calculate the weights over various dimensions in a soft and continuous manner for feature fields, and an AutoML-based optimization algorithm; then, we derive a hard and discrete embedding component architecture according to the maximal weights and retrain the whole recommender framework. We conduct extensive experiments on benchmark datasets to validate the effectiveness of AutoDim.</p>
+	</div></div></div><!-- /abstract content --><div class="pb-dropzone" data-pb-dropzone="pubContentAccessDenialDropzone"><div data-widget-def="graphQueryWidget" data-widget-id="a375655b-dac3-4010-824b-309045e95f54" class="article__section article__access-block separated-block">
+        
+
+
+
+        
+        <h3>Get full access to this Publication<p class="info--text big">Purchase, subscribe or recommend this publication to your librarian.</p><div title="Get this Publication" class="access-block__links"><a href="/action/publisherEcommerceHelper?doi=10.1145/3442381.3450124&amp;redirectUri=https://dl.acm.org/doi/pdf/10.1145/3442381.3450124?casa_token=3-WRjhSNPIkAAAAA%3AX_A28EVCXPvSyprAJ_2dGKQBQLEw4TkhqgrQd4O_BINdaAPxHzUIG6r3tLLbt7seEQjts7ceGI7m%0A" class="btn blue big"><span>Get this Publication</span></a></div><p class="logIn text-uppercase">Already a Subscriber?<a href="/action/showLogin?redirectUri=/doi/10.1145/3442381.3450124" title="Sign In" class="space link">Sign In</a></p></h3>
+
+        </div></div><div class="article__section article__references show-more-items" data-sectionname="References"><p class="explanation__text"></p><div class="colored-block__title"><h2 id="sec-ref" class="section__title left-bordered-title">
+                    References
+                </h2></div><ol class="rlist references__list references__numeric"><li id="ref-00001" class="&#xA;                references__item&#xA;            "><span class="references__note">Jie Bao, Yu Zheng, David Wilkie, and Mohamed Mokbel. 2015. Recommendations in location-based social networks: a survey. Geoinformatica 19, 3 (2015), 525–565.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jie+Bao%2C+Yu+Zheng%2C+David+Wilkie%2C+and+Mohamed+Mokbel.+2015.+Recommendations+in+location-based+social+networks%3A+a+survey.+Geoinformatica+19%2C+3+%282015%29%2C+525%E2%80%93565."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00002" class="&#xA;                references__item&#xA;            "><span class="references__note">Andrew Brock, Theodore Lim, James&nbsp;M Ritchie, and Nick Weston. 2017. Smash: one-shot model architecture search through hypernetworks. arXiv preprint arXiv:1708.05344(2017).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Andrew+Brock%2C+Theodore+Lim%2C+James%C2%A0M+Ritchie%2C+and+Nick+Weston.+2017.+Smash%3A+one-shot+model+architecture+search+through+hypernetworks.+arXiv+preprint+arXiv%3A1708.05344%282017%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00003" class="&#xA;                references__item&#xA;            "><span class="references__note">Ting Chen, Lala Li, and Yizhou Sun. 2019. Differentiable product quantization for end-to-end embedding compression. arXiv preprint arXiv:1908.09756(2019).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Ting+Chen%2C+Lala+Li%2C+and+Yizhou+Sun.+2019.+Differentiable+product+quantization+for+end-to-end+embedding+compression.+arXiv+preprint+arXiv%3A1908.09756%282019%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00004" class="&#xA;                references__item&#xA;            "><span class="references__note">Heng-Tze Cheng, Levent Koc, Jeremiah Harmsen, Tal Shaked, Tushar Chandra, Hrishi Aradhye, Glen Anderson, Greg Corrado, Wei Chai, Mustafa Ispir, 2016. Wide &amp; deep learning for recommender systems. In Proceedings of the 1st workshop on deep learning for recommender systems. ACM, 7–10.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Heng-Tze+Cheng%2C+Levent+Koc%2C+Jeremiah+Harmsen%2C+Tal+Shaked%2C+Tushar+Chandra%2C+Hrishi+Aradhye%2C+Glen+Anderson%2C+Greg+Corrado%2C+Wei+Chai%2C+Mustafa+Ispir%2C+2016.+Wide+%26+deep+learning+for+recommender+systems.+In+Proceedings+of+the+1st+workshop+on+deep+learning+for+recommender+systems.+ACM%2C+7%E2%80%9310."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00005" class="&#xA;                references__item&#xA;            "><span class="references__note">Paul Covington, Jay Adams, and Emre Sargin. 2016. Deep neural networks for youtube recommendations. In Proceedings of the 10th ACM conference on recommender systems. 191–198.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Paul+Covington%2C+Jay+Adams%2C+and+Emre+Sargin.+2016.+Deep+neural+networks+for+youtube+recommendations.+In+Proceedings+of+the+10th+ACM+conference+on+recommender+systems.+191%E2%80%93198."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00006" class="&#xA;                references__item&#xA;            "><span class="references__note">Wenqi Fan, Tyler Derr, Xiangyu Zhao, Yao Ma, Hui Liu, Jianping Wang, Jiliang Tang, and Qing Li. 2020. Attacking Black-box Recommendations via Copying Cross-domain User Profiles. arXiv preprint arXiv:2005.08147(2020).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Wenqi+Fan%2C+Tyler+Derr%2C+Xiangyu+Zhao%2C+Yao+Ma%2C+Hui+Liu%2C+Jianping+Wang%2C+Jiliang+Tang%2C+and+Qing+Li.+2020.+Attacking+Black-box+Recommendations+via+Copying+Cross-domain+User+Profiles.+arXiv+preprint+arXiv%3A2005.08147%282020%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00007" class="&#xA;                references__item&#xA;            "><span class="references__note">Yingqiang Ge, Shuchang Liu, Ruoyuan Gao, Yikun Xian, Yunqi Li, Xiangyu Zhao, Changhua Pei, Fei Sun, Junfeng Ge, Wenwu Ou, 2021. Towards Long-term Fairness in Recommendation. arXiv preprint arXiv:2101.03584(2021).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yingqiang+Ge%2C+Shuchang+Liu%2C+Ruoyuan+Gao%2C+Yikun+Xian%2C+Yunqi+Li%2C+Xiangyu+Zhao%2C+Changhua+Pei%2C+Fei+Sun%2C+Junfeng+Ge%2C+Wenwu+Ou%2C+2021.+Towards+Long-term+Fairness+in+Recommendation.+arXiv+preprint+arXiv%3A2101.03584%282021%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00008" class="&#xA;                references__item&#xA;            "><span class="references__note">Antonio Ginart, Maxim Naumov, Dheevatsa Mudigere, Jiyan Yang, and James Zou. 2019. Mixed Dimension Embeddings with Application to Memory-Efficient Recommendation Systems. arXiv preprint arXiv:1909.11810(2019).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Antonio+Ginart%2C+Maxim+Naumov%2C+Dheevatsa+Mudigere%2C+Jiyan+Yang%2C+and+James+Zou.+2019.+Mixed+Dimension+Embeddings+with+Application+to+Memory-Efficient+Recommendation+Systems.+arXiv+preprint+arXiv%3A1909.11810%282019%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00009" class="&#xA;                references__item&#xA;            "><span class="references__note">Emil&nbsp;Julius Gumbel. 1948. Statistical theory of extreme values and some practical applications: a series of lectures. Vol.&nbsp;33. US Government Printing Office.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Emil%C2%A0Julius+Gumbel.+1948.+Statistical+theory+of+extreme+values+and+some+practical+applications%3A+a+series+of+lectures.+Vol.%C2%A033.+US+Government+Printing+Office."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00010" class="&#xA;                references__item&#xA;            "><span class="references__note">Huifeng Guo, Ruiming Tang, Yunming Ye, Zhenguo Li, and Xiuqiang He. 2017. DeepFM: a factorization-machine based neural network for CTR prediction. In Proceedings of the 26th International Joint Conference on Artificial Intelligence. 1725–1731.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Huifeng+Guo%2C+Ruiming+Tang%2C+Yunming+Ye%2C+Zhenguo+Li%2C+and+Xiuqiang+He.+2017.+DeepFM%3A+a+factorization-machine+based+neural+network+for+CTR+prediction.+In+Proceedings+of+the+26th+International+Joint+Conference+on+Artificial+Intelligence.+1725%E2%80%931731."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00011" class="&#xA;                references__item&#xA;            "><span class="references__note">Balázs Hidasi, Alexandros Karatzoglou, Linas Baltrunas, and Domonkos Tikk. 2015. Session-based recommendations with recurrent neural networks. arXiv preprint arXiv:1511.06939(2015).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Bal%C3%A1zs+Hidasi%2C+Alexandros+Karatzoglou%2C+Linas+Baltrunas%2C+and+Domonkos+Tikk.+2015.+Session-based+recommendations+with+recurrent+neural+networks.+arXiv+preprint+arXiv%3A1511.06939%282015%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00012" class="&#xA;                references__item&#xA;            "><span class="references__note">Sergey Ioffe and Christian Szegedy. 2015. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift. In International Conference on Machine Learning. 448–456.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Sergey+Ioffe+and+Christian+Szegedy.+2015.+Batch+Normalization%3A+Accelerating+Deep+Network+Training+by+Reducing+Internal+Covariate+Shift.+In+International+Conference+on+Machine+Learning.+448%E2%80%93456."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00013" class="&#xA;                references__item&#xA;            "><span class="references__note">Eric Jang, Shixiang Gu, and Ben Poole. 2016. Categorical reparameterization with gumbel-softmax. arXiv preprint arXiv:1611.01144(2016).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Eric+Jang%2C+Shixiang+Gu%2C+and+Ben+Poole.+2016.+Categorical+reparameterization+with+gumbel-softmax.+arXiv+preprint+arXiv%3A1611.01144%282016%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00014" class="&#xA;                references__item&#xA;            "><span class="references__note">Manas&nbsp;R Joglekar, Cong Li, Mei Chen, Taibai Xu, Xiaoming Wang, Jay&nbsp;K Adams, Pranav Khaitan, Jiahui Liu, and Quoc&nbsp;V Le. 2020. Neural input search for large scale recommendation models. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining. 2387–2397.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Manas%C2%A0R+Joglekar%2C+Cong+Li%2C+Mei+Chen%2C+Taibai+Xu%2C+Xiaoming+Wang%2C+Jay%C2%A0K+Adams%2C+Pranav+Khaitan%2C+Jiahui+Liu%2C+and+Quoc%C2%A0V+Le.+2020.+Neural+input+search+for+large+scale+recommendation+models.+In+Proceedings+of+the+26th+ACM+SIGKDD+International+Conference+on+Knowledge+Discovery+%26+Data+Mining.+2387%E2%80%932397."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00015" class="&#xA;                references__item&#xA;            "><span class="references__note">Wang-Cheng Kang, Derek&nbsp;Zhiyuan Cheng, Ting Chen, Xinyang Yi, Dong Lin, Lichan Hong, and Ed&nbsp;H Chi. 2020. Learning Multi-granular Quantized Embeddings for Large-Vocab Categorical Features in Recommender Systems. arXiv preprint arXiv:2002.08530(2020).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Wang-Cheng+Kang%2C+Derek%C2%A0Zhiyuan+Cheng%2C+Ting+Chen%2C+Xinyang+Yi%2C+Dong+Lin%2C+Lichan+Hong%2C+and+Ed%C2%A0H+Chi.+2020.+Learning+Multi-granular+Quantized+Embeddings+for+Large-Vocab+Categorical+Features+in+Recommender+Systems.+arXiv+preprint+arXiv%3A2002.08530%282020%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00016" class="&#xA;                references__item&#xA;            "><span class="references__note">Jianxun Lian, Xiaohuan Zhou, Fuzheng Zhang, Zhongxia Chen, Xing Xie, and Guangzhong Sun. 2018. xdeepfm: Combining explicit and implicit feature interactions for recommender systems. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining. 1754–1763.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jianxun+Lian%2C+Xiaohuan+Zhou%2C+Fuzheng+Zhang%2C+Zhongxia+Chen%2C+Xing+Xie%2C+and+Guangzhong+Sun.+2018.+xdeepfm%3A+Combining+explicit+and+implicit+feature+interactions+for+recommender+systems.+In+Proceedings+of+the+24th+ACM+SIGKDD+International+Conference+on+Knowledge+Discovery+%26+Data+Mining.+1754%E2%80%931763."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00017" class="&#xA;                references__item&#xA;            "><span class="references__note">Hanxiao Liu, Karen Simonyan, and Yiming Yang. 2018. Darts: Differentiable architecture search. arXiv preprint arXiv:1806.09055(2018).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Hanxiao+Liu%2C+Karen+Simonyan%2C+and+Yiming+Yang.+2018.+Darts%3A+Differentiable+architecture+search.+arXiv+preprint+arXiv%3A1806.09055%282018%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00018" class="&#xA;                references__item&#xA;            "><span class="references__note">Renqian Luo, Fei Tian, Tao Qin, Enhong Chen, and Tie-Yan Liu. 2018. Neural architecture optimization. In Proceedings of the 32nd International Conference on Neural Information Processing Systems. 7827–7838.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Renqian+Luo%2C+Fei+Tian%2C+Tao+Qin%2C+Enhong+Chen%2C+and+Tie-Yan+Liu.+2018.+Neural+architecture+optimization.+In+Proceedings+of+the+32nd+International+Conference+on+Neural+Information+Processing+Systems.+7827%E2%80%937838."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00019" class="&#xA;                references__item&#xA;            "><span class="references__note">Hieu Pham, Melody Guan, Barret Zoph, Quoc Le, and Jeff Dean. 2018. Efficient Neural Architecture Search via Parameters Sharing. In International Conference on Machine Learning. 4095–4104.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Hieu+Pham%2C+Melody+Guan%2C+Barret+Zoph%2C+Quoc+Le%2C+and+Jeff+Dean.+2018.+Efficient+Neural+Architecture+Search+via+Parameters+Sharing.+In+International+Conference+on+Machine+Learning.+4095%E2%80%934104."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00020" class="&#xA;                references__item&#xA;            "><span class="references__note">Yanru Qu, Han Cai, Kan Ren, Weinan Zhang, Yong Yu, Ying Wen, and Jun Wang. 2016. Product-based neural networks for user response prediction. In 2016 IEEE 16th International Conference on Data Mining (ICDM). IEEE, 1149–1154.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yanru+Qu%2C+Han+Cai%2C+Kan+Ren%2C+Weinan+Zhang%2C+Yong+Yu%2C+Ying+Wen%2C+and+Jun+Wang.+2016.+Product-based+neural+networks+for+user+response+prediction.+In+2016+IEEE+16th+International+Conference+on+Data+Mining+%28ICDM%29.+IEEE%2C+1149%E2%80%931154."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00021" class="&#xA;                references__item&#xA;            "><span class="references__note">Steffen Rendle. 2010. Factorization machines. In Data Mining (ICDM), 2010 IEEE 10th International Conference on. IEEE, 995–1000.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Steffen+Rendle.+2010.+Factorization+machines.+In+Data+Mining+%28ICDM%29%2C+2010+IEEE+10th+International+Conference+on.+IEEE%2C+995%E2%80%931000."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00022" class="&#xA;                references__item&#xA;            "><span class="references__note">Suvash Sedhain, Aditya&nbsp;Krishna Menon, Scott Sanner, and Lexing Xie. 2015. Autorec: Autoencoders meet collaborative filtering. In Proceedings of the 24th international conference on World Wide Web. 111–112.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Suvash+Sedhain%2C+Aditya%C2%A0Krishna+Menon%2C+Scott+Sanner%2C+and+Lexing+Xie.+2015.+Autorec%3A+Autoencoders+meet+collaborative+filtering.+In+Proceedings+of+the+24th+international+conference+on+World+Wide+Web.+111%E2%80%93112."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00023" class="&#xA;                references__item&#xA;            "><span class="references__note">Mingxing Tan, Bo Chen, Ruoming Pang, Vijay Vasudevan, Mark Sandler, Andrew Howard, and Quoc&nbsp;V Le. 2019. Mnasnet: Platform-aware neural architecture search for mobile. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2820–2828.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Mingxing+Tan%2C+Bo+Chen%2C+Ruoming+Pang%2C+Vijay+Vasudevan%2C+Mark+Sandler%2C+Andrew+Howard%2C+and+Quoc%C2%A0V+Le.+2019.+Mnasnet%3A+Platform-aware+neural+architecture+search+for+mobile.+In+Proceedings+of+the+IEEE+Conference+on+Computer+Vision+and+Pattern+Recognition.+2820%E2%80%932828."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00024" class="&#xA;                references__item&#xA;            "><span class="references__note">Yong&nbsp;Kiam Tan, Xinxing Xu, and Yong Liu. 2016. Improved recurrent neural networks for session-based recommendations. In Proceedings of the 1st Workshop on Deep Learning for Recommender Systems. 17–22.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yong%C2%A0Kiam+Tan%2C+Xinxing+Xu%2C+and+Yong+Liu.+2016.+Improved+recurrent+neural+networks+for+session-based+recommendations.+In+Proceedings+of+the+1st+Workshop+on+Deep+Learning+for+Recommender+Systems.+17%E2%80%9322."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00025" class="&#xA;                references__item&#xA;            "><span class="references__note">Jun Wang, Lantao Yu, Weinan Zhang, Yu Gong, Yinghui Xu, Benyou Wang, Peng Zhang, and Dell Zhang. 2017. Irgan: A minimax game for unifying generative and discriminative information retrieval models. In Proceedings of the 40th International ACM SIGIR conference on Research and Development in Information Retrieval. 515–524.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jun+Wang%2C+Lantao+Yu%2C+Weinan+Zhang%2C+Yu+Gong%2C+Yinghui+Xu%2C+Benyou+Wang%2C+Peng+Zhang%2C+and+Dell+Zhang.+2017.+Irgan%3A+A+minimax+game+for+unifying+generative+and+discriminative+information+retrieval+models.+In+Proceedings+of+the+40th+International+ACM+SIGIR+conference+on+Research+and+Development+in+Information+Retrieval.+515%E2%80%93524."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00026" class="&#xA;                references__item&#xA;            "><span class="references__note">Suhang Wang, Yilin Wang, Jiliang Tang, Kai Shu, Suhas Ranganath, and Huan Liu. 2017. What your images reveal: Exploiting visual contents for point-of-interest recommendation. In Proceedings of the 26th International Conference on World Wide Web. International World Wide Web Conferences Steering Committee, 391–400.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Suhang+Wang%2C+Yilin+Wang%2C+Jiliang+Tang%2C+Kai+Shu%2C+Suhas+Ranganath%2C+and+Huan+Liu.+2017.+What+your+images+reveal%3A+Exploiting+visual+contents+for+point-of-interest+recommendation.+In+Proceedings+of+the+26th+International+Conference+on+World+Wide+Web.+International+World+Wide+Web+Conferences+Steering+Committee%2C+391%E2%80%93400."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00027" class="&#xA;                references__item&#xA;            "><span class="references__note">Sirui Xie, Hehui Zheng, Chunxiao Liu, and Liang Lin. 2018. SNAS: stochastic neural architecture search. arXiv preprint arXiv:1812.09926(2018).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Sirui+Xie%2C+Hehui+Zheng%2C+Chunxiao+Liu%2C+and+Liang+Lin.+2018.+SNAS%3A+stochastic+neural+architecture+search.+arXiv+preprint+arXiv%3A1812.09926%282018%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00028" class="&#xA;                references__item&#xA;            "><span class="references__note">Shuai Zhang, Lina Yao, Aixin Sun, and Yi Tay. 2019. Deep learning based recommender system: A survey and new perspectives. ACM Computing Surveys (CSUR) 52, 1 (2019), 1–38.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Shuai+Zhang%2C+Lina+Yao%2C+Aixin+Sun%2C+and+Yi+Tay.+2019.+Deep+learning+based+recommender+system%3A+A+survey+and+new+perspectives.+ACM+Computing+Surveys+%28CSUR%29+52%2C+1+%282019%29%2C+1%E2%80%9338."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00029" class="&#xA;                references__item&#xA;            "><span class="references__note">Weinan Zhang, Xiangyu Zhao, Li Zhao, Dawei Yin, Grace&nbsp;Hui Yang, and Alex Beutel. 2020. Deep Reinforcement Learning for Information Retrieval: Fundamentals and Advances. In Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval. 2468–2471.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Weinan+Zhang%2C+Xiangyu+Zhao%2C+Li+Zhao%2C+Dawei+Yin%2C+Grace%C2%A0Hui+Yang%2C+and+Alex+Beutel.+2020.+Deep+Reinforcement+Learning+for+Information+Retrieval%3A+Fundamentals+and+Advances.+In+Proceedings+of+the+43rd+International+ACM+SIGIR+Conference+on+Research+and+Development+in+Information+Retrieval.+2468%E2%80%932471."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00030" class="&#xA;                references__item&#xA;            "><span class="references__note">Xiangyu Zhao, Changsheng Gu, Haoshenglun Zhang, Xiaobing Liu, Xiwang Yang, and Jiliang Tang. 2019. Deep Reinforcement Learning for Online Advertising in Recommender Systems. arXiv preprint arXiv:1909.03602(2019).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xiangyu+Zhao%2C+Changsheng+Gu%2C+Haoshenglun+Zhang%2C+Xiaobing+Liu%2C+Xiwang+Yang%2C+and+Jiliang+Tang.+2019.+Deep+Reinforcement+Learning+for+Online+Advertising+in+Recommender+Systems.+arXiv+preprint+arXiv%3A1909.03602%282019%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00031" class="&#xA;                references__item&#xA;            "><span class="references__note">Xiangyu Zhao, Chong Wang, Ming Chen, Xudong Zheng, Xiaobing Liu, and Jiliang Tang. 2020. AutoEmb: Automated Embedding Dimensionality Search in Streaming Recommendations. arXiv preprint arXiv:2002.11252(2020).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xiangyu+Zhao%2C+Chong+Wang%2C+Ming+Chen%2C+Xudong+Zheng%2C+Xiaobing+Liu%2C+and+Jiliang+Tang.+2020.+AutoEmb%3A+Automated+Embedding+Dimensionality+Search+in+Streaming+Recommendations.+arXiv+preprint+arXiv%3A2002.11252%282020%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00032" class="&#xA;                references__item&#xA;            "><span class="references__note">Xiangyu Zhao, Long Xia, Zhuoye Ding, Dawei Yin, and Jiliang Tang. 2019. Toward Simulating Environments in Reinforcement Learning Based Recommendations. arXiv preprint arXiv:1906.11462(2019).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xiangyu+Zhao%2C+Long+Xia%2C+Zhuoye+Ding%2C+Dawei+Yin%2C+and+Jiliang+Tang.+2019.+Toward+Simulating+Environments+in+Reinforcement+Learning+Based+Recommendations.+arXiv+preprint+arXiv%3A1906.11462%282019%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00033" class="&#xA;                references__item&#xA;            "><span class="references__note">Xiangyu Zhao, Long Xia, Jiliang Tang, and Dawei Yin. 2019. Deep reinforcement learning for search, recommendation, and online advertising: a survey by Xiangyu Zhao, Long Xia, Jiliang Tang, and Dawei Yin with Martin Vesely as coordinator. ACM SIGWEB NewsletterSpring (2019), 4.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xiangyu+Zhao%2C+Long+Xia%2C+Jiliang+Tang%2C+and+Dawei+Yin.+2019.+Deep+reinforcement+learning+for+search%2C+recommendation%2C+and+online+advertising%3A+a+survey+by+Xiangyu+Zhao%2C+Long+Xia%2C+Jiliang+Tang%2C+and+Dawei+Yin+with+Martin+Vesely+as+coordinator.+ACM+SIGWEB+NewsletterSpring+%282019%29%2C+4."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00034" class="&#xA;                references__item&#xA;            "><span class="references__note">Xiangyu Zhao, Long Xia, Liang Zhang, Zhuoye Ding, Dawei Yin, and Jiliang Tang. 2018. Deep Reinforcement Learning for Page-wise Recommendations. In Proceedings of the 12th ACM Recommender Systems Conference. ACM, 95–103.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xiangyu+Zhao%2C+Long+Xia%2C+Liang+Zhang%2C+Zhuoye+Ding%2C+Dawei+Yin%2C+and+Jiliang+Tang.+2018.+Deep+Reinforcement+Learning+for+Page-wise+Recommendations.+In+Proceedings+of+the+12th+ACM+Recommender+Systems+Conference.+ACM%2C+95%E2%80%93103."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00035" class="&#xA;                references__item&#xA;            "><span class="references__note">Xiangyu Zhao, Long Xia, Lixin Zou, Hui Liu, Dawei Yin, and Jiliang Tang. 2020. Whole-Chain Recommendations. In Proceedings of the 29th ACM International Conference on Information &amp; Knowledge Management. 1883–1891.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xiangyu+Zhao%2C+Long+Xia%2C+Lixin+Zou%2C+Hui+Liu%2C+Dawei+Yin%2C+and+Jiliang+Tang.+2020.+Whole-Chain+Recommendations.+In+Proceedings+of+the+29th+ACM+International+Conference+on+Information+%26+Knowledge+Management.+1883%E2%80%931891."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00036" class="&#xA;                references__item&#xA;            "><span class="references__note">Xiangyu Zhao, Liang Zhang, Zhuoye Ding, Long Xia, Jiliang Tang, and Dawei Yin. 2018. Recommendations with Negative Feedback via Pairwise Deep Reinforcement Learning. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining. ACM, 1040–1048.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xiangyu+Zhao%2C+Liang+Zhang%2C+Zhuoye+Ding%2C+Long+Xia%2C+Jiliang+Tang%2C+and+Dawei+Yin.+2018.+Recommendations+with+Negative+Feedback+via+Pairwise+Deep+Reinforcement+Learning.+In+Proceedings+of+the+24th+ACM+SIGKDD+International+Conference+on+Knowledge+Discovery+%26+Data+Mining.+ACM%2C+1040%E2%80%931048."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00037" class="&#xA;                references__item&#xA;            "><span class="references__note">Xiangyu Zhao, Liang Zhang, Zhuoye Ding, Dawei Yin, Yihong Zhao, and Jiliang Tang. 2017. Deep Reinforcement Learning for List-wise Recommendations. arXiv preprint arXiv:1801.00209(2017).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xiangyu+Zhao%2C+Liang+Zhang%2C+Zhuoye+Ding%2C+Dawei+Yin%2C+Yihong+Zhao%2C+and+Jiliang+Tang.+2017.+Deep+Reinforcement+Learning+for+List-wise+Recommendations.+arXiv+preprint+arXiv%3A1801.00209%282017%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00038" class="&#xA;                references__item&#xA;            "><span class="references__note">Xiangyu Zhao, Xudong Zheng, Xiwang Yang, Xiaobing Liu, and Jiliang Tang. 2020. Jointly learning to recommend and advertise. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining. 3319–3327.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xiangyu+Zhao%2C+Xudong+Zheng%2C+Xiwang+Yang%2C+Xiaobing+Liu%2C+and+Jiliang+Tang.+2020.+Jointly+learning+to+recommend+and+advertise.+In+Proceedings+of+the+26th+ACM+SIGKDD+International+Conference+on+Knowledge+Discovery+%26+Data+Mining.+3319%E2%80%933327."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00039" class="&#xA;                references__item&#xA;            "><span class="references__note">Guorui Zhou, Xiaoqiang Zhu, Chenru Song, Ying Fan, Han Zhu, Xiao Ma, Yanghui Yan, Junqi Jin, Han Li, and Kun Gai. 2018. Deep interest network for click-through rate prediction. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining. 1059–1068.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Guorui+Zhou%2C+Xiaoqiang+Zhu%2C+Chenru+Song%2C+Ying+Fan%2C+Han+Zhu%2C+Xiao+Ma%2C+Yanghui+Yan%2C+Junqi+Jin%2C+Han+Li%2C+and+Kun+Gai.+2018.+Deep+interest+network+for+click-through+rate+prediction.+In+Proceedings+of+the+24th+ACM+SIGKDD+International+Conference+on+Knowledge+Discovery+%26+Data+Mining.+1059%E2%80%931068."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00040" class="&#xA;                references__item&#xA;            "><span class="references__note">Barret Zoph and Quoc&nbsp;V Le. 2016. Neural architecture search with reinforcement learning. arXiv preprint arXiv:1611.01578(2016).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Barret+Zoph+and+Quoc%C2%A0V+Le.+2016.+Neural+architecture+search+with+reinforcement+learning.+arXiv+preprint+arXiv%3A1611.01578%282016%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00041" class="&#xA;                references__item&#xA;            "><span class="references__note">Barret Zoph, Vijay Vasudevan, Jonathon Shlens, and Quoc&nbsp;V Le. 2018. Learning transferable architectures for scalable image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition. 8697–8710.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Barret+Zoph%2C+Vijay+Vasudevan%2C+Jonathon+Shlens%2C+and+Quoc%C2%A0V+Le.+2018.+Learning+transferable+architectures+for+scalable+image+recognition.+In+Proceedings+of+the+IEEE+conference+on+computer+vision+and+pattern+recognition.+8697%E2%80%938710."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00042" class="&#xA;                references__item&#xA;            "><span class="references__note">Lixin Zou, Long Xia, Yulong Gu, Xiangyu Zhao, Weidong Liu, Jimmy&nbsp;Xiangji Huang, and Dawei Yin. 2020. Neural Interactive Collaborative Filtering. In Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval. 749–758.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Lixin+Zou%2C+Long+Xia%2C+Yulong+Gu%2C+Xiangyu+Zhao%2C+Weidong+Liu%2C+Jimmy%C2%A0Xiangji+Huang%2C+and+Dawei+Yin.+2020.+Neural+Interactive+Collaborative+Filtering.+In+Proceedings+of+the+43rd+International+ACM+SIGIR+Conference+on+Research+and+Development+in+Information+Retrieval.+749%E2%80%93758."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li></ol></div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3TagWidget" data-widget-id="2ed7e2cb-91bf-4410-89fa-60d7242128b4" class="citation article__section article__index-terms">
+        
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="graphQueryWidget" data-widget-id="46655605-a6a7-450d-8cb4-39832738abe0" class="colored-block__title">
+        
+
+
+
+        
+        <h2 id="sec-terms" style="display: inline-block" class="section__title left-bordered-title">Index Terms</h2><span> (auto-classified)</span>
+
+        </div>
+    
+
+<ol class="rlist organizational-chart"><li><h6>AutoDim: Field-aware Embedding Dimension Searchin Recommender Systems</h6><ol class="rlist level-1  ch-1"><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10010147?ContentGroupKey=10.1145%2F3442381&amp;expand=all">Computing methodologies</a></p></div><ol class="rlist level-2 ch-1 hasNodes"><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10010147.10010257?ContentGroupKey=10.1145%2F3442381&amp;expand=all">Machine learning</a></p></div><ol class="rlist level-3 ch-1 hasNodes"><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10010147.10010257.10010293?ContentGroupKey=10.1145%2F3442381&amp;expand=all">Machine learning approaches</a></p></div><ol class="rlist level-4 ch-1 hasNodes"><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10010147.10010257.10010293.10010294?ContentGroupKey=10.1145%2F3442381&amp;expand=all">Neural networks</a></p></div><ol class="rlist level-5 ch-0"></ol></li></ol></li></ol></li></ol></li></ol></li></ol>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="article__section article__comments">
+
+
+
+        
+        <div class="colored-block__title">
+ <h2 id="sec-comments" class="section__title left-bordered-title">Comments</h2>
+</div>
+
+
+
+
+        
+        <div id="disqus_thread"></div><a href="https://dl.acm.org/doi/pdf/10.1145/3442381.3450124?casa_token=3-WRjhSNPIkAAAAA%3AX_A28EVCXPvSyprAJ_2dGKQBQLEw4TkhqgrQd4O_BINdaAPxHzUIG6r3tLLbt7seEQjts7ceGI7m%0A#disqus_thread" class="disqus-count hidden"></a><script>var disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = '10.1145/3442381.3450124';
+    this.page.remote_auth_s3 = '';
+    this.page.api_key = 'MmWj4FlWmXk20FJsmWMXbTJoZT7TVzTsc9Rw0yrJp3L1ZNXZuvmxF3F5rFIF8RqQ';
+};
+(function () {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://acm-prod.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();</script><noscript>Please enable JavaScript to view the<a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript><script id="dsq-count-scr" src="//acm-prod.disqus.com/count.js" async=""></script>
+</div>
+</div><div class="pill-content"><div id="pill-access"><div class="pill-access__content">
+
+
+
+        
+        <div class="pill-access__content"><div class="section__separator"><h3 class="left-bordered-title">Login options</h3><div class="section__content"><p class="info--text">Check if you have access through your login credentials or your institution to get full access on this article.</p><a href="/action/showLogin?redirectUri=/doi/pdf/10.1145/3442381.3450124?casa_token=3-WRjhSNPIkAAAAA%3AX_A28EVCXPvSyprAJ_2dGKQBQLEw4TkhqgrQd4O_BINdaAPxHzUIG6r3tLLbt7seEQjts7ceGI7m%0A" title="Sign in" class="btn big btn--inverse">Sign in</a></div></div><div class="section__separator"><h3 class="left-bordered-title">Full Access</h3><div class="section__content"><a href="/action/publisherEcommerceHelper?doi=10.1145/3442381.3450124&amp;redirectUri=https://dl.acm.org/doi/pdf/10.1145/3442381.3450124?casa_token=3-WRjhSNPIkAAAAA%3AX_A28EVCXPvSyprAJ_2dGKQBQLEw4TkhqgrQd4O_BINdaAPxHzUIG6r3tLLbt7seEQjts7ceGI7m%0A" title="Get this Publication" class="btn blue big">Get this Publication</a></div></div></div>
+</div></div><div id="pill-information"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-information__contentcon" href="#pill-information__content" aria-controls="pill-information__content" role="tab" data-toggle="tab" title="Information" aria-selected="true" data-simple-tab-id="" tabindex="0">Information</a></li><li role="presentation"><a id="pill-authors__contentcon" href="#pill-authors__content" aria-controls="pill-authors__content" role="tab" data-toggle="tab" title="Authors" aria-selected="false" data-simple-tab-id="" tabindex="-1">Contributors</a></li></ul><ul class="rlist tab__content"><li id="pill-information__content" aria-labelledby="pill-information__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"><div class="pill-information__content"><div class="section__separator"><h3 class="left-bordered-title">Published in</h3><div class="section__content cover-image-proceeding">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3CoverImage" data-widget-id="3095e6f5-a638-4f66-bb85-bbf4b03381ac" class="left-side-image">
+        
+
+
+
+        
+        <div class="cover-image"><div class="cover-image__image"><img src="/specs/products/acm/releasedAssets/images/Default_image_lazy.svg" data-src="/cms/asset/143b6123-79ee-4aca-bbda-688c4234301d/3442381.cover.jpg" alt="cover image ACM Conferences" class="lazy"/></div><div class="cover-image__details"><div class="book-meta">WWW '21: Proceedings of the Web Conference 2021</div><div class="cover-date">April 2021</div><div class="cover-pages">4054  pages</div><div class="cover-image__details-extra"><div class="flex-container"><span class="bold">ISBN:</span><span class="space">9781450383127</span></div><div class="flex-container"><span class="bold">DOI:</span><span class="space">10.1145/3442381</span></div><div class="flex-container"><div><ul class="rlist--inline loa truncate-list" title="list of authors" data-lines="2"><li class="label"><b>Editors: </b></li><li><a href="/profile/81367595814" title="Jure Leskovec"><img class="author-picture" src="/do/10.1145/contrib-81367595814/rel-imgonly/jure-2b.jpg" width="24" height="24" alt="" aria-hidden="true"/><span>Jure Leskovec</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81367595814">Stanford</p></span><span>,</span></li><li><a href="/profile/81100130232" title="Marko Grobelnik"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Marko Grobelnik</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81100130232">Jožef Stefan Institute</p></span><span>,</span></li><li><a href="/profile/81100303448" title="Marc Najork"><img class="author-picture" src="/do/10.1145/contrib-81100303448/rel-imgonly/81100303448.jpg" width="24" height="24" alt="" aria-hidden="true"/><span>Marc Najork</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81100303448">Google</p></span><span>,</span></li><li><a href="/profile/99660553175" title="Jie Tang"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Jie Tang</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-99660553175">Tsinghua University</p></span><span>,</span></li><li><a href="/profile/81375596894" title="Leila Zia"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Leila Zia</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81375596894">Wikimedia Foundation</p></span></li></ul></div></div></div><div class="pb-dropzone" data-pb-dropzone="metadataDisplayExtra" title="metadataDisplayExtra"></div></div></div>
+
+        </div>
+    
+<p class="copyrights small">Copyright © 2021 ACM</p></div></div><div class="section__separator proceedingInfo-sponsors hidden"><h3 class="left-bordered-title">Sponsors</h3><ul class="proceedingInfo-sponsors__list"></ul></div><div class="section__separator proceedingInfo-inCoop hidden"><h3 class="left-bordered-title">In-Cooperation</h3><ul class="proceedingInfo-inCoop__list"></ul></div><div class="section__separator"><h3 class="left-bordered-title">Publisher</h3><div class="section__content publisher"><div class="inlineBlock"></div><div class="inlineBlock"><p class="publisher__name">Association for Computing Machinery</p><p class="publisher__address">New York, NY, United States</p></div></div></div>
+
+<div class="section__separator"><h3 class="left-bordered-title">Author Tags</h3><div class="section__content"><div class="tags-widget"><div class="tags-widget__content"><ul class="rlist--inline"><li><a href="/keyword/Embedding?expand=all" title="Embedding" class="badge-type">Embedding</a></li><li><a href="/keyword/AutoML?expand=all" title="AutoML" class="badge-type">AutoML</a></li><li><a href="/keyword/Recommender System?expand=all" title="Recommender System" class="badge-type">Recommender System</a></li></ul></div></div></div></div><div class="section__separator"><h3 class="left-bordered-title">Qualifiers</h3><ul class="qualifiers__list"><li class="capitalized qualifiers__list__item">research-article</li><li class="qualifiers__list__item">Research</li><li class="qualifiers__list__item capitalized">Refereed limited</li></ul></div><div class="section__separator proceedingInfo-conference hidden"><h3 class="left-bordered-title">Conference</h3></div><div class="section__separator funding-sources hidden"><h3 class="left-bordered-title">Funding Sources</h3><ul class="funding-list"></ul></div></div></li><li id="pill-authors__content" aria-labelledby="pill-authors__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><div class="pill-authors__content"><div class="section__separator"><div class="pill-authors-list"><div class="expandable-accordion"><div class="pill-normalized-authors">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3BibliometricsWidget" data-widget-id="e7d55c1d-243e-4d38-8e1f-59bc13f4487e" class="contrib-metrics-bibliometrics">
+        
+
+
+
+        
+        <div class="contrib-metrics-wrapper accordion-tabbed__tab">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="f156d5b7-4ebc-4825-9820-acb30ea65641" class="clearfix">
+        
+
+
+
+        
+        <h2 class="left-bordered-title pull-left">Contributor Metrics</h2><a class="pull-right expand-all" href="/" aria-expanded="false">Expand All </a>
+
+        </div>
+    
+<div data-sectionname="Authors" data-numberOfLiToShow="4"><div class="contrib-metrics-bibliometrics"><div class="accordion authors-accordion"><ul class="accordion-tabbed rlist loa clearfix"><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659217646"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659217646">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659217646" title="Expand to see Bibliometrics: publication history">Xiangyu  Zhao</a>
+        </span>
+        <span class="info--text auth-institution">
+             City University of Hong Kong 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-0_Ctrl" style="display: none;" id="adItem-0" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2013 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">33</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">28</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">565</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">23,694</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">2,681</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">9,571</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">17</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">846</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659217646" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659566198"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659566198">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659566198" title="Expand to see Bibliometrics: publication history">Haochen  Liu</a>
+        </span>
+        <span class="info--text auth-institution">
+             Michigan State University 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-1_Ctrl" style="display: none;" id="adItem-1" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2020 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">9</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">9</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">39</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">3,314</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">941</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">2,384</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">4</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">368</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659566198" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659588949"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659588949">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659588949" title="Expand to see Bibliometrics: publication history">Hui  Liu</a>
+        </span>
+        <span class="info--text auth-institution">
+             Michigan State University 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-2_Ctrl" style="display: none;" id="adItem-2" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2020 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">8</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">8</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">30</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">2,804</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">436</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">1,831</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">4</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">351</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659588949" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-81496640622"/>
+    <div class="auth-image">
+        
+            <a href="/profile/81496640622">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/81496640622" title="Expand to see Bibliometrics: publication history">Jiliang  Tang</a>
+        </span>
+        <span class="info--text auth-institution">
+             Michigan State University 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-3_Ctrl" style="display: none;" id="adItem-3" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2011 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">148</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">115</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">7,570</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">174,506</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">11,316</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">45,966</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">51</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">1,517</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/81496640622" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659450897"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659450897">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659450897" title="Expand to see Bibliometrics: publication history">Weiwei  Guo</a>
+        </span>
+        <span class="info--text auth-institution">
+             LinkedIn Corporation 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-4_Ctrl" style="display: none;" id="adItem-4" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2019 - 2021</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">9</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">9</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">39</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">3,979</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">168</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">1,015</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">4</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">442</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659450897" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659451818"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659451818">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659451818" title="Expand to see Bibliometrics: publication history">Jun  Shi</a>
+        </span>
+        <span class="info--text auth-institution">
+             LinkedIn Corporation 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-5_Ctrl" style="display: none;" id="adItem-5" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2019 - 2021</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">4</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">4</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">23</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">2,408</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">97</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">581</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">6</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">602</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659451818" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659575226"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659575226">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659575226" title="Expand to see Bibliometrics: publication history">Sida  Wang</a>
+        </span>
+        <span class="info--text auth-institution">
+             LinkedIn Corporation 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-6_Ctrl" style="display: none;" id="adItem-6" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2020 - 2021</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">4</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">4</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">20</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">1,712</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">88</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">587</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">5</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">428</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659575226" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-81466643026"/>
+    <div class="auth-image">
+        
+            <a href="/profile/81466643026">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/81466643026" title="Expand to see Bibliometrics: publication history">Huiji  Gao</a>
+        </span>
+        <span class="info--text auth-institution">
+             Arizona State University 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-7_Ctrl" style="display: none;" id="adItem-7" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2010 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">31</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">21</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">1,660</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">17,651</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">362</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">2,055</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">54</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">841</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/81466643026" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99660593694"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99660593694">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99660593694" title="Expand to see Bibliometrics: publication history">Bo  Long</a>
+        </span>
+        <span class="info--text auth-institution">
+             LinkedIn Corporation 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-8_Ctrl" style="display: none;" id="adItem-8" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2012 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">25</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">25</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">158</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">15,309</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">1,009</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">4,585</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">6</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">612</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99660593694" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li></ul></div></div></div>
+
+
+
+</div>
+
+        </div>
+    
+</div><!--.pill-all-authors.authors-accordion.disable-truncate.hidden(aria-hidden="true")--><!--    if(data.item && data.item.contribsFull)--><!--        | !{data.item.contribsFull}--></div></div></div><div class="section__separator"><h3 class="left-bordered-title">Other Metrics</h3><div class="section__content badges"><a href="#pill-bibliometrics__contentcon" data-slide-target="#pill-metric" data-tab="pill-bibliometrics__content" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="btn big stretched btn--inverse w-slide__btn tab-link pill-content">View Article Metrics</a></div></div></div></li></ul></div></div><div id="pill-metric"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-bibliometrics__contentcon" href="#pill-bibliometrics__content" aria-controls="pill-bibliometrics__content" role="tab" data-toggle="tab" title="Bibliometrics" aria-selected="true" data-simple-tab-id="" tabindex="0">Bibliometrics</a></li><li role="presentation"><a id="pill-citations__contentcon" href="#pill-citations__content" data-ajaxurl="/action/ajaxShowCitedBy?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&amp;ajax=true&amp;doi=10.1145%2F3442381.3450124&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3450124%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" data-component="pubAjaxContent" data-ajaxtarget="#pill-citations__content .citedBy" aria-controls="pill-citations__content" role="tab" data-toggle="tab" title="Citations" aria-selected="false" data-simple-tab-id="" tabindex="-1" class="loadAjax loadLazyAjax">Citations<span class="citation-count count-bubble">6</span></a></li></ul><ul class="rlist tab__content"><li id="pill-bibliometrics__content" aria-labelledby="pill-bibliometrics__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"><div class="pill-bibliometrics__content"><div class="section__separator"><h3 class="left-bordered-title">Article Metrics</h3><div class="section__content"><ul class="rlist--inline article-metrics"><li><div class="article-metric citation"><div class="metric-value"><span>6</span></div>Total Citations</div><a href="#pill-citations__contentcon" data-tab="pill-citations__content" data-slide-target="#pill-metric" data-full-screen="false" data-ctrl-res="screen-xlg" class="primary-blue-color w-slide__btn tab-link slide-active pill-content">View Citations</a></li><li><div class="article-metric download"><div class="metric-value"><span>428</span></div>Total Downloads</div></li></ul><ul class="rlist metrics__list"><li><span class="metric-name">Downloads (Last 12 months)</span><span class="metric-value">278</span></li><li><span class="metric-name">Downloads (Last 6 weeks)</span><span class="metric-value">38</span></li></ul></div></div><div class="section__separator"><h3 class="left-bordered-title">Other Metrics</h3><div class="section__content"><a href="#pill-authors__contentcon" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-tab="pill-authors__content" data-full-screen="false" data-label="&lt;i class=&quot;icon-Icon_Information &quot;&gt;&lt;/i&gt;Information &amp; Authors" class="btn big stretched btn--inverse w-slide__btn tab-link pill-content">View Author Metrics</a></div></div></div></li><li id="pill-citations__content" aria-labelledby="pill-citations__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><div class="pill-citations__content"><div class="section__separator"><div class="header-container"><h3 class="left-bordered-title citedBy-label">Cited By</h3><a id="downloadAll" href="/action/ajaxShowCitedBy?doi=10.1145/3442381.3450124" target="_blank" title="View all cited by in new tab" class="btn btn--rounded ml-0 mt-0 mb-0 pl-2 blue pull-right">View all<i class="icon-export ml-2"></i></a><ol class="rlist references__list citedBy mt-5"></ol></div></div></div></li></ul></div></div><div id="pill-formats"><div class="pill-formats__content"><div class="section__separator de-format hidden"><h3 class="left-bordered-title">Digital Edition</h3><div class="section__content"><p class="info--text">View this article in digital edition.</p><a href="#" title="View Digital Edition" class="btn big stretched blue"><i aria-hidden="true" class="icon-open-book"></i>View Digital Edition</a></div></div><div class="section__separator"><h3 class="left-bordered-title">HTML Format </h3><div class="section__content"><p class="info--text">View this article in HTML Format .</p><a href="/doi/fullHtml/10.1145/3442381.3450124" title="ViewHTML Format " class="btn big stretched blue"><i aria-hidden="true" class="icon-html"></i>View HTML Format </a></div></div></div></div><div id="pill-references"><div class="pill-references__content"></div></div><div id="pill-media"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-fig__contentcon" href="#pill-fig__content" aria-controls="pill-fig__content" role="tab" data-toggle="tab" title="Figures" aria-selected="true" data-simple-tab-id="" tabindex="0">Figures</a></li><li role="presentation"><a id="pill-media__contentcon" href="#pill-media__content" aria-controls="pill-media__content" role="tab" data-toggle="tab" title="Other" aria-selected="false" data-simple-tab-id="" tabindex="-1">Other</a></li></ul><div class="pill-figures__content"><ul class="rlist tab__content"><li id="pill-fig__content" aria-labelledby="pill-fig__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"></li><li id="pill-media__content" aria-labelledby="pill-media__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><ul class="rlist pill-media__content"></ul></li></ul></div></div></div><div id="pill-tables"><div class="pill-tables__content"></div></div><div id="pill-share"><div class="pill-share__content"><div class="section__separator"><h3 class="left-bordered-title">Share this Publication link</h3><div class="section__content copy__text-wrapper"><fieldset><p id="shareable-link__text" class="copy__text">https://dl.acm.org/doi/pdf/10.1145/3442381.3450124?casa_token=3-WRjhSNPIkAAAAA%3AX_A28EVCXPvSyprAJ_2dGKQBQLEw4TkhqgrQd4O_BINdaAPxHzUIG6r3tLLbt7seEQjts7ceGI7m%0A</p><button type="submit" class="btn big btn--inverse copy__btn"><i aria-hidden="true" class="icon-pages"></i>Copy Link</button></fieldset></div></div><div class="section__separator"><h3 class="left-bordered-title">Share on Social Media</h3><div class="section__content"><div class="visible-service-name">
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" defer="defer" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><div class="share__block share__inline-links"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><div class="rlist--inline addthis addthis_toolbox addthis_default_style addthis_32x32_style"><a role="link" class="addthis_button_twitter"></a><a role="link" class="addthis_button_linkedin"></a><a role="link" class="addthis_button_reddit"></a><a role="link" class="addthis_button_facebook"></a><a role="link" class="addthis_button_email"></a><div class="pb-dropzone" data-pb-dropzone="share-additional-links" title="share-additional-links"></div></div></div>
+</div></div></div></div></div></div></div><div class="col-sm-2 pill-section"><div data-stop-on=".more-issue__section" class="pill-icons"><ul class="rlist pill-list"><li title="Information &amp; Authors"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-full-screen="false" title="Information and Authors" data-label="&lt;i class=&quot;icon-Icon_Information&quot;&gt;&lt;/i&gt;Information &amp; Authors" class="w-slide__btn pill-information"><i aria-hidden="true" class="icon-Icon_Information"></i></button></li><li title="Bibliometrics &amp; Citations"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" title="Bibliometrics and Citations" class="w-slide__btn pill-metric"><i aria-hidden="true" class="icon-metric"></i></button></li><li title="Get Access"><a href="javascript:void(0);" data-slide-target="#pill-access" data-ctrl-res="screen-xlg" data-full-screen="false" title="Get Access" data-label="&lt;i class=&quot;icon-get-access&quot;&gt;&lt;/i&gt;Get Access" class="w-slide__btn pill-access"><i class="icon-get-access"></i></a></li><li title="References"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-references" data-ctrl-res="screen-xlg" data-full-screen="false" title="References" data-label="&lt;i class=&quot;icon-Icon_Links-References&quot;&gt;&lt;/i&gt;References" class="w-slide__btn pill-references"><i aria-hidden="true" class="icon-Icon_Links-References"></i><span class="refNum count-bubble">0<span class="sr-only">References</span></span></button></li><li title="Media"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-media" data-ctrl-res="screen-xlg" data-full-screen="false" title="Media" data-label="&lt;i class=&quot;icon-Icon_Images&quot;&gt;&lt;/i&gt;Media" data-ajaxtarget="#pill-fig__content" data-component="pubAjaxContent" data-action="onResponse" data-ajaxurl="/action/ajaxShowFigures?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&amp;ajax=true&amp;doi=10.1145%2F3442381.3450124&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3450124%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="w-slide__btn loadAjax-auto pill-media"><i aria-hidden="true" class="icon-Icon_Images"></i></button></li><li title="Tables"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-tables" data-ctrl-res="screen-xlg" title="Tables" data-full-screen="false" data-label="&lt;i class=&quot;icon-table&quot;&gt;&lt;/i&gt;Tables" data-ajaxtarget=".pill-tables__content" data-component="pubAjaxContent" data-action="onResponse" data-ajaxurl="/action/ajaxShowTables?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&amp;ajax=true&amp;doi=10.1145%2F3442381.3450124&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3450124%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="w-slide__btn loadAjax-auto pill-tables"><i aria-hidden="true" class="icon-table"></i></button></li><li title="Share"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-share" data-ctrl-res="screen-xlg" data-full-screen="false" title="Share" data-label="&lt;i class=&quot;icon-Icon_Share&quot;&gt;&lt;/i&gt;Share" class="w-slide__btn pill-share pill-content"><i aria-hidden="true" class="icon-Icon_Share"></i></button></li></ul></div></div></div></article><div id="figure-viewer" data-ux3-wrapper="figure-viewer" data-ux3-transformed-by="figureInit" data-ux3-role="parent" role="dialog" class="figure-viewer"><div class="figure-viewer__reg__top clearfix"><div class="figure-viewer__top__right"><a title="Zoom In" href="#" class="figure-viewer__ctrl figure-viewer__ctrl__zoom zoomSetting"><div aria-hidden="true" class="icon-zoom-in zoom-in"></div></a><a title="Zoom Out" href="#" class="figure-viewer__ctrl figure-viewer__label__zoom zoomSetting"><div aria-hidden="true" class="icon-zoom-out zoom-out"></div></a><a title="Open Caption" href="#" class="figure-viewer__ctrl figure-viewer__ctrl__caption"><i aria-hidden="true" class="icon-Icon_Information"></i></a><a href="#" data-ux3-role="controller" role="button" title="close" class="figure-viewer__ctrl figure-viewer__ctrl__close"><i aria-hidden="true" class="icon-cancel-bold"><span class="sr-only">Close Figure Viewer</span></i></a></div><h4 class="figure-viewer__top__center"></h4><div class="figure-viewer__top__left"><a href="#" role="button" title="Browse All" class="figure-viewer__ctrl__browse"><i aria-hidden="true" class="icon-grid-3"><span class="sr-only">Browse All</span></i></a><a href="#" role="button" title="Return" class="figure-viewer__ctrl__return is-hidden"><i aria-hidden="true" class="icon-cancel-bold"><span class="sr-only">Return</span></i></a><span class="zoomSlider js__zoom-slider ui-slider zoomSetting"><label for="figure-viewer__zoom-range" class="sr-only">Change zoom level</label><input type="range" id="figure-viewer__zoom-range" class="zoom-range"/></span></div></div><div class="figure-viewer__reg__center"><div class="figure-viewer__cent__left"><div class="figure-viewer__hold__fig"><div class="holder"></div></div><div class="figure-viewer__hold__list"><h3 class="figure-viewer__browse-title"></h3><div class="flex-grid"></div></div></div><div class="figure-viewer__cent__right"><div class="figure-viewer__caption-header"><h3 class="figure-viewer__caption-label">Caption</h3><a title="Close Caption" href="#" class="pull-right figure-viewer__close-caption figure-viewer__ctrl__caption"><i aria-hidden="true" class="icon-cancel-bold"></i></a></div><div class="figure-viewer__caption-wrapper"><div class="figure-viewer__title"><span class="figure-viewer__title__text"></span></div><div class="figure-viewer__hold__figcap"></div></div></div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="separated-block--dashed align-center"><a href="/doi/proceedings/10.1145/3442381" style="text-transform: capitalize;" class="btn btn--inverse big">View Table of Contents</a></div>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3combinedRecommendationsWidget" data-widget-id="bf2b14e9-d9dc-4518-8bb0-d9b157f47c7e" class="recommendations" data-show-id="sec-ref">
+        
+
+
+
+        
+        <div data-ajaxurl="/pb/widgets/lazyLoadRecommended?widgetId=bf2b14e9-d9dc-4518-8bb0-d9b157f47c7e&amp;doi=10.1145%2F3442381.3450124&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3450124%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="recommended--lazyLoad"></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div role="dialog" aria-labelledby="exportCitationsPopup" class="ux-modal-container"><div id="exportCitation" class="modal"><div class="modal__dialog"><div class="modal__header"><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" aria-label="close popup" class="icon-close_thin"></i></button><h2 id="exportCitationsPopup">Export Citations</h2></div><div class="modal__body"><div class="exportCitation__tabs"><div class="tab"><ul role="tablist" class="rlist tab__nav"></ul></div><div class="csl-wrapper copy__text-wrapper"><form action="/action/exportCiteProcCitation" method="post" target="_blank"><input type="hidden" name="content" value=""/><input type="hidden" name="dois" value=""/><input type="hidden" name="format" value=""/><fieldset class="input-group"><label for="citation-format" class="visibility-hidden">Select Citation format</label><select id="citation-format" data-csl-doi="10.1145/3442381.3450124"><option value="bibtex" data-format="bibTex">BibTeX</option><option value="endNote" data-format="endNote">EndNote</option><option value="acm" data-format="text">ACM Ref</option></select><span class="select-arrow"><i class="icon-bottom-arrow"></i></span></fieldset><ul class="rlist tab__content"><li id="allResultstab" aria-labelledby="allResults" role="tabpanel" class="tab__pane"><div class="all-results-tab-container"><div class="desc-text"><div class="bold">Preview is not available.</div>By clicking download,<b class="ml-1">a new tab</b> will open to start the export process. The process may take<b class="ml-1">a few minutes</b> but once it finishes a file will be downloaded on your browser so<b class="ml-1">please do not close the new tab.</b></div><a href="#" title="Download" target="_blank" class="btn transparent downloadBtn"><i aria-hidden="true" class="icon-Icon_Download"></i>Download<i aria-hidden="true" class="icon-export"></i></a></div></li><li id="selectedTab" aria-labelledby="selected" role="tabpanel" class="tab__pane active"><div class="csl-wrapper copy__text-wrapper"><pre class="copy__text csl-response"></pre><div id="export-warning"></div><div class="pull-right"><ul class="rlist--inline separator"><li><a href="javascript:void(0)" role="menuitem" title="Download citation" class="download__btn disabled"><label class="visibility-hidden">Download citation</label><i aria-hidden="true" class="icon-Icon_Download"></i></a></li><li><input type="hidden" id="doisLimitNumber" value="-1"/><a href="javascript:void(0)" role="menuitem" title="Copy citation" class="copy__btn disabled"><label class="visibility-hidden">Copy citation</label><i aria-hidden="true" class="icon-pages"></i></a></li></ul></div></div></li></ul></form></div></div></div></div></div></div>
+</main>
+
+
+
+
+        
+        <footer class="footer">
+
+
+
+        
+        <div class="back-to-top clearfix">
+    <i class="icon-arrow_u_p"></i>
+</div>
+
+
+
+
+        
+        <div class="footer-top">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="81a18a14-d709-41fd-9bb6-25a7fc1e13df" class="container">
+        
+
+
+
+        
+        <div class="row sitemap">
+
+
+
+        
+        <div class="col-sm-2 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="5b00ef28-f63b-4518-bd06-da82035f86ca" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">Categories</div>
+<ul class="rlist">
+    <li><a href="/journals" title="Browse a listing of ACM’s Journals">Journals</a></li>
+    <li><a href="/magazines" title="Browse ACM's Magazines">Magazines</a></li>
+    <li><a href="/acmbooks" title="Browse new Releases of ACM Books">Books</a></li>
+    <li><a href="/proceedings" title="Browse the ACM Proceedings">Proceedings</a></li>
+    <li><a href="/sigs" title="Browse the Special Interest Groups">SIGs</a></li>
+    <li><a href="/conferences" title="Browse the Conferences">Conferences</a></li>
+    <li><a href="/collections" title="Browse the Special Collections">Collections</a></li>
+    <li><a href="/people" title="Discover ACM’s community of authors">People</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-4 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="731f98d3-e996-490d-a071-e9b966b32e2d" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">About</div>
+<ul class="rlist">
+    <li><a href="/about">About ACM Digital Library</a></li>
+    <li><a href="/about/dlboard" title="ACM DL Board - Governance and Support Staff">ACM Digital Library Board</a></li>
+    <li><a href="/about/access" title="Accessing the DL">Subscription Information</a></li>
+    <li><a href="https://www.acm.org/publications/authors/information-for-authors" title="Information for Authors">Author Guidelines</a></li>
+    <li><a href="/about/access" title="Accessing the DL">Using ACM Digital Library</a></li>
+    <li><a href="/about/content#sec2">All Holdings within the ACM Digital Library</a></li>
+    <li><a href="/ccs" title="Classify publications using ACM's Computing Classification System">ACM Computing Classification System</a></li>
+     <li><a href="/about/accessibility" title="Digital Library Accessibility">Digital Library Accessibility</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-3 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="d4ed040d-22e8-481c-a7ef-0cac141f5246" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">Join</div>
+<ul class="rlist">
+    <li><a href="https://www.acm.org/membership/join">Join ACM</a></li>
+    <li><a href="https://www.acm.org/special-interest-groups/join">Join SIGs</a></li>
+    <li><a href="https://www.acm.org/publications/subscribe">Subscribe to Publications</a></li>
+    <li><a href="https://libraries.acm.org/">Institutions and Libraries</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-3 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="4a649bf1-cf3f-472c-b764-dc3ab0cf4310" class="sitemap__data">
+        
+
+
+
+        
+        <b>Connect</b>
+<ul class="rlist social-media__connect">
+    <li><a href="/cdn-cgi/l/email-protection#51353d7c2534303c1139207f30323c7f3e2336" title="email dl team"><i class="icon-Icon_mail" aria-hidden="true"></i><span>Contact</span></a></li>
+    <li><a href="https://www.facebook.com/AssociationForComputingMachinery/" title="ACM on facebook"><i class="icon-facebook" aria-hidden="true"></i><span>Facebook</span></a></li>
+    <li><a href="https://twitter.com/acmdl" title="Tweets from ACM DL"><i class="icon-twitter" aria-hidden="true"></i><span>Twitter</span></a></li>
+    <li><a href="https://www.linkedin.com/company/association-for-computing-machinery/" title="acm  linkedin"><i class="icon-linkedin" aria-hidden="true"></i><span>Linkedin</span></a></li>
+    <!--li><a href="#" title="icon-Rss"><i class="icon-Rss" aria-hidden="true"></i><span>RSS</span></a></li-->
+    <li><a onclick="srv.openModal(true,'02b075ed48492ef0e7598ddf9762f5ef668d7320')" title="Provide Feedback"><i class="icon-Icon_Information" aria-hidden="true"></i><span>Feedback</span></a></li>
+    <li><a onclick="srv.openModal(true,'02b075ed48492ef0e7598ddf9762f5ef668d7320')" title="Report a problem"><i class="icon-Icon_Information" aria-hidden="true"></i><span>Bug Report</span></a></li>
+</ul>
+
+        </div>
+    
+</div>
+</div>
+
+        </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="6e6da9b7-371e-4ea0-827e-8de5915b8cd5" class="footer-bottom text-onDark">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class="col-md-8 col-sm-6 footer__copyright-wrapper">
+
+
+
+        
+        <div class="copyright">The ACM Digital Library is published by the Association for Computing Machinery. Copyright © 2023 ACM, Inc.</div>
+<ul class="rlist--inline">
+    <li><a href="https://libraries.acm.org/digital-library/policies#anchor3">Terms of Usage</a></li>
+    <li><a href="https://www.acm.org/about-acm/privacy-policy">Privacy Policy</a></li>
+    <li><a href="https://www.acm.org/code-of-ethics">Code of Ethics</a></li>
+</ul>
+</div><div class="col-md-4 col-sm-6 footer__logos-wrapper">
+
+
+
+        
+        <div class="logos">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="42d543b3-ff9d-4f92-bf03-6d1fa00da8c6" class="footer__logo1">
+        
+
+
+
+        
+        <a href="/" title="ACM Digital Library home"><img id="" alt="ACM Digital Library home" src="/specs/products/acm/releasedAssets/images/acm-logo-dl.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="5a0bc5df-cd95-408f-8ae5-8b1f40746519" class="footer__logo2">
+        
+
+
+
+        
+        <a href="https://www.acm.org" title="ACM home"><img id="" alt="ACM home" src="/specs/products/acm/releasedAssets/images/acm-logo-3.png"/></a>
+
+        </div>
+    
+</div>
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <!-- Mopinion Pastea.se  start --><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">(function(){var id="7zt4vp6rxi2bbpxuy9yzabob4fy2enwmumr";var js=document.createElement("script");var pbBtn=document.querySelector('.admin-bar-disclosure');if(!window.PB){js.setAttribute("src","//deploy.mopinion.com/js/pastease.js");document.getElementsByTagName("head")[0].appendChild(js);var t=setInterval(function(){try{new Pastease.load(id);clearInterval(t)}catch(e){}},50)}})();
+    </script><!-- Mopinion Pastea.se end -->
+</footer>
+
+
+
+
+        
+        <script type="text/javascript">
+(function(h,o,t,j,a,r){
+    h.hj=h.hj||function()
+    
+    {(h.hj.q=h.hj.q||[]).push(arguments)}
+    ;
+    h._hjSettings={hjid:1290436,hjsv:6};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+
+
+        
+        <script type="text/javascript">
+    (function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script");
+    var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+    s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+    s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+    w.lazyLoadOptions = {elements_selector: ".lazy", "class_loaded": "image-lazy-loaded"};
+    b.appendChild(s);
+}(window, document));
+</script>
+
+
+
+
+        
+        
+
+
+
+
+        
+        <div class="cookiePolicy-popup"><div class="cookiePolicy-popup__header"><i aria-hidden="true" class="icon-cookie"></i><span aria-label="About Cookies On This Site" class="cookiePolicy-popup__title">About Cookies On This Site</span></div><div aria-label="Cookie Policy Body" class="cookiePolicy-popup__body clearfix"><p><p>We use cookies to ensure that we give you the best experience on our website.</p>
+<p><a href="https://www.acm.org/privacy-policy" class="blue link">Learn more</a></p></p><a href="#" class="btn blue cookiePolicy-popup__close pull-right">Got it!</a></div></div>
+
+
+
+
+        
+        
+
+
+
+        
+    
+
+
+
+
+
+        
+        <div class="affs-popup"><input id="deleteCookie" type="hidden" name="deleteCookie" value="true"/></div>
+        </div>
+    </div>
+
+
+	
+    <script>if (typeof define !== 'undefined' && define.amd)
+    define.amd = false</script><script src="/products/acm/releasedAssets/js/main.bundle-7802229da98c6207291f.js"></script><script>(function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script");
+    var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+    s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+    s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+    w.lazyLoadOptions = {elements_selector: ".lazy", "class_loaded": "image-lazy-loaded"};
+    b.appendChild(s);
+}(window, document));</script>
+<script type="text/javascript" src="/wro/lwf4~product.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(() => setTimeout(() => {
+            let _bnw=window,_bna=atob("bG9jYXRpb24="),_bnb=atob("b3JpZ2lu"),_hn=_bnw[_bna][_bnb],_bnt=btoa(_hn+new Array(5 - _hn.length % 4).join(" "));
+            $.get("/resource/lodash?t="+_bnt);
+        },4000));
+    </script>
+
+
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'7881dd9d7dff7525',m:'Mfo2.J0EhCgCBYGzCdUlu8tnb_lgGcYqynhT3Xk9yoE-1673484287-0-ARKsQ1whyDO75gCCs8BGt7DYMw9Kq1E1UoYMsdFbRcrmGITQhd+nvQfemWxCJrrc8piIPr4xqP2xVcwWD9/c3UljuTcRb7YydErmVOukV5P12RnYrLUDw1V+6UYMTmvGoLNrlTbxz2x/NZAyJBARjQsD9N+hkcZKYo6uy2n0/j5wwQUzvfkIGylq35gydnqaAH5UbY8HFZFP+3t8zFAwgdm5B2TmZ94losMhSZqxbaOqHRdSQcmlF8wEL7IiYnDHaOIdgA5R5oCFxWxUwfoCeUQad1p/ix2Ug2twvxBucWcI',s:[0xbff13b19e7,0x90a02bbe68],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7881dd9d7dff7525","token":"b7f168b3cd354a55a4dd51b513830799","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

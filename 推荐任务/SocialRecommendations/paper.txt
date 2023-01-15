@@ -1,0 +1,4 @@
+Partial Relationship Aware Influence Diffusion via a Multi-channel Encoding Scheme for Social Recommendation
+Random Walks with Erasure: Diversifying Personalized Recommendations on Social and Information Networks
+Dual Side Deep Context-aware Modulation for Social Recommendation
+Self-Supervised Multi-Channel Hypergraph Convolutional Network for Social Recommendation

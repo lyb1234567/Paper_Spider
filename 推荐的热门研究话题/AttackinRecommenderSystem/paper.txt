@@ -1,0 +1,6 @@
+Revisiting Adversarially Learned Injection Attacks Against Recommender Systems
+Attacking Recommender Systems with Augmented User Profiles
+A Black-Box Attack Model for Visually-Aware Recommenders
+Denoising Implicit Feedback for Recommendation
+Adversarial Item Promotion: Vulnerabilities at the Core of Top-N Recommenders that Use Images to Address Cold Start
+Graph Embedding for Recommendation against Attribute Inference Attacks

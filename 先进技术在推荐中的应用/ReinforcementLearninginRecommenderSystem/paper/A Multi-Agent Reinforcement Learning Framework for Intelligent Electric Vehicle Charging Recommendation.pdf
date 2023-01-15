@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en"     class="pb-page"  data-request-id="bf3376a4-54ae-4368-8435-b85918ea6c9a"  
+><head data-pb-dropzone="head"><meta name="pbContext" content=";taxonomy:taxonomy:conference-collections;article:article:doi\:10.1145/3442381.3449934;wgroup:string:ACM Publication Websites;groupTopic:topic:acm-pubtype&gt;proceeding;subPage:string:Access Denial;ctype:string:Book Content;topic:topic:conference-collections&gt;www;page:string:Article/Chapter View;issue:issue:doi\:10.1145/3442381;csubtype:string:Conference Proceedings;website:website:dl-site;journal:journal:acmconferences;pageGroup:string:Publication Pages"/>
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"></link><meta name="dc.Format" content="text/HTML"></meta><meta name="dc.Identifier" scheme="acm-id" content="3449934"></meta><meta name="dc.Identifier" scheme="doi" content="10.1145/3442381.3449934"></meta><meta name="dc.Language" content="EN"></meta><meta name="dc.Coverage" content="world"></meta><!-- ${citation_fulltext_world_readable:10.1145/3442381.3449934} -->
+
+
+
+
+
+
+<style id="pb-theme">
+.theme {
+
+}
+</style>
+
+<title>Intelligent Electric Vehicle Charging Recommendation Based on Multi-Agent Reinforcement Learning | Proceedings of the Web Conference 2021</title>
+
+
+
+
+
+
+<meta charset="UTF-8">
+<meta name="robots" content="noarchive,noindex,nofollow"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <meta property="og:title" content="Intelligent Electric Vehicle Charging Recommendation Based on Multi-Agent Reinforcement Learning | Proceedings of the Web Conference 2021"/>
+    
+
+
+        <meta property="og:type" content="Chapter"/>
+    
+
+
+        <meta property="og:url" content="https://dl.acm.org/doi/10.1145/3442381.3449934"/>
+    
+
+        <meta property="og:image" content="https://dl.acm.org/cms/asset/143b6123-79ee-4aca-bbda-688c4234301d/3442381.cover.jpg" />
+        
+            <meta property="og:image:width" content="132" />
+            <meta property="og:image:height" content="171" />
+        
+    
+
+
+        <meta property="og:site_name" content="ACM Conferences"/>
+    
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="/products/acm/releasedAssets/css/build-10b34c3531a1779749cd.css"/><link rel="stylesheet" href="/products/acm/releasedAssets/css/print-10b34c3531a1779749cd.css" media="print"/>
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="/pb-assets/styles/acm-custom-1671447210097.css">
+<script defer src="https://scholar.google.com/scholar_js/casa.js" async></script>
+<script type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+      heap.load("1083010732");
+</script>
+<link rel="apple-touch-icon" sizes="180x180" href="/pb-assets/head-metadata/apple-touch-icon-1574252172393.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/pb-assets/head-metadata/favicon-32x32-1574252172003.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/pb-assets/head-metadata/favicon-16x16-1574252172937.png">
+<link rel="manifest" href="/pb-assets/head-metadata/site-1574252171130.webmanifest" crossorigin="use-credentials">
+<link rel="mask-icon" href="/pb-assets/head-metadata/safari-pinned-tab-1574252171193.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="theme-color" content="#ffffff">
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6e539318ac0a38db","token":"b7f168b3cd354a55a4dd51b513830799","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+
+    <!-- Google Tag Manager -->
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NFGCMX');</script>
+    <!-- End Google Tag Manager -->
+
+
+
+
+
+</head>
+<body class="pb-ui">
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFGCMX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    if(false) {
+        document.getElementById("skipNavigationLink").onclick =function skipElement () {
+            var element = document.getElementById('');
+            if(element == null || element == undefined) {
+                element = document.getElementsByClassName('').item(0);
+            }
+            element.setAttribute('tabindex','0');
+            element.focus();
+
+        }
+
+    }
+
+</script>
+
+
+
+
+
+    <div id="pb-page-content" data-ng-non-bindable>
+        <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        <header data-widget-def="ux3-layout-widget" data-widget-id="88f434fd-b4d9-4f0e-b7b6-cde0fadcc9ef" class="header base www">
+        
+
+
+
+        
+        <div class="header__fixed-items fixed fixed-element">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="c844bab8-b1d5-4df4-8bea-71f6156459e4" class="container header--first-row">
+        
+
+
+
+        
+        <div class="pull-left">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="83eada61-9003-4cb3-99a8-a38fa7692761" class="header__logo1">
+        
+
+
+
+        
+        <a href="/" title="ACM Digital Library home"><img id="" alt="ACM Digital Library home" src="/specs/products/acm/releasedAssets/images/acm-dl-logo-white.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="5517ee17-e847-46ff-b42e-c5a6754e032d" class="header__logo2">
+        
+
+
+
+        
+        <a href="https://www.acm.org" title="ACM home"><img id="" alt="ACM home" src="specs/products/acm/releasedAssets/images/acm-logo-1.png"/></a>
+
+        </div>
+    
+</div><div class="pull-right">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="ab4ba9a1-6e57-4b90-b9c2-fc7914d9a3a1" class="header__quick-menu text-onDark">
+        
+
+
+
+        
+        <ul class="rlist--inline"><li class="advanced-search-link hidden-lg hidden-md hidden-sm">
+
+
+
+        
+        <a href="/search/advanced" >Advanced Search</a>
+</li><li class="show-on-mobile">
+
+
+
+        
+        <a href="/browse/" title="browse by title or publisher">Browse</a>
+</li><li class="show-on-mobile">
+
+
+
+        
+        <a href="/about" title="About the ACM Digital Library">About</a>
+</li><li class="login-list">
+
+
+
+        
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropBlock loginBar login-open">
+    <ul class="rlist--inline">
+        <li class="login-link">
+            <a href="/action/showLogin?redirectUri=%2Fdoi%2Fpdf%2F10.1145%2F3442381.3449934%3Fcasa_token%3DKXyTXTrt1nIAAAAA%253AG8NUl1pPN_3cpWkWxAi9fdRqu1OuNSiWWa_V5-kXE1PCqfIpgqW6jUIvEGzI7UhbkMKKZ8HiKwFt%250A">
+                Sign in
+            </a>
+        </li>
+        <li class="register-link">
+            
+                    <a href="https://accounts.acm.org?redirectUri=%2Fdoi%2Fpdf%2F10.1145%2F3442381.3449934%3Fcasa_token%3DKXyTXTrt1nIAAAAA%253AG8NUl1pPN_3cpWkWxAi9fdRqu1OuNSiWWa_V5-kXE1PCqfIpgqW6jUIvEGzI7UhbkMKKZ8HiKwFt%250A" class="btn" title="Register">
+                        Register
+                    </a>
+                
+        </li>
+    </ul>
+</div>
+
+
+
+    
+
+</li></ul>
+
+        </div>
+    
+</div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="menuWidget" data-widget-id="13da1316-80a7-4370-a291-8968cd9cb35e" class="container header--second-row">
+        
+
+
+
+        
+        <div class="responsive-menu-container clearfix"><div class="left-section pull-left"></div><div class="menu-section"><div class="main-nav responsive-menu-nav"><a href="#global-menu" data-target="global-menu" data-toggle="nav" title="menu drawer"><span class="drawer__icons-box"><span class="drawer__icons-controls"></span></span></a><nav role="navigation" id="global-menu" data-ctrl-res="screen-sm" class="drawer__nav container gutterless hidden-sm hidden-xs"><ul id="menubar" role="menubar" class="menubar rlist--inline"><li class="hidden-lg hidden-md"><div data-toggle="transplant" data-target-class="hidden-xs hidden-sm" data-target=".header--second-row .quick-search--form" data-direction="from" data-transplant="self" class="quick-search-mobile"></div></li><li role="menuitem" aria-label="Advanced Search" id="menu-item-global-menu-0" class="menu-item mobile-menu-item"><a href="/search/advanced"><span>Advanced Search</span></a></li><li role="menuitem" aria-label="Journals" id="menu-item-global-menu-1" class="menu-item"><a href="/journals"><span>Journals</span></a></li><li role="menuitem" aria-label="Magazines" id="menu-item-global-menu-2" class="menu-item"><a href="/magazines"><span>Magazines</span></a></li><li role="menuitem" aria-label="Proceedings" id="menu-item-global-menu-3" class="menu-item"><a href="/proceedings"><span>Proceedings</span></a></li><li role="menuitem" aria-label="Books" id="menu-item-global-menu-4" class="menu-item"><a href="/acmbooks"><span>Books</span></a></li><li role="menuitem" aria-label="SIGs" id="menu-item-global-menu-5" class="menu-item"><a href="/sigs"><span>SIGs</span></a></li><li role="menuitem" aria-label="Conferences" id="menu-item-global-menu-6" class="menu-item"><a href="/conferences"><span>Conferences</span></a></li><li role="menuitem" aria-label="People" id="menu-item-global-menu-7" class="menu-item"><a href="/people"><span>People</span></a></li><li class="hidden-lg hidden-md"><div data-toggle="transplant" data-target-class="hidden-xs hidden-sm" data-target=".header__quick-menu .show-on-mobile" data-direction="from" data-transplant="self"></div></li><li role="menuitem" aria-haspopup="true" aria-label="More" class="dropdown-more hidden dropdown menu-parent"><a href="#" title="More" data-toggle="dropdown" class="dropdown__toggle"><span>More</span><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="main0-1" aria-hidden="true" role="menu" class="rlist dropdown__menu"></ul></li><li class="menubar__extra-mob-links"></li></ul></nav></div></div><div class="right-section pull-right">
+
+
+
+        
+        <div class="quickSearchFormContainer"><div class="quick-search"><div class="clearfix quick-search__clearfix"><form action="/action/doSearch" name="defaultQuickSearch" method="get" title="Quick Search" class="quick-search--form"><div class="quick-search--input"><div class="input-group option-0"><label for="AllFieldf73847c0-d936-48ec-9bf9-139b3828507f" class="sr-only">Search ACM Digital Library</label><input id="AllFieldf73847c0-d936-48ec-9bf9-139b3828507f" type="search" name="AllField" placeholder="Search ACM Digital Library" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" data-group-titles-conf="3" value="" class="autocomplete quick-search__input"/></div></div><div class="quick-search--button"><button type="submit" title="Search" aria-label="Search" class="btn quick-search__button icon-Icon_Search"><span class="sr-only">Search</span><span>Search</span></button></div></form></div>
+
+
+
+        
+        <a class="quick-search__advancedHeader" title="link to Advanced Search form" href="/search/advanced">Advanced Search</a>
+</div></div>
+</div></div><div class="header__dropzone"></div>
+
+        </div>
+    
+
+
+
+
+        
+        <span style="display: none;">10.1145/3442381.3449934</span><span style="display: none;">acmconferences</span><span style="display: none;">Article/Chapter View</span><span style="display: none;">Access Denial</span><span style="display: none;">Publication Pages</span><span style="display: none;">www</span><span style="display: none;">Conference Proceedings</span><span style="display: none;">conference-collections</span><div class="sub-nav fixed-element"><a href="#" data-db-target-for="sub-nav__items" data-more="false" data-lines="1" style="text-transform: uppercase;" class="sub-nav__toggle hidden-lg truncate-text-css">www</a><div class="sub-nav__container"><div class="container"><div data-ctrl-res="screen-md" class="responsive-menu-container"><div class="left-section pull-left"></div><div class="menu-section"><div style="display: block" class="responsive-menu-nav"><nav id="sub-nav__items" data-db-target-of="sub-nav__items" class="sub-nav__holder drawer__nav"><ul role="menu" class="rlist--inline menubar"><li role="menuitem"><a href="/conference/www" class="sub-nav__item">Conference</a></li><li role="menuitem"><a href="/conference/www/proceedings" class="sub-nav__item">Proceedings</a></li><li role="menuitem"><a href="/conference/www/upcoming" class="sub-nav__item">Upcoming Events</a></li><li role="menuitem"><a href="/conference/www/authors" class="sub-nav__item">Authors</a></li><li role="menuitem"><a href="/conference/www/affiliations" class="sub-nav__item">Affiliations</a></li><li role="menuitem"><a href="/conference/www/award-winners" class="sub-nav__item">Award Winners</a></li><li role="menuitem" aria-haspopup="true" aria-label="More" class="dropdown-more hidden dropdown menu-parent"><a href="#" title="More" data-toggle="dropdown" class="dropdown__toggle hidden-md hidden-sm hidden-xs"><span>More</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><ul aria-labelledby="main0-1" aria-hidden="true" role="menu" class="rlist dropdown__menu visible-md visible-sm visible-xs"></ul></li></ul></nav></div></div><div class="right-section hidden-md hidden-sm hidden-xs"></div></div></div></div><div class="hidden-xs hidden-sm"><div class="progress-bar--wrapper"><div style="width: 0.116818%;" class="progress-bar"></div></div></div></div>
+</div><div></div><div class="banner conference-landing"></div><div class="header-breadcrumb">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="f5f275c5-a862-48bf-8119-8528d04615da" class="container">
+        
+
+
+
+        
+        <div>
+
+
+
+        
+        
+
+
+
+        
+        <nav aria-label="Breadcrumbs" class="article__breadcrumbs separator"><ul><li><a href="https://dl.acm.org/" class="article__tocHeading">Home</a></li><li><a href="/conferences" class="article__tocHeading">Conferences</a></li><li><a href="/conference/www" class="article__tocHeading">WWW</a></li><li><a href="/conference/www/proceedings" class="article__tocHeading">Proceedings</a></li><li><a href="/doi/proceedings/10.1145/3442381" class="article__tocHeading">WWW '21</a></li><li><a href="/doi/pdf/10.1145/3442381.3449934?casa_token=KXyTXTrt1nIAAAAA%3AG8NUl1pPN_3cpWkWxAi9fdRqu1OuNSiWWa_V5-kXE1PCqfIpgqW6jUIvEGzI7UhbkMKKZ8HiKwFt%0A" aria-current="page" class="article__tocHeading">Intelligent Electric Vehicle Charging Recommendation Based on Multi-Agent Reinforcement Learning</a></li></ul></nav>
+
+</div>
+
+        </div>
+    
+</div>
+
+        </header>
+    
+
+
+
+
+
+
+        
+        <main class="content www loi-page no-margin">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-accessDenial-widget" data-widget-id="8e46140b-7e42-4c62-9295-13ae241fcad0" class="container">
+        
+
+
+
+        
+        <article data-enable-mathjax="true" data-citationInfo="/action/acmCitationInfo?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&ajax=true&doi=10.1145%2F3442381.3449934&pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3449934%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" data-proceedingInfo="/action/proceedingArticleMeta?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&ajax=true&doi=10.1145%2F3442381.3449934&pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3449934%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages"><div class="row"><div class="col-md-2 col-sm-3"></div><div class="col-md-8 col-sm-7"><div class="article-citations"><div class="citation"><div class="issue-item__citation clearfix"><span class="issue-heading">research-article </span><span class="article__access ml-3"><span></span></span>
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" defer="defer" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><div class="share__block share__inline-links"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><div class="rlist--inline addthis addthis_toolbox addthis_default_style addthis_32x32_style"><a role="link" class="addthis_button_twitter"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_Twitter"></i></a><a role="link" class="addthis_button_linkedin"><i aria-hidden="true" class="at-icon-wrapper icon-linkedin"></i></a><a role="link" class="addthis_button_reddit"><i aria-hidden="true" class="at-icon-wrapper icon-riddit-filled"></i></a><a role="link" class="addthis_button_facebook"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_Facebook"></i></a><a role="link" class="addthis_button_email"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_mail"></i></a><div class="pb-dropzone" data-pb-dropzone="share-additional-links" title="share-additional-links"></div></div></div>
+</div><div class="border-bottom clearfix"><h1 class="citation__title">Intelligent Electric Vehicle Charging Recommendation Based on Multi-Agent Reinforcement Learning</h1></div><div class="border-bottom clearfix"> <div id="sb-1"> <ul data-lines="2" ariaa-label="authors" class="rlist--inline loa truncate-list"> <li class="label"><b>Authors: </b></li> <li class="loa__item"><a id="arnd_68410568239804437_Ctrl" href="javascript:void(0);" aria-controls="arnd_68410568239804437" aria-haspopup="true" class="author-name" title="Weijia Zhang"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Weijia Zhang</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_68410568239804437" data-doi="10.1145/contrib-99659730658">University of Science and Technology of China, China</p></span></span></a><div id="arnd_68410568239804437" aria-labelledby="arnd_68410568239804437_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d19078127e113"></div> <div class="author-info__body"> <p data-pill-inst="d19078127e113" data-doi="10.1145/contrib-99659730658">University of Science and Technology of China, China</p><a href="/profile/99659730658" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_68410568240127705_Ctrl" href="javascript:void(0);" aria-controls="arnd_68410568240127705" aria-haspopup="true" class="author-name" title="Hao Liu"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Hao Liu</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_68410568240127705" data-doi="10.1145/contrib-99659566196">Baidu Research, China</p></span></span></a><div id="arnd_68410568240127705" aria-labelledby="arnd_68410568240127705_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d19078127e131"></div> <div class="author-info__body"> <p data-pill-inst="d19078127e131" data-doi="10.1145/contrib-99659566196">Baidu Research, China</p><a href="/profile/99659566196" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_68410568240397808_Ctrl" href="javascript:void(0);" aria-controls="arnd_68410568240397808" aria-haspopup="true" class="author-name" title="Fan Wang"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Fan Wang</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_68410568240397808" data-doi="10.1145/contrib-99659573679">Baidu, Inc., China</p></span></span></a><div id="arnd_68410568240397808" aria-labelledby="arnd_68410568240397808_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d19078127e145"></div> <div class="author-info__body"> <p data-pill-inst="d19078127e145" data-doi="10.1145/contrib-99659573679">Baidu, Inc., China</p><a href="/profile/99659573679" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_68410568240664814_Ctrl" href="javascript:void(0);" aria-controls="arnd_68410568240664814" aria-haspopup="true" class="author-name" title="Tong Xu"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Tong Xu</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_68410568240664814" data-doi="10.1145/contrib-81550320556">University of Science and Technology of China, China</p></span></span></a><div id="arnd_68410568240664814" aria-labelledby="arnd_68410568240664814_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d19078127e159"></div> <div class="author-info__body"> <p data-pill-inst="d19078127e159" data-doi="10.1145/contrib-81550320556">University of Science and Technology of China, China</p><a href="/profile/81550320556" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_68410568240948186_Ctrl" href="javascript:void(0);" aria-controls="arnd_68410568240948186" aria-haspopup="true" class="author-name" title="Haoran Xin"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Haoran Xin</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_68410568240948186" data-doi="10.1145/contrib-99659731422">University of Science and Technology of China, China</p></span></span></a><div id="arnd_68410568240948186" aria-labelledby="arnd_68410568240948186_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d19078127e175"></div> <div class="author-info__body"> <p data-pill-inst="d19078127e175" data-doi="10.1145/contrib-99659731422">University of Science and Technology of China, China</p><a href="/profile/99659731422" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_68410568241214966_Ctrl" href="javascript:void(0);" aria-controls="arnd_68410568241214966" aria-haspopup="true" class="author-name" title="Dejing Dou"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Dejing Dou</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_68410568241214966" data-doi="10.1145/contrib-81100541628">Baidu Research, China</p></span></span></a><div id="arnd_68410568241214966" aria-labelledby="arnd_68410568241214966_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d19078127e193"></div> <div class="author-info__body"> <p data-pill-inst="d19078127e193" data-doi="10.1145/contrib-81100541628">Baidu Research, China</p><a href="/profile/81100541628" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_68410568241465594_Ctrl" href="javascript:void(0);" aria-controls="arnd_68410568241465594" aria-haspopup="true" class="author-name" title="Hui Xiong"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Hui Xiong</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_68410568241465594" data-doi="10.1145/contrib-81451596433">Rutgers University, China</p></span></span></a><div id="arnd_68410568241465594" aria-labelledby="arnd_68410568241465594_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d19078127e207"></div> <div class="author-info__body"> <p data-pill-inst="d19078127e207" data-doi="10.1145/contrib-81451596433">Rutgers University, China</p><a href="/profile/81451596433" class="btn blue stretched">View Profile</a></div> </div> </li> </ul><a href="#pill-authors__contentcon" data-slide-target="#pill-information" data-full-screen="false" data-ctrl-res="screen-xlg" data-tab="pill-authors__content" data-label="<i class='icon-Icon_Information'&gt;</i&gt; Information &amp; Authors" class="loa__link w-slide__btn tab-link slide-active">Authors Info &amp; Claims </a></div> </div> <div class="border-bottom clearfix"><div class="issue-item__detail"><a href="/doi/proceedings/10.1145/3442381" title="WWW '21: Proceedings of the Web Conference 2021"><span class="epub-section__title">WWW '21: Proceedings of the Web Conference 2021</span></a><span class="dot-separator"><span class="epub-section__date">April 2021  </span></span><span class="dot-separator"><span class="epub-section__pagerange">Pages   1856–1867</span></span><span class="dot-separator"><a href="https://doi.org/10.1145/3442381.3449934" class="issue-item__doi">https://doi.org/10.1145/3442381.3449934</a></span></div></div><div class="border-bottom clearfix"><span class="bold label">Published:</span><span class="CitationCoverDate">03 June 2021</span><a href="#" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-information__content" class="publication-history-link w-slide__btn tab-link">Publication History</a></div><div class="border-bottom clearfix"><div class="issue-item__footer"><div class="issue-item__footer-info pull-left"><div tabindex="0" class="tooltip"><ul title="Click to stay open" class="rlist--inline"><li><span class="citation"><i class="icon-quote"></i><span>8</span><span class="sr-only">citation</span></span></li><li><span class="metric"><i class="icon-metric"></i><span>758</span></span></li><li><span class="sr-only">Downloads</span></li></ul><div class="tooltip__body"><span class="arrow"></span><div class="left-bordered-title">Metrics</div><a href="javascript:void(0);" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-citations__content" title="See Bibliometrics &amp; Citations section" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="w-slide__btn tab-link"><div class="citation">Total Citations<span class="bold">8</span></div></a><a href="javascript:void(0);" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-bibliometrics__content" title="See Bibliometrics &amp; Citations section" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="w-slide__btn tab-link"><div class="metric">Total Downloads<span class="bold">758</span></div></a><div class="info">Last 12 Months<span class="bold">519</span></div><div class="info">Last 6 weeks<span class="bold">133</span></div></div></div></div><div class="issue-item__footer-links pull-right"><ul class="rlist--inline"><li>
+
+
+
+        
+        <li role="menu" class="article-tool"><a id="manageAlert__crtl" href="/action/addCitationAlert?doi=10.1145/3442381.3449934" data-toggle="modal" role="menuitem" data-title="Get Citation Alerts" data-target="#manageAlert" aria-label="Get Citation Alerts" class="btn--icon simple-tooltip__block--b"><i aria-hidden="true" class="icon-Icon_Alerts"></i><span class="visibility-hidden">Get Citation Alerts</span></a><div role="dialog" aria-labelledby="id-hatemile-navigation-6073290063892647-6" class="ux-modal-container"><div id="manageAlert" class="modal"><div class="modal__dialog"><div class="modal__dialog--success"><div class="modal__header"><button type="button" data-dismiss="modal" aria-label="close popup" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><a id="id-hatemile-navigation-6073290063892647-7" name="id-hatemile-navigation-6073290063892647-7" data-headinganchorfor="id-hatemile-navigation-6073290063892647-6" class="heading-anchor"></a><div id="id-hatemile-navigation-6073290063892647-6"><strong>New Citation Alert added!</strong></div></div><div class="modal__body"><p>This alert has been successfully added and will be sent to:<span class="email"></span></p><p>You will be notified whenever a record that you have chosen has been cited.</p></div><div class="modal__footer"><p>To manage your alert preferences, click on the button below.</p><a href="/action/showPreferences?menuTab=Alerts" title="Manage my Alerts" id="id-hatemile-display-1019331959102511-5" class="btn blue big stretched manageAlert__btn"><span data-attributetitleof="id-hatemile-display-1019331959102511-5" class="force-read-before">Manage my Alerts</span></a></div></div><div class="modal__dialog--error"><div class="modal__header"><button type="button" data-dismiss="modal" aria-label="close popup" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><a id="id-hatemile-navigation-6073290063892647-9" name="id-hatemile-navigation-6073290063892647-9" data-headinganchorfor="id-hatemile-navigation-6073290063892647-8" class="heading-anchor"></a><div id="id-hatemile-navigation-6073290063892647-8"> <strong>New Citation Alert!</strong></div></div><div class="modal__body"><p>Please <a href="/action/showLogin?redirectUri=/doi/pdf/10.1145/3442381.3449934?casa_token=KXyTXTrt1nIAAAAA%3AG8NUl1pPN_3cpWkWxAi9fdRqu1OuNSiWWa_V5-kXE1PCqfIpgqW6jUIvEGzI7UhbkMKKZ8HiKwFt%0A" title="Sign In" class="link">log in to your account</a></p></div></div></div></div></div></li>
+</li><li role="menu" class="article-tool"><a href="javascript:void(0)" role="menuitem" data-title="Save to Binder" data-db-target-for="save-to-binder" data-link="/action/binderList?doi=10.1145/3442381.3449934" aria-label="save to binder" class="btn--icon simple-tooltip__block--b saveToBinders"><i aria-hidden="true" class="icon-add-folder"></i><span class="visibility-hidden">Save to Binder</span></a><div data-db-target-of="save-to-binder"><div class="saveToBinders-list"><input type="hidden" name="doiVal" value="10.1145/3442381.3449934"/><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" aria-label="close popup" class="icon-close_thin"></i></button><h5>Save to Binder</h5><div class="binder-list-alerts"></div><div class="saveToBinders-list__container"><ul class="rlist saveToBinders-list__items"><div class="loader"><img src="/specs/products/acm/releasedAssets/images/loader.gif"/></div></ul></div><div class="binder__create"><a data-action="show" href="/action/showMyBinders" title="Create a New Binder" class="show-binder-form toggle-binder-form"><i class="icon-plus-light"></i>Create a New Binder</a><div class="binder-create-form binder__create-mini-form"><div class="input-group input-group--gray-bg"><label>Name</label><div class="input-group__field-container--right-icon"><input type="text" placeholder="My new Binder" name="binderName" data-maxChar="256" class="binder-create-form__name charCount__text form-control"/><span class="input-group-addon input-group-addon--right"><span class="charLimit"></span></span></div></div><div><ul class="rlist--inline binder__create-btns-container"><li><button type="reset" value="Cancel" data-action="hide" class="toggle-binder-form btn btn--border-less btn transparent binder__create-cancel">Cancel</button></li><li class="pull-right"><button type="submit" value="Create Binder" disabled="disabled" data-append-newbinder-link="/action/createBinder" class="btn btn--no-margin blue big binder__create-submit binder-create-form__create"><i aria-hidden="true" class="icon-plus-light"></i>Create</button></li></ul></div></div></div></div></div></li><li role="menu" class="article-tool"><a href="/" role="menuitem" data-title="Export Citation" data-toggle="modal" data-target="#exportCitation" aria-label="Export Citations" class="btn--icon simple-tooltip__block--b"><i aria-hidden="true" class="icon-quote"></i><span class="visibility-hidden">Export Citation</span><input type="hidden" name="doiVal" value="10.1145/3442381.3449934"/></a></li><li class="publisher-site article-tool"><a href="#" class="btn blue"><span>Publisher Site</span><i aria-hidden="true" class="icon-export"></i></a></li></ul><ul class="rlist--inline right"><li><input type="hidden" id="formatsCount" value="1"/></li><li><a href="javascript:void(0);" data-slide-target="#pill-access" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-get-access&quot;&gt;&lt;/i&gt;Get Access" title="Get Access" class="get-access w-slide__btn"><i class="icon-get-access"></i><span>Get Access</span></a></li></ul></div></div></div></div></div></div><div class="col-sm-2"></div></div><div class="row"><div class="col-md-2 col-sm-3 sidebar-section article-sidebar-section"><div class="article__sections"><div class="sections-box"><div><div class="sections-box__static-items"><div class="parent-item"><h2 class="parent-item__title"><a href="/doi/proceedings/10.1145/3442381" data-lines="2" data-title="WWW '21: Proceedings of the Web Conference 2021" class="simple-tooltip__inline--r truncate-text-css">WWW '21: Proceedings of the Web Conference 2021</a></h2><span href="/doi/proceedings/10.1145/3442381" data-lines="2" data-title="Intelligent Electric Vehicle Charging Recommendation Based on Multi-Agent Reinforcement Learning" class="parent-item__subtitle simple-tooltip__inline--r truncate-text-css">Intelligent Electric Vehicle Charging Recommendation Based on Multi-Agent Reinforcement Learning</span><div class="pageRange">Pages   1856–1867</div></div>
+
+
+
+        
+        <div class="content-navigation clearfix"><a href="/doi/10.1145/3442381.3449816" title="Previous item in TOC" class="content-navigation__btn--pre "><span><i class="icon-Arrow-Stroke"></i></span><span class="control">Previous</span><span class="type">Chapter</span></a><a href="/doi/10.1145/3442381.3449817" title="Next item in TOC" class="content-navigation__btn--next "><span class="control">Next</span><span class="type">Chapter</span><span><i class="icon-Arrow-Stroke"></i></span></a></div>
+</div><div class="sections-block scroll-to-target"></div></div><div class="logo"><img src="/specs/products/acm/releasedAssets/images/footer-logo1.png" alt="ACM Digital Library" title="ACM Digital Library"/></div></div></div></div><div class="col-md-8 col-sm-7 sticko__side-content"><div class="stickybar__original__position"></div><nav class="stickybar coolBar trans visible-xs visible-sm"><div class="stickybar__wrapper coolBar__wrapper clearfix"><div class="coolBar__section"><a id="article_Ctrl" href="#" data-db-target-for="article-sec_Pop" role="button" aria-expanded="false" aria-label="Sections Menu" class="coolBar__ctrl"><i class="icon-burger"></i></a><div id="article_Pop" data-db-target-of="article-sec_Pop" aria-hidden="true" class="coolBar__drop fixed rlist"><div data-target=".article__sections" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></div><div data-target=".pill-section .pill-list" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></nav><div class="article__body"><!-- abstract content --><div class="hlFld-Abstract"><div class="article__section article__abstract hlFld-Abstract"><div class="colored-block__title"><h2 id="d19078182e1" class="section__title left-bordered-title">ABSTRACT</h2></div><div class="abstractSection abstractInFull">
+		<p> Electric Vehicle&nbsp;(EV) has become a preferable choice in the modern transportation system due to its environmental and energy sustainability. However, in many large cities, EV drivers often fail to find the proper spots for charging, because of the limited charging infrastructures and the spatiotemporally unbalanced charging demands. Indeed, the recent emergence of deep reinforcement learning provides great potential to improve the charging experience from various aspects over a long-term horizon. In this paper, we propose a framework, named Multi-Agent Spatio-Temporal Reinforcement Learning&nbsp;(Master), for intelligently recommending public accessible charging stations by jointly considering various long-term spatiotemporal factors. Specifically, by regarding each charging station as an individual agent, we formulate this problem as a multi-objective multi-agent reinforcement learning task. We first develop a multi-agent actor-critic framework with the centralized attentive critic to coordinate the recommendation between geo-distributed agents. Moreover, to quantify the influence of future potential charging competition, we introduce a delayed access strategy to exploit the knowledge of future charging competition during training. After that, to effectively optimize multiple learning objectives, we extend the centralized attentive critic to multi-critics and develop a dynamic gradient re-weighting strategy to adaptively guide the optimization direction. Finally, extensive experiments on two real-world datasets demonstrate that Master achieves the best comprehensive performance compared with nine baseline approaches.</p>
+	</div></div></div><!-- /abstract content --><div class="pb-dropzone" data-pb-dropzone="pubContentAccessDenialDropzone"><div data-widget-def="graphQueryWidget" data-widget-id="a375655b-dac3-4010-824b-309045e95f54" class="article__section article__access-block separated-block">
+        
+
+
+
+        
+        <h3>Get full access to this Publication<p class="info--text big">Purchase, subscribe or recommend this publication to your librarian.</p><div title="Get this Publication" class="access-block__links"><a href="/action/publisherEcommerceHelper?doi=10.1145/3442381.3449934&amp;redirectUri=https://dl.acm.org/doi/pdf/10.1145/3442381.3449934?casa_token=KXyTXTrt1nIAAAAA%3AG8NUl1pPN_3cpWkWxAi9fdRqu1OuNSiWWa_V5-kXE1PCqfIpgqW6jUIvEGzI7UhbkMKKZ8HiKwFt%0A" class="btn blue big"><span>Get this Publication</span></a></div><p class="logIn text-uppercase">Already a Subscriber?<a href="/action/showLogin?redirectUri=/doi/10.1145/3442381.3449934" title="Sign In" class="space link">Sign In</a></p></h3>
+
+        </div></div><div class="article__section article__references show-more-items" data-sectionname="References"><p class="explanation__text"></p><div class="colored-block__title"><h2 id="sec-ref" class="section__title left-bordered-title">
+                    References
+                </h2></div><ol class="rlist references__list references__numeric"><li id="ref-00001" class="&#xA;                references__item&#xA;            "><span class="references__note">Yue Cao, Tao Jiang, Omprakash Kaiwartya, Hongjian Sun, Huan Zhou, and Ran Wang. 2019. Toward pre-empted EV charging recommendation through V2V-based reservation system. IEEE Transactions on Systems, Man, and Cybernetics: Systems (2019).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yue+Cao%2C+Tao+Jiang%2C+Omprakash+Kaiwartya%2C+Hongjian+Sun%2C+Huan+Zhou%2C+and+Ran+Wang.+2019.+Toward+pre-empted+EV+charging+recommendation+through+V2V-based+reservation+system.+IEEE+Transactions+on+Systems%2C+Man%2C+and+Cybernetics%3A+Systems+%282019%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00002" class="&#xA;                references__item&#xA;            "><span class="references__note">Tianshu Chu, Jie Wang, Lara Codecà, and Zhaojian Li. 2019. Multi-agent deep reinforcement learning for large-scale traffic signal control. IEEE Transactions on Intelligent Transportation Systems 21, 3(2019), 1086–1095.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Tianshu+Chu%2C+Jie+Wang%2C+Lara+Codec%C3%A0%2C+and+Zhaojian+Li.+2019.+Multi-agent+deep+reinforcement+learning+for+large-scale+traffic+signal+control.+IEEE+Transactions+on+Intelligent+Transportation+Systems+21%2C+3%282019%29%2C+1086%E2%80%931095."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00003" class="&#xA;                references__item&#xA;            "><span class="references__note">Bowen Du, Yongxin Tong, Zimu Zhou, Qian Tao, and Wenjun Zhou. 2018. Demand-aware charger planning for electric vehicle sharing. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 1330–1338.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Bowen+Du%2C+Yongxin+Tong%2C+Zimu+Zhou%2C+Qian+Tao%2C+and+Wenjun+Zhou.+2018.+Demand-aware+charger+planning+for+electric+vehicle+sharing.+In+Proceedings+of+the+24th+ACM+SIGKDD+International+Conference+on+Knowledge+Discovery+and+Data+Mining.+1330%E2%80%931338."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00004" class="&#xA;                references__item&#xA;            "><span class="references__note">Wei Fan, Kunpeng Liu, Hao Liu, Pengyang Wang, Yong Ge, and Yanjie Fu. 2020. AutoFS: Automated Feature Selection via Diversity-aware Interactive Reinforcement Learning. In IEEE 20th International Conference on Data Mining.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Wei+Fan%2C+Kunpeng+Liu%2C+Hao+Liu%2C+Pengyang+Wang%2C+Yong+Ge%2C+and+Yanjie+Fu.+2020.+AutoFS%3A+Automated+Feature+Selection+via+Diversity-aware+Interactive+Reinforcement+Learning.+In+IEEE+20th+International+Conference+on+Data+Mining."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00005" class="&#xA;                references__item&#xA;            "><span class="references__note">Jakob Foerster, Ioannis&nbsp;Alexandros Assael, Nando De&nbsp;Freitas, and Shimon Whiteson. 2016. Learning to communicate with deep multi-agent reinforcement learning. In Advances in neural information processing systems. 2137–2145.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jakob+Foerster%2C+Ioannis%C2%A0Alexandros+Assael%2C+Nando+De%C2%A0Freitas%2C+and+Shimon+Whiteson.+2016.+Learning+to+communicate+with+deep+multi-agent+reinforcement+learning.+In+Advances+in+neural+information+processing+systems.+2137%E2%80%932145."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00006" class="&#xA;                references__item&#xA;            "><span class="references__note">Jakob&nbsp;N. Foerster, Gregory Farquhar, Triantafyllos Afouras, Nantas Nardelli, and Shimon Whiteson. 2018. Counterfactual Multi-Agent Policy Gradients. In Proceedings of the 32nd AAAI Conference on Artificial Intelligence. 2974–2982.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jakob%C2%A0N.+Foerster%2C+Gregory+Farquhar%2C+Triantafyllos+Afouras%2C+Nantas+Nardelli%2C+and+Shimon+Whiteson.+2018.+Counterfactual+Multi-Agent+Policy+Gradients.+In+Proceedings+of+the+32nd+AAAI+Conference+on+Artificial+Intelligence.+2974%E2%80%932982."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00007" class="&#xA;                references__item&#xA;            "><span class="references__note">Qingyu Guo, Fuzhen Zhuang, Chuan Qin, Hengshu Zhu, Xing Xie, Hui Xiong, and Qing He. 2020. A survey on knowledge graph-based recommender systems. IEEE Transactions on Knowledge and Data Engineering (2020).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Qingyu+Guo%2C+Fuzhen+Zhuang%2C+Chuan+Qin%2C+Hengshu+Zhu%2C+Xing+Xie%2C+Hui+Xiong%2C+and+Qing+He.+2020.+A+survey+on+knowledge+graph-based+recommender+systems.+IEEE+Transactions+on+Knowledge+and+Data+Engineering+%282020%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00008" class="&#xA;                references__item&#xA;            "><span class="references__note">Tianci Guo, Pengcheng You, and Zaiyue Yang. 2017. Recommendation of geographic distributed charging stations for electric vehicles: A game theoretical approach. In IEEE Power &amp; Energy Society General Meeting. 1–5.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Tianci+Guo%2C+Pengcheng+You%2C+and+Zaiyue+Yang.+2017.+Recommendation+of+geographic+distributed+charging+stations+for+electric+vehicles%3A+A+game+theoretical+approach.+In+IEEE+Power+%26+Energy+Society+General+Meeting.+1%E2%80%935."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00009" class="&#xA;                references__item&#xA;            "><span class="references__note">Jayesh&nbsp;K Gupta, Maxim Egorov, and Mykel Kochenderfer. 2017. Cooperative multi-agent control using deep reinforcement learning. In International Conference on Autonomous Agents and Multiagent Systems. 66–83.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jayesh%C2%A0K+Gupta%2C+Maxim+Egorov%2C+and+Mykel+Kochenderfer.+2017.+Cooperative+multi-agent+control+using+deep+reinforcement+learning.+In+International+Conference+on+Autonomous+Agents+and+Multiagent+Systems.+66%E2%80%9383."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00010" class="&#xA;                references__item&#xA;            "><span class="references__note">Jindong Han, Hao Liu, Hengshu Zhu, Hui Xiong, and Dejing Dou. 2021. Joint Air Quality and Weather Prediction Based on Multi-Adversarial Spatiotemporal Networks. In Proceedings of the 35th AAAI Conference on Artificial Intelligence.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jindong+Han%2C+Hao+Liu%2C+Hengshu+Zhu%2C+Hui+Xiong%2C+and+Dejing+Dou.+2021.+Joint+Air+Quality+and+Weather+Prediction+Based+on+Multi-Adversarial+Spatiotemporal+Networks.+In+Proceedings+of+the+35th+AAAI+Conference+on+Artificial+Intelligence."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00011" class="&#xA;                references__item&#xA;            "><span class="references__note">Shariq Iqbal and Fei Sha. 2019. Actor-attention-critic for multi-agent reinforcement learning. In International Conference on Machine Learning. 2961–2970.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Shariq+Iqbal+and+Fei+Sha.+2019.+Actor-attention-critic+for+multi-agent+reinforcement+learning.+In+International+Conference+on+Machine+Learning.+2961%E2%80%932970."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00012" class="&#xA;                references__item&#xA;            "><span class="references__note">Jiechuan Jiang and Zongqing Lu. 2018. Learning attentional communication for multi-agent cooperation. In Advances in neural information processing systems. 7254–7264.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jiechuan+Jiang+and+Zongqing+Lu.+2018.+Learning+attentional+communication+for+multi-agent+cooperation.+In+Advances+in+neural+information+processing+systems.+7254%E2%80%937264."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00013" class="&#xA;                references__item&#xA;            "><span class="references__note">Jiarui Jin, Ming Zhou, Weinan Zhang, Minne Li, Zilong Guo, Zhiwei Qin, Yan Jiao, Xiaocheng Tang, Chenxi Wang, Jun Wang, 2019. Coride: joint order dispatching and fleet management for multi-scale ride-hailing platforms. In Proceedings of the 28th ACM International Conference on Information and Knowledge Management. 1983–1992.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jiarui+Jin%2C+Ming+Zhou%2C+Weinan+Zhang%2C+Minne+Li%2C+Zilong+Guo%2C+Zhiwei+Qin%2C+Yan+Jiao%2C+Xiaocheng+Tang%2C+Chenxi+Wang%2C+Jun+Wang%2C+2019.+Coride%3A+joint+order+dispatching+and+fleet+management+for+multi-scale+ride-hailing+platforms.+In+Proceedings+of+the+28th+ACM+International+Conference+on+Information+and+Knowledge+Management.+1983%E2%80%931992."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00014" class="&#xA;                references__item&#xA;            "><span class="references__note">Fanxin Kong, Qiao Xiang, Linghe Kong, and Xue Liu. 2016. On-line event-driven scheduling for electric vehicle charging via park-and-charge. In IEEE Real-Time Systems Symposium. 69–78.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Fanxin+Kong%2C+Qiao+Xiang%2C+Linghe+Kong%2C+and+Xue+Liu.+2016.+On-line+event-driven+scheduling+for+electric+vehicle+charging+via+park-and-charge.+In+IEEE+Real-Time+Systems+Symposium.+69%E2%80%9378."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00015" class="&#xA;                references__item&#xA;            "><span class="references__note">Minne Li, Zhiwei Qin, Yan Jiao, Yaodong Yang, Jun Wang, Chenxi Wang, Guobin Wu, and Jieping Ye. 2019. Efficient ridesharing order dispatching with mean field multi-agent reinforcement learning. In The World Wide Web Conference. 983–994.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Minne+Li%2C+Zhiwei+Qin%2C+Yan+Jiao%2C+Yaodong+Yang%2C+Jun+Wang%2C+Chenxi+Wang%2C+Guobin+Wu%2C+and+Jieping+Ye.+2019.+Efficient+ridesharing+order+dispatching+with+mean+field+multi-agent+reinforcement+learning.+In+The+World+Wide+Web+Conference.+983%E2%80%93994."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00016" class="&#xA;                references__item&#xA;            "><span class="references__note">Yanhua Li, Jun Luo, Chi-Yin Chow, Kam-Lam Chan, Ye Ding, and Fan Zhang. 2015. Growing the charging station network for electric vehicles with trajectory data analytics. In IEEE 31st International Conference on Data Engineering. 1376–1387.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yanhua+Li%2C+Jun+Luo%2C+Chi-Yin+Chow%2C+Kam-Lam+Chan%2C+Ye+Ding%2C+and+Fan+Zhang.+2015.+Growing+the+charging+station+network+for+electric+vehicles+with+trajectory+data+analytics.+In+IEEE+31st+International+Conference+on+Data+Engineering.+1376%E2%80%931387."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00017" class="&#xA;                references__item&#xA;            "><span class="references__note">Yexin Li, Yu Zheng, and Qiang Yang. 2018. Dynamic bike reposition: A spatio-temporal reinforcement learning approach. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining. 1724–1733.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yexin+Li%2C+Yu+Zheng%2C+and+Qiang+Yang.+2018.+Dynamic+bike+reposition%3A+A+spatio-temporal+reinforcement+learning+approach.+In+Proceedings+of+the+24th+ACM+SIGKDD+International+Conference+on+Knowledge+Discovery+%26+Data+Mining.+1724%E2%80%931733."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00018" class="&#xA;                references__item&#xA;            "><span class="references__note">Yexin Li, Yu Zheng, and Qiang Yang. 2019. Efficient and Effective Express via Contextual Cooperative Reinforcement Learning. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining. 510–519.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yexin+Li%2C+Yu+Zheng%2C+and+Qiang+Yang.+2019.+Efficient+and+Effective+Express+via+Contextual+Cooperative+Reinforcement+Learning.+In+Proceedings+of+the+25th+ACM+SIGKDD+International+Conference+on+Knowledge+Discovery+%26+Data+Mining.+510%E2%80%93519."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00019" class="&#xA;                references__item&#xA;            "><span class="references__note">Timothy&nbsp;P Lillicrap, Jonathan&nbsp;J Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, and Daan Wierstra. 2015. Continuous control with deep reinforcement learning. arXiv preprint arXiv:1509.02971(2015).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Timothy%C2%A0P+Lillicrap%2C+Jonathan%C2%A0J+Hunt%2C+Alexander+Pritzel%2C+Nicolas+Heess%2C+Tom+Erez%2C+Yuval+Tassa%2C+David+Silver%2C+and+Daan+Wierstra.+2015.+Continuous+control+with+deep+reinforcement+learning.+arXiv+preprint+arXiv%3A1509.02971%282015%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00020" class="&#xA;                references__item&#xA;            "><span class="references__note">Kaixiang Lin, Renyu Zhao, Zhe Xu, and Jiayu Zhou. 2018. Efficient large-scale fleet management via multi-agent deep reinforcement learning. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining. 1774–1783.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Kaixiang+Lin%2C+Renyu+Zhao%2C+Zhe+Xu%2C+and+Jiayu+Zhou.+2018.+Efficient+large-scale+fleet+management+via+multi-agent+deep+reinforcement+learning.+In+Proceedings+of+the+24th+ACM+SIGKDD+International+Conference+on+Knowledge+Discovery+%26+Data+Mining.+1774%E2%80%931783."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00021" class="&#xA;                references__item&#xA;            "><span class="references__note">Hao Liu, Jindong Han, Yanjie Fu, Jingbo Zhou, Xinjiang Lu, and Hui Xiong. 2020. Multi-modal transportation recommendation with unified route representation learning. Proceedings of the VLDB Endowment(2020), 342–350.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Hao+Liu%2C+Jindong+Han%2C+Yanjie+Fu%2C+Jingbo+Zhou%2C+Xinjiang+Lu%2C+and+Hui+Xiong.+2020.+Multi-modal+transportation+recommendation+with+unified+route+representation+learning.+Proceedings+of+the+VLDB+Endowment%282020%29%2C+342%E2%80%93350."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00022" class="&#xA;                references__item&#xA;            "><span class="references__note">Hao Liu, Ting Li, Renjun Hu, Yanjie Fu, Jingjing Gu, and Hui Xiong. 2019. Joint Representation Learning for Multi-Modal Transportation Recommendation. In Proceedings of the 33rd AAAI Conference on Artificial Intelligence. 1036–1043.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Hao+Liu%2C+Ting+Li%2C+Renjun+Hu%2C+Yanjie+Fu%2C+Jingjing+Gu%2C+and+Hui+Xiong.+2019.+Joint+Representation+Learning+for+Multi-Modal+Transportation+Recommendation.+In+Proceedings+of+the+33rd+AAAI+Conference+on+Artificial+Intelligence.+1036%E2%80%931043."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00023" class="&#xA;                references__item&#xA;            "><span class="references__note">Hao Liu, Yongxin Tong, Jindong Han, Panpan Zhang, Xinjiang Lu, and Hui Xiong. 2020. Incorporating Multi-Source Urban Data for Personalized and Context-Aware Multi-Modal Transportation Recommendation. IEEE Transactions on Knowledge and Data Engineering (2020).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Hao+Liu%2C+Yongxin+Tong%2C+Jindong+Han%2C+Panpan+Zhang%2C+Xinjiang+Lu%2C+and+Hui+Xiong.+2020.+Incorporating+Multi-Source+Urban+Data+for+Personalized+and+Context-Aware+Multi-Modal+Transportation+Recommendation.+IEEE+Transactions+on+Knowledge+and+Data+Engineering+%282020%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00024" class="&#xA;                references__item&#xA;            "><span class="references__note">Ryan Lowe, Yi&nbsp;I Wu, Aviv Tamar, Jean Harb, OpenAI&nbsp;Pieter Abbeel, and Igor Mordatch. 2017. Multi-agent actor-critic for mixed cooperative-competitive environments. In Advances in neural information processing systems. 6379–6390.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Ryan+Lowe%2C+Yi%C2%A0I+Wu%2C+Aviv+Tamar%2C+Jean+Harb%2C+OpenAI%C2%A0Pieter+Abbeel%2C+and+Igor+Mordatch.+2017.+Multi-agent+actor-critic+for+mixed+cooperative-competitive+environments.+In+Advances+in+neural+information+processing+systems.+6379%E2%80%936390."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00025" class="&#xA;                references__item&#xA;            "><span class="references__note">Gary&nbsp;S Lynch. 2009. Single point of failure. Wiley Online Library.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Gary%C2%A0S+Lynch.+2009.+Single+point+of+failure.+Wiley+Online+Library."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00026" class="&#xA;                references__item&#xA;            "><span class="references__note">Laetitia Matignon, Guillaume&nbsp;J Laurent, and Nadine Le&nbsp;Fort-Piat. 2012. Independent reinforcement learners in cooperative Markov games: a survey regarding coordination problems.Knowledge Engineering Review(2012), 1–31.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Laetitia+Matignon%2C+Guillaume%C2%A0J+Laurent%2C+and+Nadine+Le%C2%A0Fort-Piat.+2012.+Independent+reinforcement+learners+in+cooperative+Markov+games%3A+a+survey+regarding+coordination+problems.Knowledge+Engineering+Review%282012%29%2C+1%E2%80%9331."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00027" class="&#xA;                references__item&#xA;            "><span class="references__note">Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei&nbsp;A Rusu, Joel Veness, Marc&nbsp;G Bellemare, Alex Graves, Martin Riedmiller, Andreas&nbsp;K Fidjeland, Georg Ostrovski, 2015. Human-level control through deep reinforcement learning. Nature (2015), 529–533.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Volodymyr+Mnih%2C+Koray+Kavukcuoglu%2C+David+Silver%2C+Andrei%C2%A0A+Rusu%2C+Joel+Veness%2C+Marc%C2%A0G+Bellemare%2C+Alex+Graves%2C+Martin+Riedmiller%2C+Andreas%C2%A0K+Fidjeland%2C+Georg+Ostrovski%2C+2015.+Human-level+control+through+deep+reinforcement+learning.+Nature+%282015%29%2C+529%E2%80%93533."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00028" class="&#xA;                references__item&#xA;            "><span class="references__note">Georgios Papoudakis, Filippos Christianos, Arrasy Rahman, and Stefano&nbsp;V Albrecht. 2019. Dealing with non-stationarity in multi-agent deep reinforcement learning. arXiv preprint arXiv:1906.04737(2019).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Georgios+Papoudakis%2C+Filippos+Christianos%2C+Arrasy+Rahman%2C+and+Stefano%C2%A0V+Albrecht.+2019.+Dealing+with+non-stationarity+in+multi-agent+deep+reinforcement+learning.+arXiv+preprint+arXiv%3A1906.04737%282019%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00029" class="&#xA;                references__item&#xA;            "><span class="references__note">Peng Peng, Quan Yuan, Ying Wen, Yaodong Yang, Zhenkun Tang, Haitao Long, and Jun Wang. 2017. Multiagent bidirectionally-coordinated nets for learning to play starcraft combat games. arXiv preprint arXiv:1703.10069(2017).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Peng+Peng%2C+Quan+Yuan%2C+Ying+Wen%2C+Yaodong+Yang%2C+Zhenkun+Tang%2C+Haitao+Long%2C+and+Jun+Wang.+2017.+Multiagent+bidirectionally-coordinated+nets+for+learning+to+play+starcraft+combat+games.+arXiv+preprint+arXiv%3A1703.10069%282017%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00030" class="&#xA;                references__item&#xA;            "><span class="references__note">George&nbsp;F Savari, Vijayakumar Krishnasamy, Jagabar Sathik, Ziad&nbsp;M Ali, and Shady HE&nbsp;Abdel Aleem. 2020. Internet of Things based real-time electric vehicle load forecasting and charging station recommendation. ISA transactions (2020), 431–447.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=George%C2%A0F+Savari%2C+Vijayakumar+Krishnasamy%2C+Jagabar+Sathik%2C+Ziad%C2%A0M+Ali%2C+and+Shady+HE%C2%A0Abdel+Aleem.+2020.+Internet+of+Things+based+real-time+electric+vehicle+load+forecasting+and+charging+station+recommendation.+ISA+transactions+%282020%29%2C+431%E2%80%93447."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00031" class="&#xA;                references__item&#xA;            "><span class="references__note">John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. 2017. Proximal policy optimization algorithms. arXiv preprint arXiv:1707.06347(2017).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=John+Schulman%2C+Filip+Wolski%2C+Prafulla+Dhariwal%2C+Alec+Radford%2C+and+Oleg+Klimov.+2017.+Proximal+policy+optimization+algorithms.+arXiv+preprint+arXiv%3A1707.06347%282017%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00032" class="&#xA;                references__item&#xA;            "><span class="references__note">Sainbayar Sukhbaatar, Arthur Szlam, and Rob Fergus. 2016. Learning multiagent communication with backpropagation. In Advances in neural information processing systems. 2244–2252.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Sainbayar+Sukhbaatar%2C+Arthur+Szlam%2C+and+Rob+Fergus.+2016.+Learning+multiagent+communication+with+backpropagation.+In+Advances+in+neural+information+processing+systems.+2244%E2%80%932252."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00033" class="&#xA;                references__item&#xA;            "><span class="references__note">Ardi Tampuu, Tambet Matiisen, Dorian Kodelja, Ilya Kuzovkin, Kristjan Korjus, Juhan Aru, Jaan Aru, and Raul Vicente. 2017. Multiagent cooperation and competition with deep reinforcement learning. PloS one (2017).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Ardi+Tampuu%2C+Tambet+Matiisen%2C+Dorian+Kodelja%2C+Ilya+Kuzovkin%2C+Kristjan+Korjus%2C+Juhan+Aru%2C+Jaan+Aru%2C+and+Raul+Vicente.+2017.+Multiagent+cooperation+and+competition+with+deep+reinforcement+learning.+PloS+one+%282017%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00034" class="&#xA;                references__item&#xA;            "><span class="references__note">Ming Tan. 1993. Multi-agent reinforcement learning: Independent vs. cooperative agents. In Proceedings of the 10th International Conference on Machine Learning. 330–337.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Ming+Tan.+1993.+Multi-agent+reinforcement+learning%3A+Independent+vs.+cooperative+agents.+In+Proceedings+of+the+10th+International+Conference+on+Machine+Learning.+330%E2%80%93337."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00035" class="&#xA;                references__item&#xA;            "><span class="references__note">Zhiyong Tian, Taeho Jung, Yi Wang, Fan Zhang, Lai Tu, Chengzhong Xu, Chen Tian, and Xiang-Yang Li. 2016. Real-time charging station recommendation system for electric-vehicle taxis. IEEE Transactions on Intelligent Transportation Systems (2016), 3098–3109.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Zhiyong+Tian%2C+Taeho+Jung%2C+Yi+Wang%2C+Fan+Zhang%2C+Lai+Tu%2C+Chengzhong+Xu%2C+Chen+Tian%2C+and+Xiang-Yang+Li.+2016.+Real-time+charging+station+recommendation+system+for+electric-vehicle+taxis.+IEEE+Transactions+on+Intelligent+Transportation+Systems+%282016%29%2C+3098%E2%80%933109."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00036" class="&#xA;                references__item&#xA;            "><span class="references__note">Enshu Wang, Rong Ding, Zhaoxing Yang, Haiming Jin, Chenglin Miao, Lu Su, Fan Zhang, Chunming Qiao, and Xinbing Wang. 2020. Joint Charging and Relocation Recommendation for E-Taxi Drivers via Multi-Agent Mean Field Hierarchical Reinforcement Learning. IEEE Transactions on Mobile Computing(2020).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Enshu+Wang%2C+Rong+Ding%2C+Zhaoxing+Yang%2C+Haiming+Jin%2C+Chenglin+Miao%2C+Lu+Su%2C+Fan+Zhang%2C+Chunming+Qiao%2C+and+Xinbing+Wang.+2020.+Joint+Charging+and+Relocation+Recommendation+for+E-Taxi+Drivers+via+Multi-Agent+Mean+Field+Hierarchical+Reinforcement+Learning.+IEEE+Transactions+on+Mobile+Computing%282020%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00037" class="&#xA;                references__item&#xA;            "><span class="references__note">Guang Wang, Xiaoyang Xie, Fan Zhang, Yunhuai Liu, and Desheng Zhang. 2018. bCharge: Data-driven real-time charging scheduling for large-scale electric bus fleets. In IEEE Real-Time Systems Symposium. 45–55.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Guang+Wang%2C+Xiaoyang+Xie%2C+Fan+Zhang%2C+Yunhuai+Liu%2C+and+Desheng+Zhang.+2018.+bCharge%3A+Data-driven+real-time+charging+scheduling+for+large-scale+electric+bus+fleets.+In+IEEE+Real-Time+Systems+Symposium.+45%E2%80%9355."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00038" class="&#xA;                references__item&#xA;            "><span class="references__note">Guang Wang, Fan Zhang, and Desheng Zhang. 2019. tCharge-A fleet-oriented real-time charging scheduling system for electric taxi fleets. In Proceedings of the 17th Conference on Embedded Networked Sensor Systems. 440–441.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Guang+Wang%2C+Fan+Zhang%2C+and+Desheng+Zhang.+2019.+tCharge-A+fleet-oriented+real-time+charging+scheduling+system+for+electric+taxi+fleets.+In+Proceedings+of+the+17th+Conference+on+Embedded+Networked+Sensor+Systems.+440%E2%80%93441."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00039" class="&#xA;                references__item&#xA;            "><span class="references__note">Guang Wang, Yongfeng Zhang, Zhihan Fang, Shuai Wang, Fan Zhang, and Desheng Zhang. 2020. FairCharge: A data-driven fairness-aware charging recommendation system for large-scale electric taxi fleets. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (2020), 1–25.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Guang+Wang%2C+Yongfeng+Zhang%2C+Zhihan+Fang%2C+Shuai+Wang%2C+Fan+Zhang%2C+and+Desheng+Zhang.+2020.+FairCharge%3A+A+data-driven+fairness-aware+charging+recommendation+system+for+large-scale+electric+taxi+fleets.+Proceedings+of+the+ACM+on+Interactive%2C+Mobile%2C+Wearable+and+Ubiquitous+Technologies+%282020%29%2C+1%E2%80%9325."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00040" class="&#xA;                references__item&#xA;            "><span class="references__note">Yanan Wang, Tong Xu, Xin Niu, Chang Tan, Enhong Chen, and Hui Xiong. 2020. STMARL: A Spatio-Temporal Multi-Agent Reinforcement Learning Approach for Cooperative Traffic Light Control. IEEE Transactions on Mobile Computing(2020).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yanan+Wang%2C+Tong+Xu%2C+Xin+Niu%2C+Chang+Tan%2C+Enhong+Chen%2C+and+Hui+Xiong.+2020.+STMARL%3A+A+Spatio-Temporal+Multi-Agent+Reinforcement+Learning+Approach+for+Cooperative+Traffic+Light+Control.+IEEE+Transactions+on+Mobile+Computing%282020%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00041" class="&#xA;                references__item&#xA;            "><span class="references__note">Hua Wei, Nan Xu, Huichu Zhang, Guanjie Zheng, Xinshi Zang, Chacha Chen, Weinan Zhang, Yanmin Zhu, Kai Xu, and Zhenhui Li. 2019. Colight: Learning network-level cooperation for traffic signal control. In Proceedings of the 28th ACM International Conference on Information and Knowledge Management. 1913–1922.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Hua+Wei%2C+Nan+Xu%2C+Huichu+Zhang%2C+Guanjie+Zheng%2C+Xinshi+Zang%2C+Chacha+Chen%2C+Weinan+Zhang%2C+Yanmin+Zhu%2C+Kai+Xu%2C+and+Zhenhui+Li.+2019.+Colight%3A+Learning+network-level+cooperation+for+traffic+signal+control.+In+Proceedings+of+the+28th+ACM+International+Conference+on+Information+and+Knowledge+Management.+1913%E2%80%931922."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00042" class="&#xA;                references__item&#xA;            "><span class="references__note">Haoran Xin, Xinjiang Lu, Tong Xu, Hao Liu, Jingjing Gu, Dejing Dou, and Hui Xiong. 2021. Out-of-Town Recommendation with Travel Intention Modeling. In Proceedings of the 35th AAAI Conference on Artificial Intelligence.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Haoran+Xin%2C+Xinjiang+Lu%2C+Tong+Xu%2C+Hao+Liu%2C+Jingjing+Gu%2C+Dejing+Dou%2C+and+Hui+Xiong.+2021.+Out-of-Town+Recommendation+with+Travel+Intention+Modeling.+In+Proceedings+of+the+35th+AAAI+Conference+on+Artificial+Intelligence."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00043" class="&#xA;                references__item&#xA;            "><span class="references__note">Zaiyue Yang, Lihao Sun, Min Ke, Zhiguo Shi, and Jiming Chen. 2014. Optimal charging strategy for plug-in electric taxi with time-varying profits. IEEE Transactions on Smart Grid(2014), 2787–2797.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Zaiyue+Yang%2C+Lihao+Sun%2C+Min+Ke%2C+Zhiguo+Shi%2C+and+Jiming+Chen.+2014.+Optimal+charging+strategy+for+plug-in+electric+taxi+with+time-varying+profits.+IEEE+Transactions+on+Smart+Grid%282014%29%2C+2787%E2%80%932797."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00044" class="&#xA;                references__item&#xA;            "><span class="references__note">Yukun Yuan, Desheng Zhang, Fei Miao, Jimin Chen, Tian He, and Shan Lin. 2019. p2303 2Charging: Proactive Partial Charging for Electric Taxi Systems. In IEEE 39th International Conference on Distributed Computing Systems. IEEE, 688–699.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yukun+Yuan%2C+Desheng+Zhang%2C+Fei+Miao%2C+Jimin+Chen%2C+Tian+He%2C+and+Shan+Lin.+2019.+p2303+2Charging%3A+Proactive+Partial+Charging+for+Electric+Taxi+Systems.+In+IEEE+39th+International+Conference+on+Distributed+Computing+Systems.+IEEE%2C+688%E2%80%93699."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00045" class="&#xA;                references__item&#xA;            "><span class="references__note">Zixuan Yuan, Hao Liu, Yanchi Liu, Denghui Zhang, Fei Yi, Nengjun Zhu, and Hui Xiong. 2020. Spatio-temporal dual graph attention network for query-poi matching. In Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval. 629–638.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Zixuan+Yuan%2C+Hao+Liu%2C+Yanchi+Liu%2C+Denghui+Zhang%2C+Fei+Yi%2C+Nengjun+Zhu%2C+and+Hui+Xiong.+2020.+Spatio-temporal+dual+graph+attention+network+for+query-poi+matching.+In+Proceedings+of+the+43rd+International+ACM+SIGIR+Conference+on+Research+and+Development+in+Information+Retrieval.+629%E2%80%93638."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00046" class="&#xA;                references__item&#xA;            "><span class="references__note">Weijia Zhang, Hao Liu, Yanchi Liu, Jingbo Zhou, and Hui Xiong. 2020. Semi-Supervised Hierarchical Recurrent Graph Neural Network for City-Wide Parking Availability Prediction. In Proceedings of the 34th AAAI Conference on Artificial Intelligence. 1186–1193.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Weijia+Zhang%2C+Hao+Liu%2C+Yanchi+Liu%2C+Jingbo+Zhou%2C+and+Hui+Xiong.+2020.+Semi-Supervised+Hierarchical+Recurrent+Graph+Neural+Network+for+City-Wide+Parking+Availability+Prediction.+In+Proceedings+of+the+34th+AAAI+Conference+on+Artificial+Intelligence.+1186%E2%80%931193."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00047" class="&#xA;                references__item&#xA;            "><span class="references__note">Jun Zhao, Guang Qiu, Ziyu Guan, Wei Zhao, and Xiaofei He. 2018. Deep reinforcement learning for sponsored search real-time bidding. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining. 1021–1030.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jun+Zhao%2C+Guang+Qiu%2C+Ziyu+Guan%2C+Wei+Zhao%2C+and+Xiaofei+He.+2018.+Deep+reinforcement+learning+for+sponsored+search+real-time+bidding.+In+Proceedings+of+the+24th+ACM+SIGKDD+International+Conference+on+Knowledge+Discovery+%26+Data+Mining.+1021%E2%80%931030."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00048" class="&#xA;                references__item&#xA;            "><span class="references__note">Yanchong Zheng, Ziyun Shao, Yumeng Zhang, and Linni Jian. 2020. A systematic methodology for mid-and-long term electric vehicle charging load forecasting: The case study of Shenzhen, China. Sustainable Cities and Society(2020), 102084.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yanchong+Zheng%2C+Ziyun+Shao%2C+Yumeng+Zhang%2C+and+Linni+Jian.+2020.+A+systematic+methodology+for+mid-and-long+term+electric+vehicle+charging+load+forecasting%3A+The+case+study+of+Shenzhen%2C+China.+Sustainable+Cities+and+Society%282020%29%2C+102084."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00049" class="&#xA;                references__item&#xA;            "><span class="references__note">Ming Zhou, Jiarui Jin, Weinan Zhang, Zhiwei Qin, Yan Jiao, Chenxi Wang, Guobin Wu, Yong Yu, and Jieping Ye. 2019. Multi-agent reinforcement learning for order-dispatching via order-vehicle distribution matching. In Proceedings of the 28th ACM International Conference on Information and Knowledge Management. 2645–2653.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Ming+Zhou%2C+Jiarui+Jin%2C+Weinan+Zhang%2C+Zhiwei+Qin%2C+Yan+Jiao%2C+Chenxi+Wang%2C+Guobin+Wu%2C+Yong+Yu%2C+and+Jieping+Ye.+2019.+Multi-agent+reinforcement+learning+for+order-dispatching+via+order-vehicle+distribution+matching.+In+Proceedings+of+the+28th+ACM+International+Conference+on+Information+and+Knowledge+Management.+2645%E2%80%932653."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li></ol></div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3TagWidget" data-widget-id="2ed7e2cb-91bf-4410-89fa-60d7242128b4" class="citation article__section article__index-terms">
+        
+
+
+
+        
+        
+
+        </div>
+    
+
+
+
+
+        
+        <div class="article__section article__comments">
+
+
+
+        
+        <div class="colored-block__title">
+ <h2 id="sec-comments" class="section__title left-bordered-title">Comments</h2>
+</div>
+
+
+
+
+        
+        <div id="disqus_thread"></div><a href="https://dl.acm.org/doi/pdf/10.1145/3442381.3449934?casa_token=KXyTXTrt1nIAAAAA%3AG8NUl1pPN_3cpWkWxAi9fdRqu1OuNSiWWa_V5-kXE1PCqfIpgqW6jUIvEGzI7UhbkMKKZ8HiKwFt%0A#disqus_thread" class="disqus-count hidden"></a><script>var disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = '10.1145/3442381.3449934';
+    this.page.remote_auth_s3 = '';
+    this.page.api_key = 'MmWj4FlWmXk20FJsmWMXbTJoZT7TVzTsc9Rw0yrJp3L1ZNXZuvmxF3F5rFIF8RqQ';
+};
+(function () {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://acm-prod.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();</script><noscript>Please enable JavaScript to view the<a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript><script id="dsq-count-scr" src="//acm-prod.disqus.com/count.js" async=""></script>
+</div>
+</div><div class="pill-content"><div id="pill-access"><div class="pill-access__content">
+
+
+
+        
+        <div class="pill-access__content"><div class="section__separator"><h3 class="left-bordered-title">Login options</h3><div class="section__content"><p class="info--text">Check if you have access through your login credentials or your institution to get full access on this article.</p><a href="/action/showLogin?redirectUri=/doi/pdf/10.1145/3442381.3449934?casa_token=KXyTXTrt1nIAAAAA%3AG8NUl1pPN_3cpWkWxAi9fdRqu1OuNSiWWa_V5-kXE1PCqfIpgqW6jUIvEGzI7UhbkMKKZ8HiKwFt%0A" title="Sign in" class="btn big btn--inverse">Sign in</a></div></div><div class="section__separator"><h3 class="left-bordered-title">Full Access</h3><div class="section__content"><a href="/action/publisherEcommerceHelper?doi=10.1145/3442381.3449934&amp;redirectUri=https://dl.acm.org/doi/pdf/10.1145/3442381.3449934?casa_token=KXyTXTrt1nIAAAAA%3AG8NUl1pPN_3cpWkWxAi9fdRqu1OuNSiWWa_V5-kXE1PCqfIpgqW6jUIvEGzI7UhbkMKKZ8HiKwFt%0A" title="Get this Publication" class="btn blue big">Get this Publication</a></div></div></div>
+</div></div><div id="pill-information"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-information__contentcon" href="#pill-information__content" aria-controls="pill-information__content" role="tab" data-toggle="tab" title="Information" aria-selected="true" data-simple-tab-id="" tabindex="0">Information</a></li><li role="presentation"><a id="pill-authors__contentcon" href="#pill-authors__content" aria-controls="pill-authors__content" role="tab" data-toggle="tab" title="Authors" aria-selected="false" data-simple-tab-id="" tabindex="-1">Contributors</a></li></ul><ul class="rlist tab__content"><li id="pill-information__content" aria-labelledby="pill-information__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"><div class="pill-information__content"><div class="section__separator"><h3 class="left-bordered-title">Published in</h3><div class="section__content cover-image-proceeding">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3CoverImage" data-widget-id="3095e6f5-a638-4f66-bb85-bbf4b03381ac" class="left-side-image">
+        
+
+
+
+        
+        <div class="cover-image"><div class="cover-image__image"><img src="/specs/products/acm/releasedAssets/images/Default_image_lazy.svg" data-src="/cms/asset/143b6123-79ee-4aca-bbda-688c4234301d/3442381.cover.jpg" alt="cover image ACM Conferences" class="lazy"/></div><div class="cover-image__details"><div class="book-meta">WWW '21: Proceedings of the Web Conference 2021</div><div class="cover-date">April 2021</div><div class="cover-pages">4054  pages</div><div class="cover-image__details-extra"><div class="flex-container"><span class="bold">ISBN:</span><span class="space">9781450383127</span></div><div class="flex-container"><span class="bold">DOI:</span><span class="space">10.1145/3442381</span></div><div class="flex-container"><div><ul class="rlist--inline loa truncate-list" title="list of authors" data-lines="2"><li class="label"><b>Editors: </b></li><li><a href="/profile/81367595814" title="Jure Leskovec"><img class="author-picture" src="/do/10.1145/contrib-81367595814/rel-imgonly/jure-2b.jpg" width="24" height="24" alt="" aria-hidden="true"/><span>Jure Leskovec</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81367595814">Stanford</p></span><span>,</span></li><li><a href="/profile/81100130232" title="Marko Grobelnik"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Marko Grobelnik</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81100130232">Jožef Stefan Institute</p></span><span>,</span></li><li><a href="/profile/81100303448" title="Marc Najork"><img class="author-picture" src="/do/10.1145/contrib-81100303448/rel-imgonly/81100303448.jpg" width="24" height="24" alt="" aria-hidden="true"/><span>Marc Najork</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81100303448">Google</p></span><span>,</span></li><li><a href="/profile/99660553175" title="Jie Tang"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Jie Tang</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-99660553175">Tsinghua University</p></span><span>,</span></li><li><a href="/profile/81375596894" title="Leila Zia"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Leila Zia</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81375596894">Wikimedia Foundation</p></span></li></ul></div></div></div><div class="pb-dropzone" data-pb-dropzone="metadataDisplayExtra" title="metadataDisplayExtra"></div></div></div>
+
+        </div>
+    
+<p class="copyrights small">Copyright © 2021 ACM</p></div></div><div class="section__separator proceedingInfo-sponsors hidden"><h3 class="left-bordered-title">Sponsors</h3><ul class="proceedingInfo-sponsors__list"></ul></div><div class="section__separator proceedingInfo-inCoop hidden"><h3 class="left-bordered-title">In-Cooperation</h3><ul class="proceedingInfo-inCoop__list"></ul></div><div class="section__separator"><h3 class="left-bordered-title">Publisher</h3><div class="section__content publisher"><div class="inlineBlock"></div><div class="inlineBlock"><p class="publisher__name">Association for Computing Machinery</p><p class="publisher__address">New York, NY, United States</p></div></div></div>
+
+<div class="section__separator"><h3 class="left-bordered-title">Author Tags</h3><div class="section__content"><div class="tags-widget"><div class="tags-widget__content"><ul class="rlist--inline"><li><a href="/keyword/multi-objective optimization?expand=all" title="multi-objective optimization" class="badge-type">multi-objective optimization</a></li><li><a href="/keyword/multi-agent reinforcement learning?expand=all" title="multi-agent reinforcement learning" class="badge-type">multi-agent reinforcement learning</a></li><li><a href="/keyword/Charging station recommendation?expand=all" title="Charging station recommendation" class="badge-type">Charging station recommendation</a></li></ul></div></div></div></div><div class="section__separator"><h3 class="left-bordered-title">Qualifiers</h3><ul class="qualifiers__list"><li class="capitalized qualifiers__list__item">research-article</li><li class="qualifiers__list__item">Research</li><li class="qualifiers__list__item capitalized">Refereed limited</li></ul></div><div class="section__separator proceedingInfo-conference hidden"><h3 class="left-bordered-title">Conference</h3></div><div class="section__separator funding-sources hidden"><h3 class="left-bordered-title">Funding Sources</h3><ul class="funding-list"></ul></div></div></li><li id="pill-authors__content" aria-labelledby="pill-authors__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><div class="pill-authors__content"><div class="section__separator"><div class="pill-authors-list"><div class="expandable-accordion"><div class="pill-normalized-authors">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3BibliometricsWidget" data-widget-id="e7d55c1d-243e-4d38-8e1f-59bc13f4487e" class="contrib-metrics-bibliometrics">
+        
+
+
+
+        
+        <div class="contrib-metrics-wrapper accordion-tabbed__tab">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="f156d5b7-4ebc-4825-9820-acb30ea65641" class="clearfix">
+        
+
+
+
+        
+        <h2 class="left-bordered-title pull-left">Contributor Metrics</h2><a class="pull-right expand-all" href="/" aria-expanded="false">Expand All </a>
+
+        </div>
+    
+<div data-sectionname="Authors" data-numberOfLiToShow="4"><div class="contrib-metrics-bibliometrics"><div class="accordion authors-accordion"><ul class="accordion-tabbed rlist loa clearfix"><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659730658"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659730658">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659730658" title="Expand to see Bibliometrics: publication history">Weijia  Zhang</a>
+        </span>
+        <span class="info--text auth-institution">
+             University of Science and Technology of China 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-0_Ctrl" style="display: none;" id="adItem-0" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2021 - 2021</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">2</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">2</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">9</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">1,112</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">161</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">683</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">5</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">556</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659730658" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659566196"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659566196">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659566196" title="Expand to see Bibliometrics: publication history">Hao  Liu</a>
+        </span>
+        <span class="info--text auth-institution">
+             Baidu, Inc. 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-1_Ctrl" style="display: none;" id="adItem-1" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2012 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">17</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">12</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">104</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">6,721</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">439</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">2,241</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">6</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">560</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659566196" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659573679"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659573679">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659573679" title="Expand to see Bibliometrics: publication history">Fan  Wang</a>
+        </span>
+        <span class="info--text auth-institution">
+             Baidu, Inc. 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-2_Ctrl" style="display: none;" id="adItem-2" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2020 - 2021</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">5</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">4</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">69</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">4,707</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">424</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">1,873</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">14</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">1,177</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659573679" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-81550320556"/>
+    <div class="auth-image">
+        
+            <a href="/profile/81550320556">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/81550320556" title="Expand to see Bibliometrics: publication history">Tong  Xu</a>
+        </span>
+        <span class="info--text auth-institution">
+             University of Science and Technology of China 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-3_Ctrl" style="display: none;" id="adItem-3" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2012 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">57</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">34</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">421</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">17,215</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">1,906</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">7,509</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">7</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">506</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/81550320556" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659731422"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659731422">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659731422" title="Expand to see Bibliometrics: publication history">Haoran  Xin</a>
+        </span>
+        <span class="info--text auth-institution">
+             University of Science and Technology of China 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-4_Ctrl" style="display: none;" id="adItem-4" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2021 - 2021</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">1</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">1</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">8</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">758</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">133</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">519</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">8</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">758</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659731422" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-81100541628"/>
+    <div class="auth-image">
+        
+            <a href="/profile/81100541628">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/81100541628" title="Expand to see Bibliometrics: publication history">Dejing  Dou</a>
+        </span>
+        <span class="info--text auth-institution">
+             University of Oregon 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-5_Ctrl" style="display: none;" id="adItem-5" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2002 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">84</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">34</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">431</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">12,452</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">625</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">3,032</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">5</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">366</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/81100541628" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-81451596433"/>
+    <div class="auth-image">
+        
+            <a href="/profile/81451596433">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/81451596433" title="Expand to see Bibliometrics: publication history">Hui  Xiong</a>
+        </span>
+        <span class="info--text auth-institution">
+             Rutgers University-Newark Campus 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-6_Ctrl" style="display: none;" id="adItem-6" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2003 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">286</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">167</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">5,644</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">130,268</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">4,978</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">21,739</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">20</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">780</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/81451596433" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li></ul></div></div></div>
+
+
+
+</div>
+
+        </div>
+    
+</div><!--.pill-all-authors.authors-accordion.disable-truncate.hidden(aria-hidden="true")--><!--    if(data.item && data.item.contribsFull)--><!--        | !{data.item.contribsFull}--></div></div></div><div class="section__separator"><h3 class="left-bordered-title">Other Metrics</h3><div class="section__content badges"><a href="#pill-bibliometrics__contentcon" data-slide-target="#pill-metric" data-tab="pill-bibliometrics__content" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="btn big stretched btn--inverse w-slide__btn tab-link pill-content">View Article Metrics</a></div></div></div></li></ul></div></div><div id="pill-metric"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-bibliometrics__contentcon" href="#pill-bibliometrics__content" aria-controls="pill-bibliometrics__content" role="tab" data-toggle="tab" title="Bibliometrics" aria-selected="true" data-simple-tab-id="" tabindex="0">Bibliometrics</a></li><li role="presentation"><a id="pill-citations__contentcon" href="#pill-citations__content" data-ajaxurl="/action/ajaxShowCitedBy?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&amp;ajax=true&amp;doi=10.1145%2F3442381.3449934&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3449934%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" data-component="pubAjaxContent" data-ajaxtarget="#pill-citations__content .citedBy" aria-controls="pill-citations__content" role="tab" data-toggle="tab" title="Citations" aria-selected="false" data-simple-tab-id="" tabindex="-1" class="loadAjax loadLazyAjax">Citations<span class="citation-count count-bubble">8</span></a></li></ul><ul class="rlist tab__content"><li id="pill-bibliometrics__content" aria-labelledby="pill-bibliometrics__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"><div class="pill-bibliometrics__content"><div class="section__separator"><h3 class="left-bordered-title">Article Metrics</h3><div class="section__content"><ul class="rlist--inline article-metrics"><li><div class="article-metric citation"><div class="metric-value"><span>8</span></div>Total Citations</div><a href="#pill-citations__contentcon" data-tab="pill-citations__content" data-slide-target="#pill-metric" data-full-screen="false" data-ctrl-res="screen-xlg" class="primary-blue-color w-slide__btn tab-link slide-active pill-content">View Citations</a></li><li><div class="article-metric download"><div class="metric-value"><span>758</span></div>Total Downloads</div></li></ul><ul class="rlist metrics__list"><li><span class="metric-name">Downloads (Last 12 months)</span><span class="metric-value">519</span></li><li><span class="metric-name">Downloads (Last 6 weeks)</span><span class="metric-value">133</span></li></ul></div></div><div class="section__separator"><h3 class="left-bordered-title">Other Metrics</h3><div class="section__content"><a href="#pill-authors__contentcon" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-tab="pill-authors__content" data-full-screen="false" data-label="&lt;i class=&quot;icon-Icon_Information &quot;&gt;&lt;/i&gt;Information &amp; Authors" class="btn big stretched btn--inverse w-slide__btn tab-link pill-content">View Author Metrics</a></div></div></div></li><li id="pill-citations__content" aria-labelledby="pill-citations__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><div class="pill-citations__content"><div class="section__separator"><div class="header-container"><h3 class="left-bordered-title citedBy-label">Cited By</h3><a id="downloadAll" href="/action/ajaxShowCitedBy?doi=10.1145/3442381.3449934" target="_blank" title="View all cited by in new tab" class="btn btn--rounded ml-0 mt-0 mb-0 pl-2 blue pull-right">View all<i class="icon-export ml-2"></i></a><ol class="rlist references__list citedBy mt-5"></ol></div></div></div></li></ul></div></div><div id="pill-formats"><div class="pill-formats__content"><div class="section__separator de-format hidden"><h3 class="left-bordered-title">Digital Edition</h3><div class="section__content"><p class="info--text">View this article in digital edition.</p><a href="#" title="View Digital Edition" class="btn big stretched blue"><i aria-hidden="true" class="icon-open-book"></i>View Digital Edition</a></div></div><div class="section__separator"><h3 class="left-bordered-title">HTML Format </h3><div class="section__content"><p class="info--text">View this article in HTML Format .</p><a href="/doi/fullHtml/10.1145/3442381.3449934" title="ViewHTML Format " class="btn big stretched blue"><i aria-hidden="true" class="icon-html"></i>View HTML Format </a></div></div></div></div><div id="pill-references"><div class="pill-references__content"></div></div><div id="pill-media"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-fig__contentcon" href="#pill-fig__content" aria-controls="pill-fig__content" role="tab" data-toggle="tab" title="Figures" aria-selected="true" data-simple-tab-id="" tabindex="0">Figures</a></li><li role="presentation"><a id="pill-media__contentcon" href="#pill-media__content" aria-controls="pill-media__content" role="tab" data-toggle="tab" title="Other" aria-selected="false" data-simple-tab-id="" tabindex="-1">Other</a></li></ul><div class="pill-figures__content"><ul class="rlist tab__content"><li id="pill-fig__content" aria-labelledby="pill-fig__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"></li><li id="pill-media__content" aria-labelledby="pill-media__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><ul class="rlist pill-media__content"></ul></li></ul></div></div></div><div id="pill-tables"><div class="pill-tables__content"></div></div><div id="pill-share"><div class="pill-share__content"><div class="section__separator"><h3 class="left-bordered-title">Share this Publication link</h3><div class="section__content copy__text-wrapper"><fieldset><p id="shareable-link__text" class="copy__text">https://dl.acm.org/doi/pdf/10.1145/3442381.3449934?casa_token=KXyTXTrt1nIAAAAA%3AG8NUl1pPN_3cpWkWxAi9fdRqu1OuNSiWWa_V5-kXE1PCqfIpgqW6jUIvEGzI7UhbkMKKZ8HiKwFt%0A</p><button type="submit" class="btn big btn--inverse copy__btn"><i aria-hidden="true" class="icon-pages"></i>Copy Link</button></fieldset></div></div><div class="section__separator"><h3 class="left-bordered-title">Share on Social Media</h3><div class="section__content"><div class="visible-service-name">
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" defer="defer" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><div class="share__block share__inline-links"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><div class="rlist--inline addthis addthis_toolbox addthis_default_style addthis_32x32_style"><a role="link" class="addthis_button_twitter"></a><a role="link" class="addthis_button_linkedin"></a><a role="link" class="addthis_button_reddit"></a><a role="link" class="addthis_button_facebook"></a><a role="link" class="addthis_button_email"></a><div class="pb-dropzone" data-pb-dropzone="share-additional-links" title="share-additional-links"></div></div></div>
+</div></div></div></div></div></div></div><div class="col-sm-2 pill-section"><div data-stop-on=".more-issue__section" class="pill-icons"><ul class="rlist pill-list"><li title="Information &amp; Authors"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-full-screen="false" title="Information and Authors" data-label="&lt;i class=&quot;icon-Icon_Information&quot;&gt;&lt;/i&gt;Information &amp; Authors" class="w-slide__btn pill-information"><i aria-hidden="true" class="icon-Icon_Information"></i></button></li><li title="Bibliometrics &amp; Citations"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" title="Bibliometrics and Citations" class="w-slide__btn pill-metric"><i aria-hidden="true" class="icon-metric"></i></button></li><li title="Get Access"><a href="javascript:void(0);" data-slide-target="#pill-access" data-ctrl-res="screen-xlg" data-full-screen="false" title="Get Access" data-label="&lt;i class=&quot;icon-get-access&quot;&gt;&lt;/i&gt;Get Access" class="w-slide__btn pill-access"><i class="icon-get-access"></i></a></li><li title="References"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-references" data-ctrl-res="screen-xlg" data-full-screen="false" title="References" data-label="&lt;i class=&quot;icon-Icon_Links-References&quot;&gt;&lt;/i&gt;References" class="w-slide__btn pill-references"><i aria-hidden="true" class="icon-Icon_Links-References"></i><span class="refNum count-bubble">0<span class="sr-only">References</span></span></button></li><li title="Media"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-media" data-ctrl-res="screen-xlg" data-full-screen="false" title="Media" data-label="&lt;i class=&quot;icon-Icon_Images&quot;&gt;&lt;/i&gt;Media" data-ajaxtarget="#pill-fig__content" data-component="pubAjaxContent" data-action="onResponse" data-ajaxurl="/action/ajaxShowFigures?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&amp;ajax=true&amp;doi=10.1145%2F3442381.3449934&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3449934%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="w-slide__btn loadAjax-auto pill-media"><i aria-hidden="true" class="icon-Icon_Images"></i></button></li><li title="Tables"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-tables" data-ctrl-res="screen-xlg" title="Tables" data-full-screen="false" data-label="&lt;i class=&quot;icon-table&quot;&gt;&lt;/i&gt;Tables" data-ajaxtarget=".pill-tables__content" data-component="pubAjaxContent" data-action="onResponse" data-ajaxurl="/action/ajaxShowTables?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&amp;ajax=true&amp;doi=10.1145%2F3442381.3449934&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3449934%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="w-slide__btn loadAjax-auto pill-tables"><i aria-hidden="true" class="icon-table"></i></button></li><li title="Share"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-share" data-ctrl-res="screen-xlg" data-full-screen="false" title="Share" data-label="&lt;i class=&quot;icon-Icon_Share&quot;&gt;&lt;/i&gt;Share" class="w-slide__btn pill-share pill-content"><i aria-hidden="true" class="icon-Icon_Share"></i></button></li></ul></div></div></div></article><div id="figure-viewer" data-ux3-wrapper="figure-viewer" data-ux3-transformed-by="figureInit" data-ux3-role="parent" role="dialog" class="figure-viewer"><div class="figure-viewer__reg__top clearfix"><div class="figure-viewer__top__right"><a title="Zoom In" href="#" class="figure-viewer__ctrl figure-viewer__ctrl__zoom zoomSetting"><div aria-hidden="true" class="icon-zoom-in zoom-in"></div></a><a title="Zoom Out" href="#" class="figure-viewer__ctrl figure-viewer__label__zoom zoomSetting"><div aria-hidden="true" class="icon-zoom-out zoom-out"></div></a><a title="Open Caption" href="#" class="figure-viewer__ctrl figure-viewer__ctrl__caption"><i aria-hidden="true" class="icon-Icon_Information"></i></a><a href="#" data-ux3-role="controller" role="button" title="close" class="figure-viewer__ctrl figure-viewer__ctrl__close"><i aria-hidden="true" class="icon-cancel-bold"><span class="sr-only">Close Figure Viewer</span></i></a></div><h4 class="figure-viewer__top__center"></h4><div class="figure-viewer__top__left"><a href="#" role="button" title="Browse All" class="figure-viewer__ctrl__browse"><i aria-hidden="true" class="icon-grid-3"><span class="sr-only">Browse All</span></i></a><a href="#" role="button" title="Return" class="figure-viewer__ctrl__return is-hidden"><i aria-hidden="true" class="icon-cancel-bold"><span class="sr-only">Return</span></i></a><span class="zoomSlider js__zoom-slider ui-slider zoomSetting"><label for="figure-viewer__zoom-range" class="sr-only">Change zoom level</label><input type="range" id="figure-viewer__zoom-range" class="zoom-range"/></span></div></div><div class="figure-viewer__reg__center"><div class="figure-viewer__cent__left"><div class="figure-viewer__hold__fig"><div class="holder"></div></div><div class="figure-viewer__hold__list"><h3 class="figure-viewer__browse-title"></h3><div class="flex-grid"></div></div></div><div class="figure-viewer__cent__right"><div class="figure-viewer__caption-header"><h3 class="figure-viewer__caption-label">Caption</h3><a title="Close Caption" href="#" class="pull-right figure-viewer__close-caption figure-viewer__ctrl__caption"><i aria-hidden="true" class="icon-cancel-bold"></i></a></div><div class="figure-viewer__caption-wrapper"><div class="figure-viewer__title"><span class="figure-viewer__title__text"></span></div><div class="figure-viewer__hold__figcap"></div></div></div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="separated-block--dashed align-center"><a href="/doi/proceedings/10.1145/3442381" style="text-transform: capitalize;" class="btn btn--inverse big">View Table of Contents</a></div>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3combinedRecommendationsWidget" data-widget-id="bf2b14e9-d9dc-4518-8bb0-d9b157f47c7e" class="recommendations" data-show-id="sec-ref">
+        
+
+
+
+        
+        <div data-ajaxurl="/pb/widgets/lazyLoadRecommended?widgetId=bf2b14e9-d9dc-4518-8bb0-d9b157f47c7e&amp;doi=10.1145%2F3442381.3449934&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3442381.3449934%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Btopic%3Atopic%3Aconference-collections%26gt%3Bwww%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3442381%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="recommended--lazyLoad"></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div role="dialog" aria-labelledby="exportCitationsPopup" class="ux-modal-container"><div id="exportCitation" class="modal"><div class="modal__dialog"><div class="modal__header"><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" aria-label="close popup" class="icon-close_thin"></i></button><h2 id="exportCitationsPopup">Export Citations</h2></div><div class="modal__body"><div class="exportCitation__tabs"><div class="tab"><ul role="tablist" class="rlist tab__nav"></ul></div><div class="csl-wrapper copy__text-wrapper"><form action="/action/exportCiteProcCitation" method="post" target="_blank"><input type="hidden" name="content" value=""/><input type="hidden" name="dois" value=""/><input type="hidden" name="format" value=""/><fieldset class="input-group"><label for="citation-format" class="visibility-hidden">Select Citation format</label><select id="citation-format" data-csl-doi="10.1145/3442381.3449934"><option value="bibtex" data-format="bibTex">BibTeX</option><option value="endNote" data-format="endNote">EndNote</option><option value="acm" data-format="text">ACM Ref</option></select><span class="select-arrow"><i class="icon-bottom-arrow"></i></span></fieldset><ul class="rlist tab__content"><li id="allResultstab" aria-labelledby="allResults" role="tabpanel" class="tab__pane"><div class="all-results-tab-container"><div class="desc-text"><div class="bold">Preview is not available.</div>By clicking download,<b class="ml-1">a new tab</b> will open to start the export process. The process may take<b class="ml-1">a few minutes</b> but once it finishes a file will be downloaded on your browser so<b class="ml-1">please do not close the new tab.</b></div><a href="#" title="Download" target="_blank" class="btn transparent downloadBtn"><i aria-hidden="true" class="icon-Icon_Download"></i>Download<i aria-hidden="true" class="icon-export"></i></a></div></li><li id="selectedTab" aria-labelledby="selected" role="tabpanel" class="tab__pane active"><div class="csl-wrapper copy__text-wrapper"><pre class="copy__text csl-response"></pre><div id="export-warning"></div><div class="pull-right"><ul class="rlist--inline separator"><li><a href="javascript:void(0)" role="menuitem" title="Download citation" class="download__btn disabled"><label class="visibility-hidden">Download citation</label><i aria-hidden="true" class="icon-Icon_Download"></i></a></li><li><input type="hidden" id="doisLimitNumber" value="-1"/><a href="javascript:void(0)" role="menuitem" title="Copy citation" class="copy__btn disabled"><label class="visibility-hidden">Copy citation</label><i aria-hidden="true" class="icon-pages"></i></a></li></ul></div></div></li></ul></form></div></div></div></div></div></div>
+</main>
+
+
+
+
+        
+        <footer class="footer">
+
+
+
+        
+        <div class="back-to-top clearfix">
+    <i class="icon-arrow_u_p"></i>
+</div>
+
+
+
+
+        
+        <div class="footer-top">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="81a18a14-d709-41fd-9bb6-25a7fc1e13df" class="container">
+        
+
+
+
+        
+        <div class="row sitemap">
+
+
+
+        
+        <div class="col-sm-2 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="5b00ef28-f63b-4518-bd06-da82035f86ca" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">Categories</div>
+<ul class="rlist">
+    <li><a href="/journals" title="Browse a listing of ACM’s Journals">Journals</a></li>
+    <li><a href="/magazines" title="Browse ACM's Magazines">Magazines</a></li>
+    <li><a href="/acmbooks" title="Browse new Releases of ACM Books">Books</a></li>
+    <li><a href="/proceedings" title="Browse the ACM Proceedings">Proceedings</a></li>
+    <li><a href="/sigs" title="Browse the Special Interest Groups">SIGs</a></li>
+    <li><a href="/conferences" title="Browse the Conferences">Conferences</a></li>
+    <li><a href="/collections" title="Browse the Special Collections">Collections</a></li>
+    <li><a href="/people" title="Discover ACM’s community of authors">People</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-4 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="731f98d3-e996-490d-a071-e9b966b32e2d" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">About</div>
+<ul class="rlist">
+    <li><a href="/about">About ACM Digital Library</a></li>
+    <li><a href="/about/dlboard" title="ACM DL Board - Governance and Support Staff">ACM Digital Library Board</a></li>
+    <li><a href="/about/access" title="Accessing the DL">Subscription Information</a></li>
+    <li><a href="https://www.acm.org/publications/authors/information-for-authors" title="Information for Authors">Author Guidelines</a></li>
+    <li><a href="/about/access" title="Accessing the DL">Using ACM Digital Library</a></li>
+    <li><a href="/about/content#sec2">All Holdings within the ACM Digital Library</a></li>
+    <li><a href="/ccs" title="Classify publications using ACM's Computing Classification System">ACM Computing Classification System</a></li>
+     <li><a href="/about/accessibility" title="Digital Library Accessibility">Digital Library Accessibility</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-3 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="d4ed040d-22e8-481c-a7ef-0cac141f5246" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">Join</div>
+<ul class="rlist">
+    <li><a href="https://www.acm.org/membership/join">Join ACM</a></li>
+    <li><a href="https://www.acm.org/special-interest-groups/join">Join SIGs</a></li>
+    <li><a href="https://www.acm.org/publications/subscribe">Subscribe to Publications</a></li>
+    <li><a href="https://libraries.acm.org/">Institutions and Libraries</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-3 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="4a649bf1-cf3f-472c-b764-dc3ab0cf4310" class="sitemap__data">
+        
+
+
+
+        
+        <b>Connect</b>
+<ul class="rlist social-media__connect">
+    <li><a href="/cdn-cgi/l/email-protection#ceaaa2e3baabafa38ea6bfe0afada3e0a1bca9" title="email dl team"><i class="icon-Icon_mail" aria-hidden="true"></i><span>Contact</span></a></li>
+    <li><a href="https://www.facebook.com/AssociationForComputingMachinery/" title="ACM on facebook"><i class="icon-facebook" aria-hidden="true"></i><span>Facebook</span></a></li>
+    <li><a href="https://twitter.com/acmdl" title="Tweets from ACM DL"><i class="icon-twitter" aria-hidden="true"></i><span>Twitter</span></a></li>
+    <li><a href="https://www.linkedin.com/company/association-for-computing-machinery/" title="acm  linkedin"><i class="icon-linkedin" aria-hidden="true"></i><span>Linkedin</span></a></li>
+    <!--li><a href="#" title="icon-Rss"><i class="icon-Rss" aria-hidden="true"></i><span>RSS</span></a></li-->
+    <li><a onclick="srv.openModal(true,'02b075ed48492ef0e7598ddf9762f5ef668d7320')" title="Provide Feedback"><i class="icon-Icon_Information" aria-hidden="true"></i><span>Feedback</span></a></li>
+    <li><a onclick="srv.openModal(true,'02b075ed48492ef0e7598ddf9762f5ef668d7320')" title="Report a problem"><i class="icon-Icon_Information" aria-hidden="true"></i><span>Bug Report</span></a></li>
+</ul>
+
+        </div>
+    
+</div>
+</div>
+
+        </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="6e6da9b7-371e-4ea0-827e-8de5915b8cd5" class="footer-bottom text-onDark">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class="col-md-8 col-sm-6 footer__copyright-wrapper">
+
+
+
+        
+        <div class="copyright">The ACM Digital Library is published by the Association for Computing Machinery. Copyright © 2023 ACM, Inc.</div>
+<ul class="rlist--inline">
+    <li><a href="https://libraries.acm.org/digital-library/policies#anchor3">Terms of Usage</a></li>
+    <li><a href="https://www.acm.org/about-acm/privacy-policy">Privacy Policy</a></li>
+    <li><a href="https://www.acm.org/code-of-ethics">Code of Ethics</a></li>
+</ul>
+</div><div class="col-md-4 col-sm-6 footer__logos-wrapper">
+
+
+
+        
+        <div class="logos">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="42d543b3-ff9d-4f92-bf03-6d1fa00da8c6" class="footer__logo1">
+        
+
+
+
+        
+        <a href="/" title="ACM Digital Library home"><img id="" alt="ACM Digital Library home" src="/specs/products/acm/releasedAssets/images/acm-logo-dl.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="5a0bc5df-cd95-408f-8ae5-8b1f40746519" class="footer__logo2">
+        
+
+
+
+        
+        <a href="https://www.acm.org" title="ACM home"><img id="" alt="ACM home" src="/specs/products/acm/releasedAssets/images/acm-logo-3.png"/></a>
+
+        </div>
+    
+</div>
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <!-- Mopinion Pastea.se  start --><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">(function(){var id="7zt4vp6rxi2bbpxuy9yzabob4fy2enwmumr";var js=document.createElement("script");var pbBtn=document.querySelector('.admin-bar-disclosure');if(!window.PB){js.setAttribute("src","//deploy.mopinion.com/js/pastease.js");document.getElementsByTagName("head")[0].appendChild(js);var t=setInterval(function(){try{new Pastease.load(id);clearInterval(t)}catch(e){}},50)}})();
+    </script><!-- Mopinion Pastea.se end -->
+</footer>
+
+
+
+
+        
+        <script type="text/javascript">
+(function(h,o,t,j,a,r){
+    h.hj=h.hj||function()
+    
+    {(h.hj.q=h.hj.q||[]).push(arguments)}
+    ;
+    h._hjSettings={hjid:1290436,hjsv:6};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+
+
+        
+        <script type="text/javascript">
+    (function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script");
+    var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+    s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+    s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+    w.lazyLoadOptions = {elements_selector: ".lazy", "class_loaded": "image-lazy-loaded"};
+    b.appendChild(s);
+}(window, document));
+</script>
+
+
+
+
+        
+        
+
+
+
+
+        
+        <div class="cookiePolicy-popup"><div class="cookiePolicy-popup__header"><i aria-hidden="true" class="icon-cookie"></i><span aria-label="About Cookies On This Site" class="cookiePolicy-popup__title">About Cookies On This Site</span></div><div aria-label="Cookie Policy Body" class="cookiePolicy-popup__body clearfix"><p><p>We use cookies to ensure that we give you the best experience on our website.</p>
+<p><a href="https://www.acm.org/privacy-policy" class="blue link">Learn more</a></p></p><a href="#" class="btn blue cookiePolicy-popup__close pull-right">Got it!</a></div></div>
+
+
+
+
+        
+        
+
+
+
+        
+    
+
+
+
+
+
+        
+        <div class="affs-popup"><input id="deleteCookie" type="hidden" name="deleteCookie" value="true"/></div>
+        </div>
+    </div>
+
+
+	
+    <script>if (typeof define !== 'undefined' && define.amd)
+    define.amd = false</script><script src="/products/acm/releasedAssets/js/main.bundle-7802229da98c6207291f.js"></script><script>(function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script");
+    var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+    s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+    s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+    w.lazyLoadOptions = {elements_selector: ".lazy", "class_loaded": "image-lazy-loaded"};
+    b.appendChild(s);
+}(window, document));</script>
+<script type="text/javascript" src="/wro/lwf4~product.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(() => setTimeout(() => {
+            let _bnw=window,_bna=atob("bG9jYXRpb24="),_bnb=atob("b3JpZ2lu"),_hn=_bnw[_bna][_bnb],_bnt=btoa(_hn+new Array(5 - _hn.length % 4).join(" "));
+            $.get("/resource/lodash?t="+_bnt);
+        },4000));
+    </script>
+
+
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'7881dd3d997f7791',m:'_rU9is.wioVySxf.JzOCF5E3RL3blkjE9zdOA6lnxpo-1673484272-0-ASXoLg2dOWhRbpKcXkApfRywzk8TgOMQjP1azuPuedMXd8VMPrTVmmUJIQvQ4DLtLaz+t3WIgtg3xxm2RQ8t5/6SX/3Pg7LIeTbh8JdV2PsV6m7o2ryDen0qlWH7SbNWZ0aqmkoiqY7lsKcPY3nl/sdAfp38XKHDDuBwcJbAaf50taQwDlmuOWLcX4PCIQ6EWHvU+PKtfdWstUm2leDLTlm+3d8nRFI5f2MA819KkdZ2bA1UxP/CgtIJ2WjqNq1cnBvjzM4/7nt5GNloZFvw9rK+787efSJHn7+WrMAtLdzT',s:[0x532ff3722e,0x72a0188203],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7881dd3d997f7791","token":"b7f168b3cd354a55a4dd51b513830799","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

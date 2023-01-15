@@ -1,0 +1,3 @@
+S^3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization
+U-BERT Pre-Training User Representations for Improved Recommendation
+Pre-Training Graph Neural Networks for Cold-Start Users and Items Representation

@@ -1,0 +1,3 @@
+GAME: Learning Graphical and Attentive Multi-view Embeddings for Occasional Group Recommendation
+GroupIM: A Mutual Information Maximizing Framework for Neural Group Recommendation
+Group-Aware Long- and Short-Term Graph Representation Learning for Sequential Group Recommendation

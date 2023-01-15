@@ -1,0 +1,19 @@
+LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation
+Deep Critiquing for VAE-based Recommender Systems
+Neighbor Interaction Aware Graph Convolution Networks for Recommendation
+A Framework for Recommending Accurate and Diverse Items Using Bayesian Graph Convolutional Neural Networks
+Dual Channel Hypergraph Collaborative Filtering
+Probabilistic Metric Learning with Adaptive Margin for Top-K Recommendation
+Content-Collaborative Disentanglement Representation Learning for Enhanced Recommendation
+Neural Collaborative Filtering vs
+Bilateral Variational Autoencoder for Collaborative Filtering
+Learning User Representations with Hypercuboids for Recommender Systems
+Local Collaborative Autoencoders
+A Scalable, Adaptive and Sound Nonconvex Regularizer for Low-rank Matrix Completion
+HGCF: Hyperbolic Graph Convolution Networks for Collaborative Filtering
+High-dimensional Sparse Embeddings for Collaborative Filtering
+Collaborative Filtering with Preferences Inferred from Brain Signals
+Interest-aware Message-Passing GCN for Recommendation
+Neural Collaborative Reasoning
+Sinkhorn Collaborative Filtering
+Disentangling User Interest and Conformity for Recommendation with Causal Embedding

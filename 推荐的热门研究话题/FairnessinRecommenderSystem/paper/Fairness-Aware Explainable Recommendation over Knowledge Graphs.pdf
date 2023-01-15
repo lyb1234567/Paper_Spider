@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en"     class="pb-page"  data-request-id="a396c771-d037-41d9-84ce-c27cb4751d00"  
+><head data-pb-dropzone="head"><meta name="pbContext" content=";taxonomy:taxonomy:conference-collections;wgroup:string:ACM Publication Websites;groupTopic:topic:acm-pubtype&gt;proceeding;subPage:string:Access Denial;ctype:string:Book Content;page:string:Article/Chapter View;issue:issue:doi\:10.1145/3397271;article:article:doi\:10.1145/3397271.3401051;csubtype:string:Conference Proceedings;website:website:dl-site;topic:topic:conference-collections&gt;ir;journal:journal:acmconferences;pageGroup:string:Publication Pages"/>
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"></link><meta name="dc.Format" content="text/HTML"></meta><meta name="dc.Identifier" scheme="acm-id" content="3401051"></meta><meta name="dc.Identifier" scheme="doi" content="10.1145/3397271.3401051"></meta><meta name="dc.Language" content="EN"></meta><meta name="dc.Coverage" content="world"></meta><!-- ${citation_fulltext_world_readable:10.1145/3397271.3401051} -->
+
+
+
+
+
+
+<style id="pb-theme">
+.theme {
+
+}
+</style>
+
+<title>Fairness-Aware Explainable Recommendation over Knowledge Graphs | Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval</title>
+
+
+
+
+
+
+<meta charset="UTF-8">
+<meta name="robots" content="noarchive,noindex,nofollow"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <meta property="og:title" content="Fairness-Aware Explainable Recommendation over Knowledge Graphs | Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval"/>
+    
+
+
+        <meta property="og:type" content="Chapter"/>
+    
+
+
+        <meta property="og:url" content="https://dl.acm.org/doi/10.1145/3397271.3401051"/>
+    
+
+        <meta property="og:image" content="https://dl.acm.org/cms/asset/66313e21-2734-4e06-b4f9-60505b8ed571/3397271.cover.jpg" />
+        
+            <meta property="og:image:width" content="73" />
+            <meta property="og:image:height" content="94" />
+        
+    
+
+
+        <meta property="og:site_name" content="ACM Conferences"/>
+    
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="/products/acm/releasedAssets/css/build-10b34c3531a1779749cd.css"/><link rel="stylesheet" href="/products/acm/releasedAssets/css/print-10b34c3531a1779749cd.css" media="print"/>
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="/pb-assets/styles/acm-custom-1671447210097.css">
+<script defer src="https://scholar.google.com/scholar_js/casa.js" async></script>
+<script type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+      heap.load("1083010732");
+</script>
+<link rel="apple-touch-icon" sizes="180x180" href="/pb-assets/head-metadata/apple-touch-icon-1574252172393.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/pb-assets/head-metadata/favicon-32x32-1574252172003.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/pb-assets/head-metadata/favicon-16x16-1574252172937.png">
+<link rel="manifest" href="/pb-assets/head-metadata/site-1574252171130.webmanifest" crossorigin="use-credentials">
+<link rel="mask-icon" href="/pb-assets/head-metadata/safari-pinned-tab-1574252171193.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="theme-color" content="#ffffff">
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6e539318ac0a38db","token":"b7f168b3cd354a55a4dd51b513830799","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+
+    <!-- Google Tag Manager -->
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NFGCMX');</script>
+    <!-- End Google Tag Manager -->
+
+
+
+
+
+</head>
+<body class="pb-ui">
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFGCMX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    if(false) {
+        document.getElementById("skipNavigationLink").onclick =function skipElement () {
+            var element = document.getElementById('');
+            if(element == null || element == undefined) {
+                element = document.getElementsByClassName('').item(0);
+            }
+            element.setAttribute('tabindex','0');
+            element.focus();
+
+        }
+
+    }
+
+</script>
+
+
+
+
+
+    <div id="pb-page-content" data-ng-non-bindable>
+        <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        <header data-widget-def="ux3-layout-widget" data-widget-id="88f434fd-b4d9-4f0e-b7b6-cde0fadcc9ef" class="header base ir">
+        
+
+
+
+        
+        <div class="header__fixed-items fixed fixed-element">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="c844bab8-b1d5-4df4-8bea-71f6156459e4" class="container header--first-row">
+        
+
+
+
+        
+        <div class="pull-left">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="83eada61-9003-4cb3-99a8-a38fa7692761" class="header__logo1">
+        
+
+
+
+        
+        <a href="/" title="ACM Digital Library home"><img id="" alt="ACM Digital Library home" src="/specs/products/acm/releasedAssets/images/acm-dl-logo-white.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="5517ee17-e847-46ff-b42e-c5a6754e032d" class="header__logo2">
+        
+
+
+
+        
+        <a href="https://www.acm.org" title="ACM home"><img id="" alt="ACM home" src="specs/products/acm/releasedAssets/images/acm-logo-1.png"/></a>
+
+        </div>
+    
+</div><div class="pull-right">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="ab4ba9a1-6e57-4b90-b9c2-fc7914d9a3a1" class="header__quick-menu text-onDark">
+        
+
+
+
+        
+        <ul class="rlist--inline"><li class="advanced-search-link hidden-lg hidden-md hidden-sm">
+
+
+
+        
+        <a href="/search/advanced" >Advanced Search</a>
+</li><li class="show-on-mobile">
+
+
+
+        
+        <a href="/browse/" title="browse by title or publisher">Browse</a>
+</li><li class="show-on-mobile">
+
+
+
+        
+        <a href="/about" title="About the ACM Digital Library">About</a>
+</li><li class="login-list">
+
+
+
+        
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropBlock loginBar login-open">
+    <ul class="rlist--inline">
+        <li class="login-link">
+            <a href="/action/showLogin?redirectUri=%2Fdoi%2Fpdf%2F10.1145%2F3397271.3401051%3Fcasa_token%3Dw5HjwTGp2i0AAAAA%253AMDslqvzH0lQE5BvFxsC9ia0FCx_BVMSALVTuS6bjZDJlWCgKK_IemAXX2Zg8IJk-6VAYIdaIjlEs%250A">
+                Sign in
+            </a>
+        </li>
+        <li class="register-link">
+            
+                    <a href="https://accounts.acm.org?redirectUri=%2Fdoi%2Fpdf%2F10.1145%2F3397271.3401051%3Fcasa_token%3Dw5HjwTGp2i0AAAAA%253AMDslqvzH0lQE5BvFxsC9ia0FCx_BVMSALVTuS6bjZDJlWCgKK_IemAXX2Zg8IJk-6VAYIdaIjlEs%250A" class="btn" title="Register">
+                        Register
+                    </a>
+                
+        </li>
+    </ul>
+</div>
+
+
+
+    
+
+</li></ul>
+
+        </div>
+    
+</div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="menuWidget" data-widget-id="13da1316-80a7-4370-a291-8968cd9cb35e" class="container header--second-row">
+        
+
+
+
+        
+        <div class="responsive-menu-container clearfix"><div class="left-section pull-left"></div><div class="menu-section"><div class="main-nav responsive-menu-nav"><a href="#global-menu" data-target="global-menu" data-toggle="nav" title="menu drawer"><span class="drawer__icons-box"><span class="drawer__icons-controls"></span></span></a><nav role="navigation" id="global-menu" data-ctrl-res="screen-sm" class="drawer__nav container gutterless hidden-sm hidden-xs"><ul id="menubar" role="menubar" class="menubar rlist--inline"><li class="hidden-lg hidden-md"><div data-toggle="transplant" data-target-class="hidden-xs hidden-sm" data-target=".header--second-row .quick-search--form" data-direction="from" data-transplant="self" class="quick-search-mobile"></div></li><li role="menuitem" aria-label="Advanced Search" id="menu-item-global-menu-0" class="menu-item mobile-menu-item"><a href="/search/advanced"><span>Advanced Search</span></a></li><li role="menuitem" aria-label="Journals" id="menu-item-global-menu-1" class="menu-item"><a href="/journals"><span>Journals</span></a></li><li role="menuitem" aria-label="Magazines" id="menu-item-global-menu-2" class="menu-item"><a href="/magazines"><span>Magazines</span></a></li><li role="menuitem" aria-label="Proceedings" id="menu-item-global-menu-3" class="menu-item"><a href="/proceedings"><span>Proceedings</span></a></li><li role="menuitem" aria-label="Books" id="menu-item-global-menu-4" class="menu-item"><a href="/acmbooks"><span>Books</span></a></li><li role="menuitem" aria-label="SIGs" id="menu-item-global-menu-5" class="menu-item"><a href="/sigs"><span>SIGs</span></a></li><li role="menuitem" aria-label="Conferences" id="menu-item-global-menu-6" class="menu-item"><a href="/conferences"><span>Conferences</span></a></li><li role="menuitem" aria-label="People" id="menu-item-global-menu-7" class="menu-item"><a href="/people"><span>People</span></a></li><li class="hidden-lg hidden-md"><div data-toggle="transplant" data-target-class="hidden-xs hidden-sm" data-target=".header__quick-menu .show-on-mobile" data-direction="from" data-transplant="self"></div></li><li role="menuitem" aria-haspopup="true" aria-label="More" class="dropdown-more hidden dropdown menu-parent"><a href="#" title="More" data-toggle="dropdown" class="dropdown__toggle"><span>More</span><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="main0-1" aria-hidden="true" role="menu" class="rlist dropdown__menu"></ul></li><li class="menubar__extra-mob-links"></li></ul></nav></div></div><div class="right-section pull-right">
+
+
+
+        
+        <div class="quickSearchFormContainer"><div class="quick-search"><div class="clearfix quick-search__clearfix"><form action="/action/doSearch" name="defaultQuickSearch" method="get" title="Quick Search" class="quick-search--form"><div class="quick-search--input"><div class="input-group option-0"><label for="AllFieldf73847c0-d936-48ec-9bf9-139b3828507f" class="sr-only">Search ACM Digital Library</label><input id="AllFieldf73847c0-d936-48ec-9bf9-139b3828507f" type="search" name="AllField" placeholder="Search ACM Digital Library" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" data-group-titles-conf="3" value="" class="autocomplete quick-search__input"/></div></div><div class="quick-search--button"><button type="submit" title="Search" aria-label="Search" class="btn quick-search__button icon-Icon_Search"><span class="sr-only">Search</span><span>Search</span></button></div></form></div>
+
+
+
+        
+        <a class="quick-search__advancedHeader" title="link to Advanced Search form" href="/search/advanced">Advanced Search</a>
+</div></div>
+</div></div><div class="header__dropzone"></div>
+
+        </div>
+    
+
+
+
+
+        
+        <span style="display: none;">10.1145/3397271.3401051</span><span style="display: none;">acmconferences</span><span style="display: none;">Article/Chapter View</span><span style="display: none;">Access Denial</span><span style="display: none;">Publication Pages</span><span style="display: none;">ir</span><span style="display: none;">Conference Proceedings</span><span style="display: none;">conference-collections</span><div class="sub-nav fixed-element"><a href="#" data-db-target-for="sub-nav__items" data-more="false" data-lines="1" style="text-transform: uppercase;" class="sub-nav__toggle hidden-lg truncate-text-css">ir</a><div class="sub-nav__container"><div class="container"><div data-ctrl-res="screen-md" class="responsive-menu-container"><div class="left-section pull-left"></div><div class="menu-section"><div style="display: block" class="responsive-menu-nav"><nav id="sub-nav__items" data-db-target-of="sub-nav__items" class="sub-nav__holder drawer__nav"><ul role="menu" class="rlist--inline menubar"><li role="menuitem"><a href="/conference/ir" class="sub-nav__item">Conference</a></li><li role="menuitem"><a href="/conference/ir/proceedings" class="sub-nav__item">Proceedings</a></li><li role="menuitem"><a href="/conference/ir/upcoming" class="sub-nav__item">Upcoming Events</a></li><li role="menuitem"><a href="/conference/ir/authors" class="sub-nav__item">Authors</a></li><li role="menuitem"><a href="/conference/ir/affiliations" class="sub-nav__item">Affiliations</a></li><li role="menuitem"><a href="/conference/ir/award-winners" class="sub-nav__item">Award Winners</a></li><li role="menuitem" aria-haspopup="true" aria-label="More" class="dropdown-more hidden dropdown menu-parent"><a href="#" title="More" data-toggle="dropdown" class="dropdown__toggle hidden-md hidden-sm hidden-xs"><span>More</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><ul aria-labelledby="main0-1" aria-hidden="true" role="menu" class="rlist dropdown__menu visible-md visible-sm visible-xs"></ul></li></ul></nav></div></div><div class="right-section hidden-md hidden-sm hidden-xs"></div></div></div></div><div class="hidden-xs hidden-sm"><div class="progress-bar--wrapper"><div style="width: 0.116818%;" class="progress-bar"></div></div></div></div>
+</div><div></div><div class="banner conference-landing"></div><div class="header-breadcrumb">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="f5f275c5-a862-48bf-8119-8528d04615da" class="container">
+        
+
+
+
+        
+        <div>
+
+
+
+        
+        
+
+
+
+        
+        <nav aria-label="Breadcrumbs" class="article__breadcrumbs separator"><ul><li><a href="https://dl.acm.org/" class="article__tocHeading">Home</a></li><li><a href="/conferences" class="article__tocHeading">Conferences</a></li><li><a href="/conference/ir" class="article__tocHeading">IR</a></li><li><a href="/conference/ir/proceedings" class="article__tocHeading">Proceedings</a></li><li><a href="/doi/proceedings/10.1145/3397271" class="article__tocHeading">SIGIR '20</a></li><li><a href="/doi/pdf/10.1145/3397271.3401051?casa_token=w5HjwTGp2i0AAAAA%3AMDslqvzH0lQE5BvFxsC9ia0FCx_BVMSALVTuS6bjZDJlWCgKK_IemAXX2Zg8IJk-6VAYIdaIjlEs%0A" aria-current="page" class="article__tocHeading">Fairness-Aware Explainable Recommendation over Knowledge Graphs</a></li></ul></nav>
+
+</div>
+
+        </div>
+    
+</div>
+
+        </header>
+    
+
+
+
+
+
+
+        
+        <main class="content ir loi-page no-margin">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-accessDenial-widget" data-widget-id="8e46140b-7e42-4c62-9295-13ae241fcad0" class="container">
+        
+
+
+
+        
+        <article data-enable-mathjax="true" data-citationInfo="/action/acmCitationInfo?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&ajax=true&doi=10.1145%2F3397271.3401051&pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3397271%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3397271.3401051%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bir%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" data-proceedingInfo="/action/proceedingArticleMeta?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&ajax=true&doi=10.1145%2F3397271.3401051&pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3397271%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3397271.3401051%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bir%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages"><div class="row"><div class="col-md-2 col-sm-3"></div><div class="col-md-8 col-sm-7"><div class="article-citations"><div class="citation"><div class="issue-item__citation clearfix"><span class="issue-heading">research-article </span><span class="article__access ml-3"><span></span></span>
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" defer="defer" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><div class="share__block share__inline-links"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><div class="rlist--inline addthis addthis_toolbox addthis_default_style addthis_32x32_style"><a role="link" class="addthis_button_twitter"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_Twitter"></i></a><a role="link" class="addthis_button_linkedin"><i aria-hidden="true" class="at-icon-wrapper icon-linkedin"></i></a><a role="link" class="addthis_button_reddit"><i aria-hidden="true" class="at-icon-wrapper icon-riddit-filled"></i></a><a role="link" class="addthis_button_facebook"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_Facebook"></i></a><a role="link" class="addthis_button_email"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_mail"></i></a><div class="pb-dropzone" data-pb-dropzone="share-additional-links" title="share-additional-links"></div></div></div>
+</div><div class="border-bottom clearfix"><h1 class="citation__title">Fairness-Aware Explainable Recommendation over Knowledge Graphs</h1></div><div class="border-bottom clearfix"> <div id="sb-1"> <ul data-lines="2" ariaa-label="authors" class="rlist--inline loa truncate-list"> <li class="label"><b>Authors: </b></li> <li class="loa__item"><a id="arnd_10760311671654954_Ctrl" href="javascript:void(0);" aria-controls="arnd_10760311671654954" aria-haspopup="true" class="author-name" title="Zuohui Fu"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Zuohui Fu</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_10760311671654954" data-doi="10.1145/contrib-99659369214">Rutgers University, New Brunswick, NJ, USA</p></span></span></a><div id="arnd_10760311671654954" aria-labelledby="arnd_10760311671654954_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d4641695e141"></div> <div class="author-info__body"> <p data-pill-inst="d4641695e141" data-doi="10.1145/contrib-99659369214">Rutgers University, New Brunswick, NJ, USA</p><a href="/profile/99659369214" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_10760311671925453_Ctrl" href="javascript:void(0);" aria-controls="arnd_10760311671925453" aria-haspopup="true" class="author-name" title="Yikun Xian"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Yikun Xian</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_10760311671925453" data-doi="10.1145/contrib-99658726481">Rutgers University, New Brunswick, NJ, USA</p></span></span></a><div id="arnd_10760311671925453" aria-labelledby="arnd_10760311671925453_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d4641695e157"></div> <div class="author-info__body"> <p data-pill-inst="d4641695e157" data-doi="10.1145/contrib-99658726481">Rutgers University, New Brunswick, NJ, USA</p><a href="/profile/99658726481" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_10760311672149089_Ctrl" href="javascript:void(0);" aria-controls="arnd_10760311672149089" aria-haspopup="true" class="author-name" title="Ruoyuan Gao"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Ruoyuan Gao</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_10760311672149089" data-doi="10.1145/contrib-99659468613">Rutgers University, New Brunswick, NJ, USA</p></span></span></a><div id="arnd_10760311672149089" aria-labelledby="arnd_10760311672149089_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d4641695e171"></div> <div class="author-info__body"> <p data-pill-inst="d4641695e171" data-doi="10.1145/contrib-99659468613">Rutgers University, New Brunswick, NJ, USA</p><a href="/profile/99659468613" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_10760311672390516_Ctrl" href="javascript:void(0);" aria-controls="arnd_10760311672390516" aria-haspopup="true" class="author-name" title="Jieyu Zhao"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Jieyu Zhao</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_10760311672390516" data-doi="10.1145/contrib-99659566033">University of California, Los Angeles, Los Angeles, CA, USA</p></span></span></a><div id="arnd_10760311672390516" aria-labelledby="arnd_10760311672390516_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d4641695e187"></div> <div class="author-info__body"> <p data-pill-inst="d4641695e187" data-doi="10.1145/contrib-99659566033">University of California, Los Angeles, Los Angeles, CA, USA</p><a href="/profile/99659566033" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_10760311672619015_Ctrl" href="javascript:void(0);" aria-controls="arnd_10760311672619015" aria-haspopup="true" class="author-name" title="Qiaoying Huang"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Qiaoying Huang</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_10760311672619015" data-doi="10.1145/contrib-99660686504">Rutgers University, New Brunswick, NJ, USA</p></span></span></a><div id="arnd_10760311672619015" aria-labelledby="arnd_10760311672619015_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d4641695e203"></div> <div class="author-info__body"> <p data-pill-inst="d4641695e203" data-doi="10.1145/contrib-99660686504">Rutgers University, New Brunswick, NJ, USA</p><a href="/profile/99660686504" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_10760311672848573_Ctrl" href="javascript:void(0);" aria-controls="arnd_10760311672848573" aria-haspopup="true" class="author-name" title="Yingqiang Ge"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Yingqiang Ge</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_10760311672848573" data-doi="10.1145/contrib-99659369912">Rutgers University, New Brunswick, NJ, USA</p></span></span></a><div id="arnd_10760311672848573" aria-labelledby="arnd_10760311672848573_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d4641695e217"></div> <div class="author-info__body"> <p data-pill-inst="d4641695e217" data-doi="10.1145/contrib-99659369912">Rutgers University, New Brunswick, NJ, USA</p><a href="/profile/99659369912" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_10760311673047085_Ctrl" href="javascript:void(0);" aria-controls="arnd_10760311673047085" aria-haspopup="true" class="author-name" title="Shuyuan Xu"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Shuyuan Xu</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_10760311673047085" data-doi="10.1145/contrib-99659371248">Rutgers University, New Brunswick, NJ, USA</p></span></span></a><div id="arnd_10760311673047085" aria-labelledby="arnd_10760311673047085_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d4641695e233"></div> <div class="author-info__body"> <p data-pill-inst="d4641695e233" data-doi="10.1145/contrib-99659371248">Rutgers University, New Brunswick, NJ, USA</p><a href="/profile/99659371248" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_10760311673256156_Ctrl" href="javascript:void(0);" aria-controls="arnd_10760311673256156" aria-haspopup="true" class="author-name" title="Shijie Geng"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Shijie Geng</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_10760311673256156" data-doi="10.1145/contrib-99659370810">Rutgers University, New Brunswick, NJ, USA</p></span></span></a><div id="arnd_10760311673256156" aria-labelledby="arnd_10760311673256156_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d4641695e249"></div> <div class="author-info__body"> <p data-pill-inst="d4641695e249" data-doi="10.1145/contrib-99659370810">Rutgers University, New Brunswick, NJ, USA</p><a href="/profile/99659370810" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_10760311673454840_Ctrl" href="javascript:void(0);" aria-controls="arnd_10760311673454840" aria-haspopup="true" class="author-name" title="Chirag Shah"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/do/10.1145/contrib-81332526845/rel-imgonly/chiragshah.jpg" width="24" height="24" alt="" aria-hidden="true"/>Chirag Shah</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_10760311673454840" data-doi="10.1145/contrib-81332526845">University of Washington, Seattle, WA, USA</p></span></span></a><div id="arnd_10760311673454840" aria-labelledby="arnd_10760311673454840_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d4641695e263"></div> <div class="author-info__body"> <p data-pill-inst="d4641695e263" data-doi="10.1145/contrib-81332526845">University of Washington, Seattle, WA, USA</p><a href="/profile/81332526845" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_10760311673659683_Ctrl" href="javascript:void(0);" aria-controls="arnd_10760311673659683" aria-haspopup="true" class="author-name" title="Yongfeng Zhang"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/do/10.1145/contrib-99659190940/rel-imgonly/yongfengzhang_3_higher.png" width="24" height="24" alt="" aria-hidden="true"/>Yongfeng Zhang</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_10760311673659683" data-doi="10.1145/contrib-99659190940">Rutgers University, New Brunswick, NJ, USA</p></span></span></a><div id="arnd_10760311673659683" aria-labelledby="arnd_10760311673659683_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d4641695e277"></div> <div class="author-info__body"> <p data-pill-inst="d4641695e277" data-doi="10.1145/contrib-99659190940">Rutgers University, New Brunswick, NJ, USA</p><a href="/profile/99659190940" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_10760311673855613_Ctrl" href="javascript:void(0);" aria-controls="arnd_10760311673855613" aria-haspopup="true" class="author-name" title="Gerard de Melo"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Gerard de Melo</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_10760311673855613" data-doi="10.1145/contrib-81447595290">Rutgers University, New Brunswick, NJ, USA</p></span></span></a><div id="arnd_10760311673855613" aria-labelledby="arnd_10760311673855613_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d4641695e293"></div> <div class="author-info__body"> <p data-pill-inst="d4641695e293" data-doi="10.1145/contrib-81447595290">Rutgers University, New Brunswick, NJ, USA</p><a href="/profile/81447595290" class="btn blue stretched">View Profile</a></div> </div> </li> </ul><a href="#pill-authors__contentcon" data-slide-target="#pill-information" data-full-screen="false" data-ctrl-res="screen-xlg" data-tab="pill-authors__content" data-label="<i class='icon-Icon_Information'&gt;</i&gt; Information &amp; Authors" class="loa__link w-slide__btn tab-link slide-active">Authors Info &amp; Claims </a></div> </div> <div class="border-bottom clearfix"><div class="issue-item__detail"><a href="/doi/proceedings/10.1145/3397271" title="SIGIR '20: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval"><span class="epub-section__title">SIGIR '20: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval</span></a><span class="dot-separator"><span class="epub-section__date">July 2020  </span></span><span class="dot-separator"><span class="epub-section__pagerange">Pages   69–78</span></span><span class="dot-separator"><a href="https://doi.org/10.1145/3397271.3401051" class="issue-item__doi">https://doi.org/10.1145/3397271.3401051</a></span></div></div><div class="border-bottom clearfix"><span class="bold label">Published:</span><span class="CitationCoverDate">25 July 2020</span><a href="#" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-information__content" class="publication-history-link w-slide__btn tab-link">Publication History</a></div><div class="border-bottom clearfix"><div class="issue-item__footer"><div class="issue-item__footer-info pull-left"><div tabindex="0" class="tooltip"><ul title="Click to stay open" class="rlist--inline"><li><span class="citation"><i class="icon-quote"></i><span>55</span><span class="sr-only">citation</span></span></li><li><span class="metric"><i class="icon-metric"></i><span>1,626</span></span></li><li><span class="sr-only">Downloads</span></li></ul><div class="tooltip__body"><span class="arrow"></span><div class="left-bordered-title">Metrics</div><a href="javascript:void(0);" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-citations__content" title="See Bibliometrics &amp; Citations section" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="w-slide__btn tab-link"><div class="citation">Total Citations<span class="bold">55</span></div></a><a href="javascript:void(0);" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-bibliometrics__content" title="See Bibliometrics &amp; Citations section" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="w-slide__btn tab-link"><div class="metric">Total Downloads<span class="bold">1,626</span></div></a><div class="info">Last 12 Months<span class="bold">503</span></div><div class="info">Last 6 weeks<span class="bold">105</span></div></div></div></div><div class="issue-item__footer-links pull-right"><ul class="rlist--inline"><li>
+
+
+
+        
+        <li role="menu" class="article-tool"><a id="manageAlert__crtl" href="/action/addCitationAlert?doi=10.1145/3397271.3401051" data-toggle="modal" role="menuitem" data-title="Get Citation Alerts" data-target="#manageAlert" aria-label="Get Citation Alerts" class="btn--icon simple-tooltip__block--b"><i aria-hidden="true" class="icon-Icon_Alerts"></i><span class="visibility-hidden">Get Citation Alerts</span></a><div role="dialog" aria-labelledby="id-hatemile-navigation-6073290063892647-6" class="ux-modal-container"><div id="manageAlert" class="modal"><div class="modal__dialog"><div class="modal__dialog--success"><div class="modal__header"><button type="button" data-dismiss="modal" aria-label="close popup" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><a id="id-hatemile-navigation-6073290063892647-7" name="id-hatemile-navigation-6073290063892647-7" data-headinganchorfor="id-hatemile-navigation-6073290063892647-6" class="heading-anchor"></a><div id="id-hatemile-navigation-6073290063892647-6"><strong>New Citation Alert added!</strong></div></div><div class="modal__body"><p>This alert has been successfully added and will be sent to:<span class="email"></span></p><p>You will be notified whenever a record that you have chosen has been cited.</p></div><div class="modal__footer"><p>To manage your alert preferences, click on the button below.</p><a href="/action/showPreferences?menuTab=Alerts" title="Manage my Alerts" id="id-hatemile-display-1019331959102511-5" class="btn blue big stretched manageAlert__btn"><span data-attributetitleof="id-hatemile-display-1019331959102511-5" class="force-read-before">Manage my Alerts</span></a></div></div><div class="modal__dialog--error"><div class="modal__header"><button type="button" data-dismiss="modal" aria-label="close popup" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><a id="id-hatemile-navigation-6073290063892647-9" name="id-hatemile-navigation-6073290063892647-9" data-headinganchorfor="id-hatemile-navigation-6073290063892647-8" class="heading-anchor"></a><div id="id-hatemile-navigation-6073290063892647-8"> <strong>New Citation Alert!</strong></div></div><div class="modal__body"><p>Please <a href="/action/showLogin?redirectUri=/doi/pdf/10.1145/3397271.3401051?casa_token=w5HjwTGp2i0AAAAA%3AMDslqvzH0lQE5BvFxsC9ia0FCx_BVMSALVTuS6bjZDJlWCgKK_IemAXX2Zg8IJk-6VAYIdaIjlEs%0A" title="Sign In" class="link">log in to your account</a></p></div></div></div></div></div></li>
+</li><li role="menu" class="article-tool"><a href="javascript:void(0)" role="menuitem" data-title="Save to Binder" data-db-target-for="save-to-binder" data-link="/action/binderList?doi=10.1145/3397271.3401051" aria-label="save to binder" class="btn--icon simple-tooltip__block--b saveToBinders"><i aria-hidden="true" class="icon-add-folder"></i><span class="visibility-hidden">Save to Binder</span></a><div data-db-target-of="save-to-binder"><div class="saveToBinders-list"><input type="hidden" name="doiVal" value="10.1145/3397271.3401051"/><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" aria-label="close popup" class="icon-close_thin"></i></button><h5>Save to Binder</h5><div class="binder-list-alerts"></div><div class="saveToBinders-list__container"><ul class="rlist saveToBinders-list__items"><div class="loader"><img src="/specs/products/acm/releasedAssets/images/loader.gif"/></div></ul></div><div class="binder__create"><a data-action="show" href="/action/showMyBinders" title="Create a New Binder" class="show-binder-form toggle-binder-form"><i class="icon-plus-light"></i>Create a New Binder</a><div class="binder-create-form binder__create-mini-form"><div class="input-group input-group--gray-bg"><label>Name</label><div class="input-group__field-container--right-icon"><input type="text" placeholder="My new Binder" name="binderName" data-maxChar="256" class="binder-create-form__name charCount__text form-control"/><span class="input-group-addon input-group-addon--right"><span class="charLimit"></span></span></div></div><div><ul class="rlist--inline binder__create-btns-container"><li><button type="reset" value="Cancel" data-action="hide" class="toggle-binder-form btn btn--border-less btn transparent binder__create-cancel">Cancel</button></li><li class="pull-right"><button type="submit" value="Create Binder" disabled="disabled" data-append-newbinder-link="/action/createBinder" class="btn btn--no-margin blue big binder__create-submit binder-create-form__create"><i aria-hidden="true" class="icon-plus-light"></i>Create</button></li></ul></div></div></div></div></div></li><li role="menu" class="article-tool"><a href="/" role="menuitem" data-title="Export Citation" data-toggle="modal" data-target="#exportCitation" aria-label="Export Citations" class="btn--icon simple-tooltip__block--b"><i aria-hidden="true" class="icon-quote"></i><span class="visibility-hidden">Export Citation</span><input type="hidden" name="doiVal" value="10.1145/3397271.3401051"/></a></li><li class="publisher-site article-tool"><a href="#" class="btn blue"><span>Publisher Site</span><i aria-hidden="true" class="icon-export"></i></a></li></ul><ul class="rlist--inline right"><li><input type="hidden" id="formatsCount" value="0"/></li><li><a href="javascript:void(0);" data-slide-target="#pill-access" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-get-access&quot;&gt;&lt;/i&gt;Get Access" title="Get Access" class="get-access w-slide__btn"><i class="icon-get-access"></i><span>Get Access</span></a></li></ul></div></div></div></div></div></div><div class="col-sm-2"></div></div><div class="row"><div class="col-md-2 col-sm-3 sidebar-section article-sidebar-section"><div class="article__sections"><div class="sections-box"><div><div class="sections-box__static-items"><div class="parent-item"><h2 class="parent-item__title"><a href="/doi/proceedings/10.1145/3397271" data-lines="2" data-title="SIGIR '20: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval" class="simple-tooltip__inline--r truncate-text-css">SIGIR '20: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval</a></h2><span href="/doi/proceedings/10.1145/3397271" data-lines="2" data-title="Fairness-Aware Explainable Recommendation over Knowledge Graphs" class="parent-item__subtitle simple-tooltip__inline--r truncate-text-css">Fairness-Aware Explainable Recommendation over Knowledge Graphs</span><div class="pageRange">Pages   69–78</div></div>
+
+
+
+        
+        <div class="content-navigation clearfix"><a href="/doi/10.1145/3397271.3401099" title="Previous item in TOC" class="content-navigation__btn--pre "><span><i class="icon-Arrow-Stroke"></i></span><span class="control">Previous</span><span class="type">Chapter</span></a><a href="/doi/10.1145/3397271.3401057" title="Next item in TOC" class="content-navigation__btn--next "><span class="control">Next</span><span class="type">Chapter</span><span><i class="icon-Arrow-Stroke"></i></span></a></div>
+</div><div class="sections-block scroll-to-target"></div></div><div class="logo"><img src="/specs/products/acm/releasedAssets/images/footer-logo1.png" alt="ACM Digital Library" title="ACM Digital Library"/></div></div></div></div><div class="col-md-8 col-sm-7 sticko__side-content"><div class="stickybar__original__position"></div><nav class="stickybar coolBar trans visible-xs visible-sm"><div class="stickybar__wrapper coolBar__wrapper clearfix"><div class="coolBar__section"><a id="article_Ctrl" href="#" data-db-target-for="article-sec_Pop" role="button" aria-expanded="false" aria-label="Sections Menu" class="coolBar__ctrl"><i class="icon-burger"></i></a><div id="article_Pop" data-db-target-of="article-sec_Pop" aria-hidden="true" class="coolBar__drop fixed rlist"><div data-target=".article__sections" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></div><div data-target=".pill-section .pill-list" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></nav><div class="article__body"><!-- abstract content --><div class="hlFld-Abstract"><div class="article__section article__abstract hlFld-Abstract"><div class="colored-block__title"><h2 id="d4641767e1" class="section__title left-bordered-title">ABSTRACT</h2></div><div class="abstractSection abstractInFull">
+		<p>There has been growing attention on fairness considerations recently, especially in the context of intelligent decision making systems. For example, explainable recommendation systems may suffer from both explanation bias and performance disparity. We show that inactive users may be more susceptible to receiving unsatisfactory recommendations due to their insufficient training data, and that their recommendations may be biased by the training records of active users due to the nature of collaborative filtering, which leads to unfair treatment by the system. In this paper, we analyze different groups of users according to their level of activity, and find that bias exists in recommendation performance between different groups. Empirically, we find that such performance gap is caused by the disparity of data distribution, specifically the knowledge graph path distribution in this work. We propose a fairness constrained approach via heuristic re-ranking to mitigate this unfairness problem in the context of explainable recommendation over knowledge graphs. We experiment on several real-world datasets with state-of-the-art knowledge graph-based explainable recommendation algorithms. The promising results show that our algorithm is not only able to provide high-quality explainable recommendations, but also reduces the recommendation unfairness in several aspects.</p>
+	</div></div></div><!-- /abstract content --><div class="pb-dropzone" data-pb-dropzone="pubContentAccessDenialDropzone"><div data-widget-def="graphQueryWidget" data-widget-id="a375655b-dac3-4010-824b-309045e95f54" class="article__section article__access-block separated-block">
+        
+
+
+
+        
+        <h3>Get full access to this Publication<p class="info--text big">Purchase, subscribe or recommend this publication to your librarian.</p><div title="Get this Publication" class="access-block__links"><a href="/action/publisherEcommerceHelper?doi=10.1145/3397271.3401051&amp;redirectUri=https://dl.acm.org/doi/pdf/10.1145/3397271.3401051?casa_token=w5HjwTGp2i0AAAAA%3AMDslqvzH0lQE5BvFxsC9ia0FCx_BVMSALVTuS6bjZDJlWCgKK_IemAXX2Zg8IJk-6VAYIdaIjlEs%0A" class="btn blue big"><span>Get this Publication</span></a></div><p class="logIn text-uppercase">Already a Subscriber?<a href="/action/showLogin?redirectUri=/doi/10.1145/3397271.3401051" title="Sign In" class="space link">Sign In</a></p></h3>
+
+        </div></div><div data-rel="videos" class="article__section article__supplemental-material"><div class="colored-block__title"><h2 id="sec-supp" class="section__title left-bordered-title">Supplemental Material</h2></div><div class="article-media"><div class="row"><div class="component-container"><div class="article-media__item separated-block--dashed--bottom clearfix"><div class="video__image col-sm-5"><div class="cloudflare-stream-container"><input type="hidden" class="cloudFlareScript" name="cloudFlareScript" value="https://embed.videodelivery.net/embed/sdk.latest.js">
+ <script>
+window.addEventListener('load', function () {
+            var script = document.querySelector('script[src="https://embed.videodelivery.net/embed/sdk.latest.js"]');
+            if(script === null) {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.defer = 'defer';
+            s.src = "https://embed.videodelivery.net/embed/sdk.latest.js";
+            document.getElementsByTagName('body')[0].appendChild(s);
+            }
+        });
+</script>
+<iframe src="https://iframe.videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0OTNkYjkxYzQwYmE3MTU0MTUzMzMxYzlkYTBiMDkwYSIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjczNTA1NzY3fQ.mURgcJ1eGXvMzH88xAyHdKsUoZpPxs5_CrcASSI-_b_K1W5YG5AbovCWxdeDwfCZCa7HB-hhrBqA8pjFZC2xURe58YskZnOj9JblnOln40nC9Q5O0A5TaQXQVU874txOBl2FxQ7KiXuZzZoK9-ohuWrvnp7X6HR-Vcby77VKu106P-F5cg2JT2aR9W6jNnPbYn3DpVwSj5PC0IUX_n3odz4SWzuZ6YNVfmC526BdrMCAN0yy13A77uPbKnPB7xZ9oAGnmoFB_qU9TmEknb0cpLeTkHHnMYPGvMtKQqbpTERsfjet7_Crrln54MmdxFALxU36y_m4U3h4Sc79ssDXxg?poster=https%3A%2F%2Fvideodelivery.net%2FeyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0OTNkYjkxYzQwYmE3MTU0MTUzMzMxYzlkYTBiMDkwYSIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjczNTA1NzY3fQ.mURgcJ1eGXvMzH88xAyHdKsUoZpPxs5_CrcASSI-_b_K1W5YG5AbovCWxdeDwfCZCa7HB-hhrBqA8pjFZC2xURe58YskZnOj9JblnOln40nC9Q5O0A5TaQXQVU874txOBl2FxQ7KiXuZzZoK9-ohuWrvnp7X6HR-Vcby77VKu106P-F5cg2JT2aR9W6jNnPbYn3DpVwSj5PC0IUX_n3odz4SWzuZ6YNVfmC526BdrMCAN0yy13A77uPbKnPB7xZ9oAGnmoFB_qU9TmEknb0cpLeTkHHnMYPGvMtKQqbpTERsfjet7_Crrln54MmdxFALxU36y_m4U3h4Sc79ssDXxg%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D10.0s"  poster="https://videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0OTNkYjkxYzQwYmE3MTU0MTUzMzMxYzlkYTBiMDkwYSIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjczNTA1NzY3fQ.mURgcJ1eGXvMzH88xAyHdKsUoZpPxs5_CrcASSI-_b_K1W5YG5AbovCWxdeDwfCZCa7HB-hhrBqA8pjFZC2xURe58YskZnOj9JblnOln40nC9Q5O0A5TaQXQVU874txOBl2FxQ7KiXuZzZoK9-ohuWrvnp7X6HR-Vcby77VKu106P-F5cg2JT2aR9W6jNnPbYn3DpVwSj5PC0IUX_n3odz4SWzuZ6YNVfmC526BdrMCAN0yy13A77uPbKnPB7xZ9oAGnmoFB_qU9TmEknb0cpLeTkHHnMYPGvMtKQqbpTERsfjet7_Crrln54MmdxFALxU36y_m4U3h4Sc79ssDXxg/thumbnails/thumbnail.jpg?time=10.0s"  class="cloudflare-stream-player" id="video_stream_uuid%3Accbb7409-b169-42dd-a100-973197a56557" height="187px" width="100%" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" loading="lazy" allowfullscreen="true" ></iframe></div></div><div class="video__meta col-sm-7"><div data-id="3397271.3401051.mp4" class="issue-downloads__item__details"><h5 class="article-media__title file-name">3397271.3401051.mp4</h5><p class="info--text">Presentation video</p><div class="table-view"><div class="video__details table__cell-view"><p class="bold text-uppercase">mp4</p><p>34.5 MB</p></div><div class="video__links table__cell-view"><a href="#" title="Play stream" data-show-browse-icon="false" class="btn open-media-viewer"><i class="icon-play_circle_filled"></i><span>Play stream</span></a><a href="/action/downloadSupplement?doi=10.1145%2F3397271.3401051&amp;file=3397271.3401051.mp4" title="Download" download="3397271.3401051.mp4" class="btn"><i class="icon-Icon_Download"></i><span>Download</span></a></div></div></div></div></div></div></div></div></div><div class="article__section article__references show-more-items" data-sectionname="References"><p class="explanation__text"></p><div class="colored-block__title"><h2 id="sec-ref" class="section__title left-bordered-title">
+                    References
+                </h2></div><ol class="rlist references__list references__numeric"><li id="ref-00001" class="&#xA;                references__item&#xA;            "><span class="references__note">Qingyao Ai, Vahid Azizi, Xu Chen, and Yongfeng Zhang. 2018. Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation. Algorithms (2018).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Qingyao+Ai%2C+Vahid+Azizi%2C+Xu+Chen%2C+and+Yongfeng+Zhang.+2018.+Learning+Heterogeneous+Knowledge+Base+Embeddings+for+Explainable+Recommendation.+Algorithms+%282018%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00002" class="&#xA;                references__item&#xA;            "><span class="references__note">Solon Barocas and Andrew D Selbst. 2016. Big data's disparate impact. California Law Review 104 (2016), 671.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Solon+Barocas+and+Andrew+D+Selbst.+2016.+Big+data%27s+disparate+impact.+California+Law+Review+104+%282016%29%2C+671."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00003" class="&#xA;                references__item&#xA;            "><span class="references__note">Alex Beutel, Jilin Chen, Tulsee Doshi, Hai Tao Qian, Li Hao Wei, Yi Wu, Lukasz Heldt, Zhe Zhao, Lichan Hong, Ed Huai hsin Chi, and Cristos Goodrow. 2019. Fairness in Recommendation Ranking through Pairwise Comparisons. In ACM SIGKDD. 2212--2220.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Alex+Beutel%2C+Jilin+Chen%2C+Tulsee+Doshi%2C+Hai+Tao+Qian%2C+Li+Hao+Wei%2C+Yi+Wu%2C+Lukasz+Heldt%2C+Zhe+Zhao%2C+Lichan+Hong%2C+Ed+Huai+hsin+Chi%2C+and+Cristos+Goodrow.+2019.+Fairness+in+Recommendation+Ranking+through+Pairwise+Comparisons.+In+ACM+SIGKDD.+2212%2D%2D2220."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00004" class="&#xA;                references__item&#xA;            "><span class="references__note">Asia J. Biega, Krishna P. Gummadi, and Gerhard Weikum. 2018. Equity of Attention: Amortizing Individual Fairness in Rankings. In ACM SIGIR. 405--414.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Asia+J.+Biega%2C+Krishna+P.+Gummadi%2C+and+Gerhard+Weikum.+2018.+Equity+of+Attention%3A+Amortizing+Individual+Fairness+in+Rankings.+In+ACM+SIGIR.+405%2D%2D414."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00005" class="&#xA;                references__item&#xA;            "><span class="references__note">Robin D. Burke. 2017. Multisided Fairness for Recommendation. ArXiv abs/1707.00093 (2017).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Robin+D.+Burke.+2017.+Multisided+Fairness+for+Recommendation.+ArXiv+abs%2F1707.00093+%282017%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00006" class="&#xA;                references__item&#xA;            "><span class="references__note">L. Elisa Celis, Sayash Kapoor, Farnood Salehi, and Nisheeth K. Vishnoi. 2019. Controlling Polarization in Personalization: An Algorithmic Framework. In ACM Proceedings of the Conference on Fairness, Accountability, and Transparency. 160--169.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=L.+Elisa+Celis%2C+Sayash+Kapoor%2C+Farnood+Salehi%2C+and+Nisheeth+K.+Vishnoi.+2019.+Controlling+Polarization+in+Personalization%3A+An+Algorithmic+Framework.+In+ACM+Proceedings+of+the+Conference+on+Fairness%2C+Accountability%2C+and+Transparency.+160%2D%2D169."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00007" class="&#xA;                references__item&#xA;            "><span class="references__note">Chong Chen, Min Zhang, Weizhi Ma, Yiqun Liu, and Shaoping Ma. 2020. Jointly Non-Sampling Learning for Knowledge Graph Enhanced Recommendation. In SIGIR.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Chong+Chen%2C+Min+Zhang%2C+Weizhi+Ma%2C+Yiqun+Liu%2C+and+Shaoping+Ma.+2020.+Jointly+Non-Sampling+Learning+for+Knowledge+Graph+Enhanced+Recommendation.+In+SIGIR."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00008" class="&#xA;                references__item&#xA;            "><span class="references__note">Jiahao Chen. 2018. Fair lending needs explainable models for responsible recommendation. ArXiv abs/1809.04684 (2018).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jiahao+Chen.+2018.+Fair+lending+needs+explainable+models+for+responsible+recommendation.+ArXiv+abs%2F1809.04684+%282018%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00009" class="&#xA;                references__item&#xA;            "><span class="references__note">Jiahao Chen, Nathan Kallus, Xiaojie Mao, Geoffry Svacha, and Madeleine Udell. 2019. Fairness Under Unawareness: Assessing Disparity When Protected Class Is Unobserved. In FAT*.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jiahao+Chen%2C+Nathan+Kallus%2C+Xiaojie+Mao%2C+Geoffry+Svacha%2C+and+Madeleine+Udell.+2019.+Fairness+Under+Unawareness%3A+Assessing+Disparity+When+Protected+Class+Is+Unobserved.+In+FAT*."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00010" class="&#xA;                references__item&#xA;            "><span class="references__note">Xu Chen, Hanxiong Chen, Hongteng Xu, Yongfeng Zhang, Yixin Cao, Zheng Qin, and Hongyuan Zha. 2019. Personalized Fashion Recommendation with Visual Explanations based on Multimodal Attention Network: Towards Visually Explainable Recommendation. In SIGIR. 765--774.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xu+Chen%2C+Hanxiong+Chen%2C+Hongteng+Xu%2C+Yongfeng+Zhang%2C+Yixin+Cao%2C+Zheng+Qin%2C+and+Hongyuan+Zha.+2019.+Personalized+Fashion+Recommendation+with+Visual+Explanations+based+on+Multimodal+Attention+Network%3A+Towards+Visually+Explainable+Recommendation.+In+SIGIR.+765%2D%2D774."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00011" class="&#xA;                references__item&#xA;            "><span class="references__note">Xu Chen, Hongteng Xu, Yongfeng Zhang, Jiaxi Tang, Yixin Cao, Zheng Qin, and Hongyuan Zha. 2018. Sequential recommendation with user memory networks. In ACM WSDM. 108--116.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xu+Chen%2C+Hongteng+Xu%2C+Yongfeng+Zhang%2C+Jiaxi+Tang%2C+Yixin+Cao%2C+Zheng+Qin%2C+and+Hongyuan+Zha.+2018.+Sequential+recommendation+with+user+memory+networks.+In+ACM+WSDM.+108%2D%2D116."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00012" class="&#xA;                references__item&#xA;            "><span class="references__note">Xu Chen, Yongfeng Zhang, and Zheng Qin. 2019. Dynamic Explainable Recommendation based on Neural Attentive Models. In AAAI.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xu+Chen%2C+Yongfeng+Zhang%2C+and+Zheng+Qin.+2019.+Dynamic+Explainable+Recommendation+based+on+Neural+Attentive+Models.+In+AAAI."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00013" class="&#xA;                references__item&#xA;            "><span class="references__note">Sam Corbett-Davies, Emma Pierson, Avi Feller, Sharad Goel, and Aziz Huq. 2017. Algorithmic decision making and the cost of fairness. In SIGKDD.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Sam+Corbett-Davies%2C+Emma+Pierson%2C+Avi+Feller%2C+Sharad+Goel%2C+and+Aziz+Huq.+2017.+Algorithmic+decision+making+and+the+cost+of+fairness.+In+SIGKDD."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00014" class="&#xA;                references__item&#xA;            "><span class="references__note">Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Richard Zemel. 2012. Fairness Through Awareness. In Proceedings of the 3rd Innovations in Theoretical Computer Science Conference.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Cynthia+Dwork%2C+Moritz+Hardt%2C+Toniann+Pitassi%2C+Omer+Reingold%2C+and+Richard+Zemel.+2012.+Fairness+Through+Awareness.+In+Proceedings+of+the+3rd+Innovations+in+Theoretical+Computer+Science+Conference."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00015" class="&#xA;                references__item&#xA;            "><span class="references__note">Cynthia Dwork and Christina Ilvento. 2018. Group fairness under composition. In FAT*.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Cynthia+Dwork+and+Christina+Ilvento.+2018.+Group+fairness+under+composition.+In+FAT*."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00016" class="&#xA;                references__item&#xA;            "><span class="references__note">Michael D Ekstrand, Mucun Tian, Ion Madrazo Azpiazu, Jennifer D Ekstrand, Oghenemaro Anuyah, David McNeill, and Maria Soledad Pera. 2018. All the cool kids, how do they fit in?: Popularity and demographic biases in recommender evaluation and effectiveness. In FAT*.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Michael+D+Ekstrand%2C+Mucun+Tian%2C+Ion+Madrazo+Azpiazu%2C+Jennifer+D+Ekstrand%2C+Oghenemaro+Anuyah%2C+David+McNeill%2C+and+Maria+Soledad+Pera.+2018.+All+the+cool+kids%2C+how+do+they+fit+in%3F%3A+Popularity+and+demographic+biases+in+recommender+evaluation+and+effectiveness.+In+FAT*."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00017" class="&#xA;                references__item&#xA;            "><span class="references__note">Golnoosh Farnadi, Pigi Kouki, Spencer K. Thompson, Sriram Srinivasan, and Lise Getoor. 2018. A Fairness-aware Hybrid Recommender System. at the 2nd FATRec Workshop on Responsible Recommendation held at RecSys (2018).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Golnoosh+Farnadi%2C+Pigi+Kouki%2C+Spencer+K.+Thompson%2C+Sriram+Srinivasan%2C+and+Lise+Getoor.+2018.+A+Fairness-aware+Hybrid+Recommender+System.+at+the+2nd+FATRec+Workshop+on+Responsible+Recommendation+held+at+RecSys+%282018%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00018" class="&#xA;                references__item&#xA;            "><span class="references__note">Michael Feldman, Sorelle A Friedler, John Moeller, Carlos Scheidegger, and Suresh Venkatasubramanian. 2015. Certifying and removing disparate impact. In Proceedings of the 21th ACM SIGKDD.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Michael+Feldman%2C+Sorelle+A+Friedler%2C+John+Moeller%2C+Carlos+Scheidegger%2C+and+Suresh+Venkatasubramanian.+2015.+Certifying+and+removing+disparate+impact.+In+Proceedings+of+the+21th+ACM+SIGKDD."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00019" class="&#xA;                references__item&#xA;            "><span class="references__note">Jingyue Gao, Xiting Wang, Yasha Wang, and Xing Xie. 2019. Explainable recommendation through attentive multi-view learning. In Proceedings of the AAAI.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jingyue+Gao%2C+Xiting+Wang%2C+Yasha+Wang%2C+and+Xing+Xie.+2019.+Explainable+recommendation+through+attentive+multi-view+learning.+In+Proceedings+of+the+AAAI."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00020" class="&#xA;                references__item&#xA;            "><span class="references__note">Yingqiang Ge, Shuyuan Xu, Shuchang Liu, Zuohui Fu, Fei Sun, and Yongfeng Zhang. 2020. Learning Personalized Risk Preferences for Recommendation. SIGIR (2020).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yingqiang+Ge%2C+Shuyuan+Xu%2C+Shuchang+Liu%2C+Zuohui+Fu%2C+Fei+Sun%2C+and+Yongfeng+Zhang.+2020.+Learning+Personalized+Risk+Preferences+for+Recommendation.+SIGIR+%282020%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00021" class="&#xA;                references__item&#xA;            "><span class="references__note">Sahin Cem Geyik, Stuart Ambler, and Krishnaram Kenthapadi. 2020. FairnessAware Ranking in Search &amp; Recommendation Systems with Application to LinkedIn Talent Search. In SIGKDD.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Sahin+Cem+Geyik%2C+Stuart+Ambler%2C+and+Krishnaram+Kenthapadi.+2020.+FairnessAware+Ranking+in+Search+%26+Recommendation+Systems+with+Application+to+LinkedIn+Talent+Search.+In+SIGKDD."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00022" class="&#xA;                references__item&#xA;            "><span class="references__note">Corrado Gini. 1921. Measurement of inequality of incomes. The Economic Journal 31, 121 (1921), 124--126.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Corrado+Gini.+1921.+Measurement+of+inequality+of+incomes.+The+Economic+Journal+31%2C+121+%281921%29%2C+124%2D%2D126."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00023" class="&#xA;                references__item&#xA;            "><span class="references__note">Moritz Hardt, Eric Price, and Nathan Srebro. 2016. Equality of Opportunity in Supervised Learning. In Proceedings of the 30th NeurIPS (Barcelona, Spain).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Moritz+Hardt%2C+Eric+Price%2C+and+Nathan+Srebro.+2016.+Equality+of+Opportunity+in+Supervised+Learning.+In+Proceedings+of+the+30th+NeurIPS+%28Barcelona%2C+Spain%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00024" class="&#xA;                references__item&#xA;            "><span class="references__note">Ruining He and Julian McAuley. 2016. Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering. In WWW.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Ruining+He+and+Julian+McAuley.+2016.+Ups+and+downs%3A+Modeling+the+visual+evolution+of+fashion+trends+with+one-class+collaborative+filtering.+In+WWW."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00025" class="&#xA;                references__item&#xA;            "><span class="references__note">Binbin Hu, Chuan Shi, Wayne Xin Zhao, and Philip S Yu. 2018. Leveraging meta-path based context for top-n recommendation with a neural co-attention model. In ACM SIGKDD.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Binbin+Hu%2C+Chuan+Shi%2C+Wayne+Xin+Zhao%2C+and+Philip+S+Yu.+2018.+Leveraging+meta-path+based+context+for+top-n+recommendation+with+a+neural+co-attention+model.+In+ACM+SIGKDD."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00026" class="&#xA;                references__item&#xA;            "><span class="references__note">Jon M. Kleinberg, Sendhil Mullainathan, and Manish Raghavan. 2017. Inherent Trade-Offs in the Fair Determination of Risk Scores. In ITCS.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jon+M.+Kleinberg%2C+Sendhil+Mullainathan%2C+and+Manish+Raghavan.+2017.+Inherent+Trade-Offs+in+the+Fair+Determination+of+Risk+Scores.+In+ITCS."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00027" class="&#xA;                references__item&#xA;            "><span class="references__note">Matt J. Kusner, Joshua R. Loftus, Chris Russell, and Ricardo Silva. 2017. Counterfactual Fairness. In Proceedings of the 31st NeurIPS.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Matt+J.+Kusner%2C+Joshua+R.+Loftus%2C+Chris+Russell%2C+and+Ricardo+Silva.+2017.+Counterfactual+Fairness.+In+Proceedings+of+the+31st+NeurIPS."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00028" class="&#xA;                references__item&#xA;            "><span class="references__note">Preethi Lahoti, Gerhard Weikum, and Krishna P Gummadi. 2018. iFair: Learning Individually Fair Data Representations for Algorithmic Decision Making. arXiv preprint arXiv:1806.01059 (2018).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Preethi+Lahoti%2C+Gerhard+Weikum%2C+and+Krishna+P+Gummadi.+2018.+iFair%3A+Learning+Individually+Fair+Data+Representations+for+Algorithmic+Decision+Making.+arXiv+preprint+arXiv%3A1806.01059+%282018%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00029" class="&#xA;                references__item&#xA;            "><span class="references__note">Xiao Lin, Min Zhang, Yongfeng Zhang, Zhaoquan Gu, Yiqun Liu, and Shaoping Ma. 2017. Fairness-aware group recommendation with pareto-efficiency. In Proceedings of the Eleventh ACM Conference on Recommender Systems. 107--115.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xiao+Lin%2C+Min+Zhang%2C+Yongfeng+Zhang%2C+Zhaoquan+Gu%2C+Yiqun+Liu%2C+and+Shaoping+Ma.+2017.+Fairness-aware+group+recommendation+with+pareto-efficiency.+In+Proceedings+of+the+Eleventh+ACM+Conference+on+Recommender+Systems.+107%2D%2D115."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00030" class="&#xA;                references__item&#xA;            "><span class="references__note">Rishabh Mehrotra, James McInerney, Hugues Bouchard, Mounia Lalmas, and Fernando Diaz. 2018. Towards a Fair Marketplace: Counterfactual Evaluation of the Trade-off Between Relevance, Fairness &amp; Satisfaction in Recommendation Systems. In Proceedings of the 27th ACM CIKM (Torino, Italy). New York, NY, USA, 2243--2251.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Rishabh+Mehrotra%2C+James+McInerney%2C+Hugues+Bouchard%2C+Mounia+Lalmas%2C+and+Fernando+Diaz.+2018.+Towards+a+Fair+Marketplace%3A+Counterfactual+Evaluation+of+the+Trade-off+Between+Relevance%2C+Fairness+%26+Satisfaction+in+Recommendation+Systems.+In+Proceedings+of+the+27th+ACM+CIKM+%28Torino%2C+Italy%29.+New+York%2C+NY%2C+USA%2C+2243%2D%2D2251."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00031" class="&#xA;                references__item&#xA;            "><span class="references__note">Dino Pedreshi, Salvatore Ruggieri, and Franco Turini. 2008. Discrimination-aware Data Mining. In Proceedings of the 14th ACM SIGKDD (Las Vegas, Nevada, USA). 560--568.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Dino+Pedreshi%2C+Salvatore+Ruggieri%2C+and+Franco+Turini.+2008.+Discrimination-aware+Data+Mining.+In+Proceedings+of+the+14th+ACM+SIGKDD+%28Las+Vegas%2C+Nevada%2C+USA%29.+560%2D%2D568."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00032" class="&#xA;                references__item&#xA;            "><span class="references__note">Zhaochun Ren, Shangsong Liang, Piji Li, Shuaiqiang Wang, and Maarten de Rijke. 2017. Social collaborative viewpoint regression with explainable recommendations. In Proceedings of the 10th ACM WSDM.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Zhaochun+Ren%2C+Shangsong+Liang%2C+Piji+Li%2C+Shuaiqiang+Wang%2C+and+Maarten+de+Rijke.+2017.+Social+collaborative+viewpoint+regression+with+explainable+recommendations.+In+Proceedings+of+the+10th+ACM+WSDM."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00033" class="&#xA;                references__item&#xA;            "><span class="references__note">Tobias Schnabel, Adith Swaminathan, Ashudeep Singh, Navin Chandak, and Thorsten Joachims. 2016. Recommendations as Treatments: Debiasing Learning and Evaluation. In ICML.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Tobias+Schnabel%2C+Adith+Swaminathan%2C+Ashudeep+Singh%2C+Navin+Chandak%2C+and+Thorsten+Joachims.+2016.+Recommendations+as+Treatments%3A+Debiasing+Learning+and+Evaluation.+In+ICML."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00034" class="&#xA;                references__item&#xA;            "><span class="references__note">Edward H Simpson. 1949. Measurement of diversity. Nature 163, 4148 (1949).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Edward+H+Simpson.+1949.+Measurement+of+diversity.+Nature+163%2C+4148+%281949%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00035" class="&#xA;                references__item&#xA;            "><span class="references__note">Ashudeep Singh and Thorsten Joachims. 2018. Fairness of Exposure in Rankings. In ACM SIGIR. 2219--2228.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Ashudeep+Singh+and+Thorsten+Joachims.+2018.+Fairness+of+Exposure+in+Rankings.+In+ACM+SIGIR.+2219%2D%2D2228."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00036" class="&#xA;                references__item&#xA;            "><span class="references__note">Mengting Wan, Jianmo Ni, Rishabh Misra, and Julian J. McAuley. 2020. Addressing Marketing Bias in Product Recommendations. In WSDM.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Mengting+Wan%2C+Jianmo+Ni%2C+Rishabh+Misra%2C+and+Julian+J.+McAuley.+2020.+Addressing+Marketing+Bias+in+Product+Recommendations.+In+WSDM."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00037" class="&#xA;                references__item&#xA;            "><span class="references__note">Hongwei Wang, Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo. 2018. Ripplenet: Propagating user preferences on the knowledge graph for recommender systems. In CIKM. 417--426.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Hongwei+Wang%2C+Fuzheng+Zhang%2C+Jialin+Wang%2C+Miao+Zhao%2C+Wenjie+Li%2C+Xing+Xie%2C+and+Minyi+Guo.+2018.+Ripplenet%3A+Propagating+user+preferences+on+the+knowledge+graph+for+recommender+systems.+In+CIKM.+417%2D%2D426."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00038" class="&#xA;                references__item&#xA;            "><span class="references__note">Xiang Wang, Xiangnan He, Yixin Cao, Meng Liu, and Tat-Seng Chua. 2019. KGAT: Knowledge Graph Attention Network for Recommendation. In KDD.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Xiang+Wang%2C+Xiangnan+He%2C+Yixin+Cao%2C+Meng+Liu%2C+and+Tat-Seng+Chua.+2019.+KGAT%3A+Knowledge+Graph+Attention+Network+for+Recommendation.+In+KDD."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00039" class="&#xA;                references__item&#xA;            "><span class="references__note">Yongkai Wu, Lu Zhang, and Xintao Wu. 2018. On Discrimination Discovery and Removal in Ranked Data Using Causal Graph. In SIGKDD. 2536--2544.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yongkai+Wu%2C+Lu+Zhang%2C+and+Xintao+Wu.+2018.+On+Discrimination+Discovery+and+Removal+in+Ranked+Data+Using+Causal+Graph.+In+SIGKDD.+2536%2D%2D2544."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00040" class="&#xA;                references__item&#xA;            "><span class="references__note">Yikun Xian, Zuohui Fu, Qiaoying Huang, Shan Muthukrishnan, and Yongfeng Zhang. 2020. Neural-Symbolic Reasoning over Knowledge Graph for Multi-Stage Explainable Recommendation. AAAI DLGMA Workshop (2020).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yikun+Xian%2C+Zuohui+Fu%2C+Qiaoying+Huang%2C+Shan+Muthukrishnan%2C+and+Yongfeng+Zhang.+2020.+Neural-Symbolic+Reasoning+over+Knowledge+Graph+for+Multi-Stage+Explainable+Recommendation.+AAAI+DLGMA+Workshop+%282020%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00041" class="&#xA;                references__item&#xA;            "><span class="references__note">Yikun Xian, Zuohui Fu, S. Muthukrishnan, Gerard de Melo, and Yongfeng Zhang. 2019. Reinforcement knowledge graph reasoning for explainable recommendation. In Proceedings of the 42nd International ACM SIGIR (Paris, France).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yikun+Xian%2C+Zuohui+Fu%2C+S.+Muthukrishnan%2C+Gerard+de+Melo%2C+and+Yongfeng+Zhang.+2019.+Reinforcement+knowledge+graph+reasoning+for+explainable+recommendation.+In+Proceedings+of+the+42nd+International+ACM+SIGIR+%28Paris%2C+France%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00042" class="&#xA;                references__item&#xA;            "><span class="references__note">Longqi Yang, Yin Cui, Yuan Xuan, Chenyang Wang, Serge Belongie, and Deborah Estrin. 2018. Unbiased offline recommender evaluation for missing-not-atrandom implicit feedback. In RecSys. 279--287.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Longqi+Yang%2C+Yin+Cui%2C+Yuan+Xuan%2C+Chenyang+Wang%2C+Serge+Belongie%2C+and+Deborah+Estrin.+2018.+Unbiased+offline+recommender+evaluation+for+missing-not-atrandom+implicit+feedback.+In+RecSys.+279%2D%2D287."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00043" class="&#xA;                references__item&#xA;            "><span class="references__note">Meike Zehlike, Francesco Bonchi, Carlos Castillo, Sara Hajian, Mohamed Megahed, and Ricardo Baeza-Yates. 2017. FA*IR: A Fair Top-k Ranking Algorithm. In Proceedings of the 2017 ACM on CIKM (Singapore, Singapore). 1569--1578.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Meike+Zehlike%2C+Francesco+Bonchi%2C+Carlos+Castillo%2C+Sara+Hajian%2C+Mohamed+Megahed%2C+and+Ricardo+Baeza-Yates.+2017.+FA*IR%3A+A+Fair+Top-k+Ranking+Algorithm.+In+Proceedings+of+the+2017+ACM+on+CIKM+%28Singapore%2C+Singapore%29.+1569%2D%2D1578."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00044" class="&#xA;                references__item&#xA;            "><span class="references__note">Wei Zhang, Quan Yuan, Jiawei Han, and Jianyong Wang. 2016. Collaborative Multi-Level Embedding Learning from Reviews for Rating Prediction. In IJCAI.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Wei+Zhang%2C+Quan+Yuan%2C+Jiawei+Han%2C+and+Jianyong+Wang.+2016.+Collaborative+Multi-Level+Embedding+Learning+from+Reviews+for+Rating+Prediction.+In+IJCAI."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00045" class="&#xA;                references__item&#xA;            "><span class="references__note">Yongfeng Zhang and Xu Chen. 2020. Explainable Recommendation: A Survey and New Perspectives. Foundations and Trends® in Information Retrieval 14, 1 (2020), 1--101. https://doi.org/10.1561/1500000066<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yongfeng+Zhang+and+Xu+Chen.+2020.+Explainable+Recommendation%3A+A+Survey+and+New+Perspectives.+Foundations+and+Trends%C2%AE+in+Information+Retrieval+14%2C+1+%282020%29%2C+1%2D%2D101.+https%3A%2F%2Fdoi.org%2F10.1561%2F1500000066"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00046" class="&#xA;                references__item&#xA;            "><span class="references__note">Yongfeng Zhang, Guokun Lai, Min Zhang, Yi Zhang, Yiqun Liu, and Shaoping Ma. 2014. Explicit Factor Models for Explainable Recommendation Based on Phraselevel Sentiment Analysis. In ACM SIGIR (Gold Coast, Queensland, Australia). 83--92.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yongfeng+Zhang%2C+Guokun+Lai%2C+Min+Zhang%2C+Yi+Zhang%2C+Yiqun+Liu%2C+and+Shaoping+Ma.+2014.+Explicit+Factor+Models+for+Explainable+Recommendation+Based+on+Phraselevel+Sentiment+Analysis.+In+ACM+SIGIR+%28Gold+Coast%2C+Queensland%2C+Australia%29.+83%2D%2D92."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00047" class="&#xA;                references__item&#xA;            "><span class="references__note">Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, and Kai-Wei Chang. 2017. Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints. In EMNLP.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Jieyu+Zhao%2C+Tianlu+Wang%2C+Mark+Yatskar%2C+Vicente+Ordonez%2C+and+Kai-Wei+Chang.+2017.+Men+Also+Like+Shopping%3A+Reducing+Gender+Bias+Amplification+using+Corpus-level+Constraints.+In+EMNLP."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li></ol></div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3TagWidget" data-widget-id="2ed7e2cb-91bf-4410-89fa-60d7242128b4" class="citation article__section article__index-terms">
+        
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="graphQueryWidget" data-widget-id="46655605-a6a7-450d-8cb4-39832738abe0" class="colored-block__title">
+        
+
+
+
+        
+        <h2 id="sec-terms" class="section__title left-bordered-title">Index Terms</h2>
+
+        </div>
+    
+
+<ol class="rlist organizational-chart"><li><h6>Fairness-Aware Explainable Recommendation over Knowledge Graphs</h6><ol class="rlist level-1  ch-3 hasNodes"><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10010405?ContentGroupKey=10.1145%2F3397271&amp;expand=all">Applied computing</a></p></div><ol class="rlist level-2 ch-1 hasNodes"><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10010405.10010455?ContentGroupKey=10.1145%2F3397271&amp;expand=all">Law, social and behavioral sciences</a></p></div><ol class="rlist level-3 ch-0"></ol></li></ol></li><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10002951?ContentGroupKey=10.1145%2F3397271&amp;expand=all">Information systems</a></p></div><ol class="rlist level-2 ch-1 hasNodes"><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10002951.10003317?ContentGroupKey=10.1145%2F3397271&amp;expand=all">Information retrieval</a></p></div><ol class="rlist level-3 ch-2 hasNodes"><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10002951.10003317.10003338?ContentGroupKey=10.1145%2F3397271&amp;expand=all">Retrieval models and ranking</a></p></div><ol class="rlist level-4 ch-0"></ol></li><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10002951.10003317.10003347?ContentGroupKey=10.1145%2F3397271&amp;expand=all">Retrieval tasks and goals</a></p></div><ol class="rlist level-5 ch-1 hasNodes"><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10002951.10003317.10003347.10003350?ContentGroupKey=10.1145%2F3397271&amp;expand=all">Recommender systems</a></p></div><ol class="rlist level-6 ch-0"></ol></li></ol></li></ol></li></ol></li><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10003456?ContentGroupKey=10.1145%2F3397271&amp;expand=all">Social and professional topics</a></p></div><ol class="rlist level-2 ch-0"></ol></li></ol></li></ol>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="article__section article__comments">
+
+
+
+        
+        <div class="colored-block__title">
+ <h2 id="sec-comments" class="section__title left-bordered-title">Comments</h2>
+</div>
+
+
+
+
+        
+        <div id="disqus_thread"></div><a href="https://dl.acm.org/doi/pdf/10.1145/3397271.3401051?casa_token=w5HjwTGp2i0AAAAA%3AMDslqvzH0lQE5BvFxsC9ia0FCx_BVMSALVTuS6bjZDJlWCgKK_IemAXX2Zg8IJk-6VAYIdaIjlEs%0A#disqus_thread" class="disqus-count hidden"></a><script>var disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = '10.1145/3397271.3401051';
+    this.page.remote_auth_s3 = '';
+    this.page.api_key = 'MmWj4FlWmXk20FJsmWMXbTJoZT7TVzTsc9Rw0yrJp3L1ZNXZuvmxF3F5rFIF8RqQ';
+};
+(function () {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://acm-prod.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();</script><noscript>Please enable JavaScript to view the<a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript><script id="dsq-count-scr" src="//acm-prod.disqus.com/count.js" async=""></script>
+</div>
+</div><div class="pill-content"><div id="pill-access"><div class="pill-access__content">
+
+
+
+        
+        <div class="pill-access__content"><div class="section__separator"><h3 class="left-bordered-title">Login options</h3><div class="section__content"><p class="info--text">Check if you have access through your login credentials or your institution to get full access on this article.</p><a href="/action/showLogin?redirectUri=/doi/pdf/10.1145/3397271.3401051?casa_token=w5HjwTGp2i0AAAAA%3AMDslqvzH0lQE5BvFxsC9ia0FCx_BVMSALVTuS6bjZDJlWCgKK_IemAXX2Zg8IJk-6VAYIdaIjlEs%0A" title="Sign in" class="btn big btn--inverse">Sign in</a></div></div><div class="section__separator"><h3 class="left-bordered-title">Full Access</h3><div class="section__content"><a href="/action/publisherEcommerceHelper?doi=10.1145/3397271.3401051&amp;redirectUri=https://dl.acm.org/doi/pdf/10.1145/3397271.3401051?casa_token=w5HjwTGp2i0AAAAA%3AMDslqvzH0lQE5BvFxsC9ia0FCx_BVMSALVTuS6bjZDJlWCgKK_IemAXX2Zg8IJk-6VAYIdaIjlEs%0A" title="Get this Publication" class="btn blue big">Get this Publication</a></div></div></div>
+</div></div><div id="pill-information"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-information__contentcon" href="#pill-information__content" aria-controls="pill-information__content" role="tab" data-toggle="tab" title="Information" aria-selected="true" data-simple-tab-id="" tabindex="0">Information</a></li><li role="presentation"><a id="pill-authors__contentcon" href="#pill-authors__content" aria-controls="pill-authors__content" role="tab" data-toggle="tab" title="Authors" aria-selected="false" data-simple-tab-id="" tabindex="-1">Contributors</a></li></ul><ul class="rlist tab__content"><li id="pill-information__content" aria-labelledby="pill-information__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"><div class="pill-information__content"><div class="section__separator"><h3 class="left-bordered-title">Published in</h3><div class="section__content cover-image-proceeding">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3CoverImage" data-widget-id="3095e6f5-a638-4f66-bb85-bbf4b03381ac" class="left-side-image">
+        
+
+
+
+        
+        <div class="cover-image"><div class="cover-image__image"><img src="/specs/products/acm/releasedAssets/images/Default_image_lazy.svg" data-src="/cms/asset/66313e21-2734-4e06-b4f9-60505b8ed571/3397271.cover.jpg" alt="cover image ACM Conferences" class="lazy"/></div><div class="cover-image__details"><div class="book-meta">SIGIR '20: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval</div><div class="cover-date">July 2020</div><div class="cover-pages">2548  pages</div><div class="cover-image__details-extra"><div class="flex-container"><span class="bold">ISBN:</span><span class="space">9781450380164</span></div><div class="flex-container"><span class="bold">DOI:</span><span class="space">10.1145/3397271</span></div><div class="flex-container"><div><ul class="rlist--inline loa truncate-list" title="list of authors" data-lines="2"><li class="label"><b>General Chairs: </b></li><li><a href="/profile/99659567116" title="Jimmy Huang"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Jimmy Huang</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-99659567116">York University, Canada</p></span><span>,</span></li><li><a href="/profile/99659566456" title="Yi Chang"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Yi Chang</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-99659566456">Jilin University, China</p></span><span>,</span></li><li><a href="/profile/81350598297" title="Xueqi Cheng"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Xueqi Cheng</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81350598297">Chinese Academy of Sciences, China</p></span><span>,</span></li><li class="label"><b>Program Chairs: </b></li><li><a href="/profile/81548004694" title="Jaap Kamps"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Jaap Kamps</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81548004694">University of Amsterdam, Netherlands</p></span><span>,</span></li><li><a href="/profile/81100129965" title="Vanessa Murdock"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Vanessa Murdock</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81100129965">Amazon, U.S.A.</p></span><span>,</span></li><li><a href="/profile/81100357094" title="Ji-Rong Wen"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Ji-Rong Wen</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-81100357094">Renmin University of China, China</p></span><span>,</span></li><li><a href="/profile/99659570051" title="Yiqun Liu"><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/><span>Yiqun Liu</span></a><span class="loa_author_inst hidden"><p data-doi="10.1145/contrib-99659570051">Tsinghua University, China</p></span></li></ul></div></div></div><div class="pb-dropzone" data-pb-dropzone="metadataDisplayExtra" title="metadataDisplayExtra"></div></div></div>
+
+        </div>
+    
+<p class="copyrights small">Copyright © 2020 ACM</p></div></div><div class="section__separator proceedingInfo-sponsors hidden"><h3 class="left-bordered-title">Sponsors</h3><ul class="proceedingInfo-sponsors__list"></ul></div><div class="section__separator proceedingInfo-inCoop hidden"><h3 class="left-bordered-title">In-Cooperation</h3><ul class="proceedingInfo-inCoop__list"></ul></div><div class="section__separator"><h3 class="left-bordered-title">Publisher</h3><div class="section__content publisher"><div class="inlineBlock"></div><div class="inlineBlock"><p class="publisher__name">Association for Computing Machinery</p><p class="publisher__address">New York, NY, United States</p></div></div></div>
+
+<div class="section__separator"><h3 class="left-bordered-title">Author Tags</h3><div class="section__content"><div class="tags-widget"><div class="tags-widget__content"><ul class="rlist--inline"><li><a href="/keyword/explainable recommendation?expand=all" title="explainable recommendation" class="badge-type">explainable recommendation</a></li><li><a href="/keyword/knowledge graphs?expand=all" title="knowledge graphs" class="badge-type">knowledge graphs</a></li><li><a href="/keyword/fairness?expand=all" title="fairness" class="badge-type">fairness</a></li></ul></div></div></div></div><div class="section__separator"><h3 class="left-bordered-title">Qualifiers</h3><ul class="qualifiers__list"><li class="capitalized qualifiers__list__item">research-article</li></ul></div><div class="section__separator proceedingInfo-conference hidden"><h3 class="left-bordered-title">Conference</h3></div><div class="section__separator funding-sources hidden"><h3 class="left-bordered-title">Funding Sources</h3><ul class="funding-list"></ul></div></div></li><li id="pill-authors__content" aria-labelledby="pill-authors__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><div class="pill-authors__content"><div class="section__separator"><div class="pill-authors-list"><div class="expandable-accordion"><div class="pill-normalized-authors">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3BibliometricsWidget" data-widget-id="e7d55c1d-243e-4d38-8e1f-59bc13f4487e" class="contrib-metrics-bibliometrics">
+        
+
+
+
+        
+        <div class="contrib-metrics-wrapper accordion-tabbed__tab">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="f156d5b7-4ebc-4825-9820-acb30ea65641" class="clearfix">
+        
+
+
+
+        
+        <h2 class="left-bordered-title pull-left">Contributor Metrics</h2><a class="pull-right expand-all" href="/" aria-expanded="false">Expand All </a>
+
+        </div>
+    
+<div data-sectionname="Authors" data-numberOfLiToShow="4"><div class="contrib-metrics-bibliometrics"><div class="accordion authors-accordion"><ul class="accordion-tabbed rlist loa clearfix"><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659369214"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659369214">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659369214" title="Expand to see Bibliometrics: publication history">Zuohui  Fu</a>
+        </span>
+        <span class="info--text auth-institution">
+             Rutgers University&#8211;New Brunswick 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-0_Ctrl" style="display: none;" id="adItem-0" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2019 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">24</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">23</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">312</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">15,506</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">1,641</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">6,722</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">13</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">674</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659369214" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99658726481"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99658726481">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99658726481" title="Expand to see Bibliometrics: publication history">Yikun  Xian</a>
+        </span>
+        <span class="info--text auth-institution">
+             Rutgers University&#8211;New Brunswick 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-1_Ctrl" style="display: none;" id="adItem-1" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2015 - 2021</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">18</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">16</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">309</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">13,291</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">858</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">4,469</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">17</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">831</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99658726481" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659468613"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659468613">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659468613" title="Expand to see Bibliometrics: publication history">Ruoyuan  Gao</a>
+        </span>
+        <span class="info--text auth-institution">
+             Rutgers University&#8211;New Brunswick 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-2_Ctrl" style="display: none;" id="adItem-2" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2019 - 2021</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">8</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">6</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">116</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">4,312</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">345</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">1,682</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">15</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">719</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659468613" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659566033"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659566033">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659566033" title="Expand to see Bibliometrics: publication history">Jieyu  Zhao</a>
+        </span>
+        <span class="info--text auth-institution">
+             University of California, Los Angeles 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-3_Ctrl" style="display: none;" id="adItem-3" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2020 - 2020</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">1</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">1</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">55</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">1,626</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">105</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">503</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">55</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">1,626</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659566033" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99660686504"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99660686504">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99660686504" title="Expand to see Bibliometrics: publication history">Qiaoying  Huang</a>
+        </span>
+        <span class="info--text auth-institution">
+             Rutgers University&#8211;New Brunswick 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-4_Ctrl" style="display: none;" id="adItem-4" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2020 - 2020</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">2</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">2</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">81</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">2,688</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">184</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">890</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">41</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">1,344</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99660686504" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659369912"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659369912">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659369912" title="Expand to see Bibliometrics: publication history">Yingqiang  Ge</a>
+        </span>
+        <span class="info--text auth-institution">
+             Rutgers University&#8211;New Brunswick 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-5_Ctrl" style="display: none;" id="adItem-5" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2019 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">19</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">19</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">249</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">12,853</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">1,835</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">7,520</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">13</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">676</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659369912" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659371248"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659371248">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659371248" title="Expand to see Bibliometrics: publication history">Shuyuan  Xu</a>
+        </span>
+        <span class="info--text auth-institution">
+             Rutgers University&#8211;New Brunswick 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-6_Ctrl" style="display: none;" id="adItem-6" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2019 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">12</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">12</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">111</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">7,277</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">1,129</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">4,174</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">9</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">606</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659371248" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659370810"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659370810">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659370810" title="Expand to see Bibliometrics: publication history">Shijie  Geng</a>
+        </span>
+        <span class="info--text auth-institution">
+             Rutgers University&#8211;New Brunswick 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-7_Ctrl" style="display: none;" id="adItem-7" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2019 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">9</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">8</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">96</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">5,373</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">743</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">3,067</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">11</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">672</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659370810" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-81332526845"/>
+    <div class="auth-image">
+        
+            <a href="/profile/81332526845">
+                <img src="/do/10.1145/contrib-81332526845/pill-img-name-aff/ChiragShah.jpg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/81332526845" title="Expand to see Bibliometrics: publication history">Chirag Shah</a>
+        </span>
+        <span class="info--text auth-institution">
+             Rutgers University&#8211;New Brunswick 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-8_Ctrl" style="display: none;" id="adItem-8" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2004 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">124</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">91</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">1,222</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">39,169</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">3,504</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">11,489</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">10</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">430</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/81332526845" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-99659190940"/>
+    <div class="auth-image">
+        
+            <a href="/profile/99659190940">
+                <img src="/do/10.1145/contrib-99659190940/pill-img-name-aff/YongfengZhang_3_higher.png" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/99659190940" title="Expand to see Bibliometrics: publication history">Yongfeng Zhang</a>
+        </span>
+        <span class="info--text auth-institution">
+             Rutgers University&#8211;New Brunswick 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-9_Ctrl" style="display: none;" id="adItem-9" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2013 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">103</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">97</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">2,941</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">84,395</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">5,382</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">25,090</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">29</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">870</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/99659190940" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control">
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-81447595290"/>
+    <div class="auth-image">
+        
+            <a href="/profile/81447595290">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/81447595290" title="Expand to see Bibliometrics: publication history">Gerard  de Melo</a>
+        </span>
+        <span class="info--text auth-institution">
+             Rutgers University&#8211;New Brunswick 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-10_Ctrl" style="display: none;" id="adItem-10" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2007 - 2022</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">73</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">51</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">911</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">29,063</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">4,108</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">12,920</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">12</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">570</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/81447595290" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li></ul></div></div></div>
+
+
+
+</div>
+
+        </div>
+    
+</div><!--.pill-all-authors.authors-accordion.disable-truncate.hidden(aria-hidden="true")--><!--    if(data.item && data.item.contribsFull)--><!--        | !{data.item.contribsFull}--></div></div></div><div class="section__separator"><h3 class="left-bordered-title">Other Metrics</h3><div class="section__content badges"><a href="#pill-bibliometrics__contentcon" data-slide-target="#pill-metric" data-tab="pill-bibliometrics__content" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="btn big stretched btn--inverse w-slide__btn tab-link pill-content">View Article Metrics</a></div></div></div></li></ul></div></div><div id="pill-metric"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-bibliometrics__contentcon" href="#pill-bibliometrics__content" aria-controls="pill-bibliometrics__content" role="tab" data-toggle="tab" title="Bibliometrics" aria-selected="true" data-simple-tab-id="" tabindex="0">Bibliometrics</a></li><li role="presentation"><a id="pill-citations__contentcon" href="#pill-citations__content" data-ajaxurl="/action/ajaxShowCitedBy?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&amp;ajax=true&amp;doi=10.1145%2F3397271.3401051&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3397271%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3397271.3401051%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bir%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" data-component="pubAjaxContent" data-ajaxtarget="#pill-citations__content .citedBy" aria-controls="pill-citations__content" role="tab" data-toggle="tab" title="Citations" aria-selected="false" data-simple-tab-id="" tabindex="-1" class="loadAjax loadLazyAjax">Citations<span class="citation-count count-bubble">55</span></a></li></ul><ul class="rlist tab__content"><li id="pill-bibliometrics__content" aria-labelledby="pill-bibliometrics__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"><div class="pill-bibliometrics__content"><div class="section__separator"><h3 class="left-bordered-title">Article Metrics</h3><div class="section__content"><ul class="rlist--inline article-metrics"><li><div class="article-metric citation"><div class="metric-value"><span>55</span></div>Total Citations</div><a href="#pill-citations__contentcon" data-tab="pill-citations__content" data-slide-target="#pill-metric" data-full-screen="false" data-ctrl-res="screen-xlg" class="primary-blue-color w-slide__btn tab-link slide-active pill-content">View Citations</a></li><li><div class="article-metric download"><div class="metric-value"><span>1,626</span></div>Total Downloads</div></li></ul><ul class="rlist metrics__list"><li><span class="metric-name">Downloads (Last 12 months)</span><span class="metric-value">503</span></li><li><span class="metric-name">Downloads (Last 6 weeks)</span><span class="metric-value">105</span></li></ul></div></div><div class="section__separator"><h3 class="left-bordered-title">Other Metrics</h3><div class="section__content"><a href="#pill-authors__contentcon" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-tab="pill-authors__content" data-full-screen="false" data-label="&lt;i class=&quot;icon-Icon_Information &quot;&gt;&lt;/i&gt;Information &amp; Authors" class="btn big stretched btn--inverse w-slide__btn tab-link pill-content">View Author Metrics</a></div></div></div></li><li id="pill-citations__content" aria-labelledby="pill-citations__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><div class="pill-citations__content"><div class="section__separator"><div class="header-container"><h3 class="left-bordered-title citedBy-label">Cited By</h3><a id="downloadAll" href="/action/ajaxShowCitedBy?doi=10.1145/3397271.3401051" target="_blank" title="View all cited by in new tab" class="btn btn--rounded ml-0 mt-0 mb-0 pl-2 blue pull-right">View all<i class="icon-export ml-2"></i></a><ol class="rlist references__list citedBy mt-5"></ol></div></div></div></li></ul></div></div><div id="pill-formats"><div class="pill-formats__content"><div class="section__separator de-format hidden"><h3 class="left-bordered-title">Digital Edition</h3><div class="section__content"><p class="info--text">View this article in digital edition.</p><a href="#" title="View Digital Edition" class="btn big stretched blue"><i aria-hidden="true" class="icon-open-book"></i>View Digital Edition</a></div></div></div></div><div id="pill-references"><div class="pill-references__content"></div></div><div id="pill-media"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-fig__contentcon" href="#pill-fig__content" aria-controls="pill-fig__content" role="tab" data-toggle="tab" title="Figures" aria-selected="true" data-simple-tab-id="" tabindex="0">Figures</a></li><li role="presentation"><a id="pill-media__contentcon" href="#pill-media__content" aria-controls="pill-media__content" role="tab" data-toggle="tab" title="Other" aria-selected="false" data-simple-tab-id="" tabindex="-1">Other</a></li></ul><div class="pill-figures__content"><ul class="rlist tab__content"><li id="pill-fig__content" aria-labelledby="pill-fig__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"></li><li id="pill-media__content" aria-labelledby="pill-media__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><ul class="rlist pill-media__content"></ul></li></ul></div></div></div><div id="pill-tables"><div class="pill-tables__content"></div></div><div id="pill-share"><div class="pill-share__content"><div class="section__separator"><h3 class="left-bordered-title">Share this Publication link</h3><div class="section__content copy__text-wrapper"><fieldset><p id="shareable-link__text" class="copy__text">https://dl.acm.org/doi/pdf/10.1145/3397271.3401051?casa_token=w5HjwTGp2i0AAAAA%3AMDslqvzH0lQE5BvFxsC9ia0FCx_BVMSALVTuS6bjZDJlWCgKK_IemAXX2Zg8IJk-6VAYIdaIjlEs%0A</p><button type="submit" class="btn big btn--inverse copy__btn"><i aria-hidden="true" class="icon-pages"></i>Copy Link</button></fieldset></div></div><div class="section__separator"><h3 class="left-bordered-title">Share on Social Media</h3><div class="section__content"><div class="visible-service-name">
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" defer="defer" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><div class="share__block share__inline-links"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><div class="rlist--inline addthis addthis_toolbox addthis_default_style addthis_32x32_style"><a role="link" class="addthis_button_twitter"></a><a role="link" class="addthis_button_linkedin"></a><a role="link" class="addthis_button_reddit"></a><a role="link" class="addthis_button_facebook"></a><a role="link" class="addthis_button_email"></a><div class="pb-dropzone" data-pb-dropzone="share-additional-links" title="share-additional-links"></div></div></div>
+</div></div></div></div></div></div></div><div class="col-sm-2 pill-section"><div data-stop-on=".more-issue__section" class="pill-icons"><ul class="rlist pill-list"><li title="Information &amp; Authors"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-full-screen="false" title="Information and Authors" data-label="&lt;i class=&quot;icon-Icon_Information&quot;&gt;&lt;/i&gt;Information &amp; Authors" class="w-slide__btn pill-information"><i aria-hidden="true" class="icon-Icon_Information"></i></button></li><li title="Bibliometrics &amp; Citations"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" title="Bibliometrics and Citations" class="w-slide__btn pill-metric"><i aria-hidden="true" class="icon-metric"></i></button></li><li title="Get Access"><a href="javascript:void(0);" data-slide-target="#pill-access" data-ctrl-res="screen-xlg" data-full-screen="false" title="Get Access" data-label="&lt;i class=&quot;icon-get-access&quot;&gt;&lt;/i&gt;Get Access" class="w-slide__btn pill-access"><i class="icon-get-access"></i></a></li><li title="References"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-references" data-ctrl-res="screen-xlg" data-full-screen="false" title="References" data-label="&lt;i class=&quot;icon-Icon_Links-References&quot;&gt;&lt;/i&gt;References" class="w-slide__btn pill-references"><i aria-hidden="true" class="icon-Icon_Links-References"></i><span class="refNum count-bubble">0<span class="sr-only">References</span></span></button></li><li title="Media"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-media" data-ctrl-res="screen-xlg" data-full-screen="false" title="Media" data-label="&lt;i class=&quot;icon-Icon_Images&quot;&gt;&lt;/i&gt;Media" data-ajaxtarget="#pill-fig__content" data-component="pubAjaxContent" data-action="onResponse" data-ajaxurl="/action/ajaxShowFigures?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&amp;ajax=true&amp;doi=10.1145%2F3397271.3401051&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3397271%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3397271.3401051%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bir%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="w-slide__btn loadAjax-auto pill-media"><i aria-hidden="true" class="icon-Icon_Images"></i></button></li><li title="Tables"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-tables" data-ctrl-res="screen-xlg" title="Tables" data-full-screen="false" data-label="&lt;i class=&quot;icon-table&quot;&gt;&lt;/i&gt;Tables" data-ajaxtarget=".pill-tables__content" data-component="pubAjaxContent" data-action="onResponse" data-ajaxurl="/action/ajaxShowTables?widgetId=8e46140b-7e42-4c62-9295-13ae241fcad0&amp;ajax=true&amp;doi=10.1145%2F3397271.3401051&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3397271%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3397271.3401051%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bir%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="w-slide__btn loadAjax-auto pill-tables"><i aria-hidden="true" class="icon-table"></i></button></li><li title="Share"><button aria-haspopup="dialog" aria-controls="w-slideElement" data-slide-target="#pill-share" data-ctrl-res="screen-xlg" data-full-screen="false" title="Share" data-label="&lt;i class=&quot;icon-Icon_Share&quot;&gt;&lt;/i&gt;Share" class="w-slide__btn pill-share pill-content"><i aria-hidden="true" class="icon-Icon_Share"></i></button></li></ul></div></div></div></article><div id="figure-viewer" data-ux3-wrapper="figure-viewer" data-ux3-transformed-by="figureInit" data-ux3-role="parent" role="dialog" class="figure-viewer"><div class="figure-viewer__reg__top clearfix"><div class="figure-viewer__top__right"><a title="Zoom In" href="#" class="figure-viewer__ctrl figure-viewer__ctrl__zoom zoomSetting"><div aria-hidden="true" class="icon-zoom-in zoom-in"></div></a><a title="Zoom Out" href="#" class="figure-viewer__ctrl figure-viewer__label__zoom zoomSetting"><div aria-hidden="true" class="icon-zoom-out zoom-out"></div></a><a title="Open Caption" href="#" class="figure-viewer__ctrl figure-viewer__ctrl__caption"><i aria-hidden="true" class="icon-Icon_Information"></i></a><a href="#" data-ux3-role="controller" role="button" title="close" class="figure-viewer__ctrl figure-viewer__ctrl__close"><i aria-hidden="true" class="icon-cancel-bold"><span class="sr-only">Close Figure Viewer</span></i></a></div><h4 class="figure-viewer__top__center"></h4><div class="figure-viewer__top__left"><a href="#" role="button" title="Browse All" class="figure-viewer__ctrl__browse"><i aria-hidden="true" class="icon-grid-3"><span class="sr-only">Browse All</span></i></a><a href="#" role="button" title="Return" class="figure-viewer__ctrl__return is-hidden"><i aria-hidden="true" class="icon-cancel-bold"><span class="sr-only">Return</span></i></a><span class="zoomSlider js__zoom-slider ui-slider zoomSetting"><label for="figure-viewer__zoom-range" class="sr-only">Change zoom level</label><input type="range" id="figure-viewer__zoom-range" class="zoom-range"/></span></div></div><div class="figure-viewer__reg__center"><div class="figure-viewer__cent__left"><div class="figure-viewer__hold__fig"><div class="holder"></div></div><div class="figure-viewer__hold__list"><h3 class="figure-viewer__browse-title"></h3><div class="flex-grid"></div></div></div><div class="figure-viewer__cent__right"><div class="figure-viewer__caption-header"><h3 class="figure-viewer__caption-label">Caption</h3><a title="Close Caption" href="#" class="pull-right figure-viewer__close-caption figure-viewer__ctrl__caption"><i aria-hidden="true" class="icon-cancel-bold"></i></a></div><div class="figure-viewer__caption-wrapper"><div class="figure-viewer__title"><span class="figure-viewer__title__text"></span></div><div class="figure-viewer__hold__figcap"></div></div></div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="separated-block--dashed align-center"><a href="/doi/proceedings/10.1145/3397271" style="text-transform: capitalize;" class="btn btn--inverse big">View Table of Contents</a></div>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3combinedRecommendationsWidget" data-widget-id="bf2b14e9-d9dc-4518-8bb0-d9b157f47c7e" class="recommendations" data-show-id="sec-ref">
+        
+
+
+
+        
+        <div data-ajaxurl="/pb/widgets/lazyLoadRecommended?widgetId=bf2b14e9-d9dc-4518-8bb0-d9b157f47c7e&amp;doi=10.1145%2F3397271.3401051&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3BsubPage%3Astring%3AAccess+Denial%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3397271%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3397271.3401051%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bir%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="recommended--lazyLoad"></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div role="dialog" aria-labelledby="exportCitationsPopup" class="ux-modal-container"><div id="exportCitation" class="modal"><div class="modal__dialog"><div class="modal__header"><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" aria-label="close popup" class="icon-close_thin"></i></button><h2 id="exportCitationsPopup">Export Citations</h2></div><div class="modal__body"><div class="exportCitation__tabs"><div class="tab"><ul role="tablist" class="rlist tab__nav"></ul></div><div class="csl-wrapper copy__text-wrapper"><form action="/action/exportCiteProcCitation" method="post" target="_blank"><input type="hidden" name="content" value=""/><input type="hidden" name="dois" value=""/><input type="hidden" name="format" value=""/><fieldset class="input-group"><label for="citation-format" class="visibility-hidden">Select Citation format</label><select id="citation-format" data-csl-doi="10.1145/3397271.3401051"><option value="bibtex" data-format="bibTex">BibTeX</option><option value="endNote" data-format="endNote">EndNote</option><option value="acm" data-format="text">ACM Ref</option></select><span class="select-arrow"><i class="icon-bottom-arrow"></i></span></fieldset><ul class="rlist tab__content"><li id="allResultstab" aria-labelledby="allResults" role="tabpanel" class="tab__pane"><div class="all-results-tab-container"><div class="desc-text"><div class="bold">Preview is not available.</div>By clicking download,<b class="ml-1">a new tab</b> will open to start the export process. The process may take<b class="ml-1">a few minutes</b> but once it finishes a file will be downloaded on your browser so<b class="ml-1">please do not close the new tab.</b></div><a href="#" title="Download" target="_blank" class="btn transparent downloadBtn"><i aria-hidden="true" class="icon-Icon_Download"></i>Download<i aria-hidden="true" class="icon-export"></i></a></div></li><li id="selectedTab" aria-labelledby="selected" role="tabpanel" class="tab__pane active"><div class="csl-wrapper copy__text-wrapper"><pre class="copy__text csl-response"></pre><div id="export-warning"></div><div class="pull-right"><ul class="rlist--inline separator"><li><a href="javascript:void(0)" role="menuitem" title="Download citation" class="download__btn disabled"><label class="visibility-hidden">Download citation</label><i aria-hidden="true" class="icon-Icon_Download"></i></a></li><li><input type="hidden" id="doisLimitNumber" value="-1"/><a href="javascript:void(0)" role="menuitem" title="Copy citation" class="copy__btn disabled"><label class="visibility-hidden">Copy citation</label><i aria-hidden="true" class="icon-pages"></i></a></li></ul></div></div></li></ul></form></div></div></div></div></div></div>
+</main>
+
+
+
+
+        
+        <footer class="footer">
+
+
+
+        
+        <div class="back-to-top clearfix">
+    <i class="icon-arrow_u_p"></i>
+</div>
+
+
+
+
+        
+        <div class="footer-top">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="81a18a14-d709-41fd-9bb6-25a7fc1e13df" class="container">
+        
+
+
+
+        
+        <div class="row sitemap">
+
+
+
+        
+        <div class="col-sm-2 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="5b00ef28-f63b-4518-bd06-da82035f86ca" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">Categories</div>
+<ul class="rlist">
+    <li><a href="/journals" title="Browse a listing of ACM’s Journals">Journals</a></li>
+    <li><a href="/magazines" title="Browse ACM's Magazines">Magazines</a></li>
+    <li><a href="/acmbooks" title="Browse new Releases of ACM Books">Books</a></li>
+    <li><a href="/proceedings" title="Browse the ACM Proceedings">Proceedings</a></li>
+    <li><a href="/sigs" title="Browse the Special Interest Groups">SIGs</a></li>
+    <li><a href="/conferences" title="Browse the Conferences">Conferences</a></li>
+    <li><a href="/collections" title="Browse the Special Collections">Collections</a></li>
+    <li><a href="/people" title="Discover ACM’s community of authors">People</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-4 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="731f98d3-e996-490d-a071-e9b966b32e2d" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">About</div>
+<ul class="rlist">
+    <li><a href="/about">About ACM Digital Library</a></li>
+    <li><a href="/about/dlboard" title="ACM DL Board - Governance and Support Staff">ACM Digital Library Board</a></li>
+    <li><a href="/about/access" title="Accessing the DL">Subscription Information</a></li>
+    <li><a href="https://www.acm.org/publications/authors/information-for-authors" title="Information for Authors">Author Guidelines</a></li>
+    <li><a href="/about/access" title="Accessing the DL">Using ACM Digital Library</a></li>
+    <li><a href="/about/content#sec2">All Holdings within the ACM Digital Library</a></li>
+    <li><a href="/ccs" title="Classify publications using ACM's Computing Classification System">ACM Computing Classification System</a></li>
+     <li><a href="/about/accessibility" title="Digital Library Accessibility">Digital Library Accessibility</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-3 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="d4ed040d-22e8-481c-a7ef-0cac141f5246" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">Join</div>
+<ul class="rlist">
+    <li><a href="https://www.acm.org/membership/join">Join ACM</a></li>
+    <li><a href="https://www.acm.org/special-interest-groups/join">Join SIGs</a></li>
+    <li><a href="https://www.acm.org/publications/subscribe">Subscribe to Publications</a></li>
+    <li><a href="https://libraries.acm.org/">Institutions and Libraries</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-3 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="4a649bf1-cf3f-472c-b764-dc3ab0cf4310" class="sitemap__data">
+        
+
+
+
+        
+        <b>Connect</b>
+<ul class="rlist social-media__connect">
+    <li><a href="/cdn-cgi/l/email-protection#e98d85c49d8c8884a98198c7888a84c7869b8e" title="email dl team"><i class="icon-Icon_mail" aria-hidden="true"></i><span>Contact</span></a></li>
+    <li><a href="https://www.facebook.com/AssociationForComputingMachinery/" title="ACM on facebook"><i class="icon-facebook" aria-hidden="true"></i><span>Facebook</span></a></li>
+    <li><a href="https://twitter.com/acmdl" title="Tweets from ACM DL"><i class="icon-twitter" aria-hidden="true"></i><span>Twitter</span></a></li>
+    <li><a href="https://www.linkedin.com/company/association-for-computing-machinery/" title="acm  linkedin"><i class="icon-linkedin" aria-hidden="true"></i><span>Linkedin</span></a></li>
+    <!--li><a href="#" title="icon-Rss"><i class="icon-Rss" aria-hidden="true"></i><span>RSS</span></a></li-->
+    <li><a onclick="srv.openModal(true,'02b075ed48492ef0e7598ddf9762f5ef668d7320')" title="Provide Feedback"><i class="icon-Icon_Information" aria-hidden="true"></i><span>Feedback</span></a></li>
+    <li><a onclick="srv.openModal(true,'02b075ed48492ef0e7598ddf9762f5ef668d7320')" title="Report a problem"><i class="icon-Icon_Information" aria-hidden="true"></i><span>Bug Report</span></a></li>
+</ul>
+
+        </div>
+    
+</div>
+</div>
+
+        </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="6e6da9b7-371e-4ea0-827e-8de5915b8cd5" class="footer-bottom text-onDark">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class="col-md-8 col-sm-6 footer__copyright-wrapper">
+
+
+
+        
+        <div class="copyright">The ACM Digital Library is published by the Association for Computing Machinery. Copyright © 2023 ACM, Inc.</div>
+<ul class="rlist--inline">
+    <li><a href="https://libraries.acm.org/digital-library/policies#anchor3">Terms of Usage</a></li>
+    <li><a href="https://www.acm.org/about-acm/privacy-policy">Privacy Policy</a></li>
+    <li><a href="https://www.acm.org/code-of-ethics">Code of Ethics</a></li>
+</ul>
+</div><div class="col-md-4 col-sm-6 footer__logos-wrapper">
+
+
+
+        
+        <div class="logos">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="42d543b3-ff9d-4f92-bf03-6d1fa00da8c6" class="footer__logo1">
+        
+
+
+
+        
+        <a href="/" title="ACM Digital Library home"><img id="" alt="ACM Digital Library home" src="/specs/products/acm/releasedAssets/images/acm-logo-dl.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="5a0bc5df-cd95-408f-8ae5-8b1f40746519" class="footer__logo2">
+        
+
+
+
+        
+        <a href="https://www.acm.org" title="ACM home"><img id="" alt="ACM home" src="/specs/products/acm/releasedAssets/images/acm-logo-3.png"/></a>
+
+        </div>
+    
+</div>
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <!-- Mopinion Pastea.se  start --><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">(function(){var id="7zt4vp6rxi2bbpxuy9yzabob4fy2enwmumr";var js=document.createElement("script");var pbBtn=document.querySelector('.admin-bar-disclosure');if(!window.PB){js.setAttribute("src","//deploy.mopinion.com/js/pastease.js");document.getElementsByTagName("head")[0].appendChild(js);var t=setInterval(function(){try{new Pastease.load(id);clearInterval(t)}catch(e){}},50)}})();
+    </script><!-- Mopinion Pastea.se end -->
+</footer>
+
+
+
+
+        
+        <script type="text/javascript">
+(function(h,o,t,j,a,r){
+    h.hj=h.hj||function()
+    
+    {(h.hj.q=h.hj.q||[]).push(arguments)}
+    ;
+    h._hjSettings={hjid:1290436,hjsv:6};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+
+
+        
+        <script type="text/javascript">
+    (function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script");
+    var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+    s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+    s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+    w.lazyLoadOptions = {elements_selector: ".lazy", "class_loaded": "image-lazy-loaded"};
+    b.appendChild(s);
+}(window, document));
+</script>
+
+
+
+
+        
+        
+
+
+
+
+        
+        <div class="cookiePolicy-popup"><div class="cookiePolicy-popup__header"><i aria-hidden="true" class="icon-cookie"></i><span aria-label="About Cookies On This Site" class="cookiePolicy-popup__title">About Cookies On This Site</span></div><div aria-label="Cookie Policy Body" class="cookiePolicy-popup__body clearfix"><p><p>We use cookies to ensure that we give you the best experience on our website.</p>
+<p><a href="https://www.acm.org/privacy-policy" class="blue link">Learn more</a></p></p><a href="#" class="btn blue cookiePolicy-popup__close pull-right">Got it!</a></div></div>
+
+
+
+
+        
+        
+
+
+
+        
+    
+
+
+
+
+
+        
+        <div class="affs-popup"><input id="deleteCookie" type="hidden" name="deleteCookie" value="true"/></div>
+        </div>
+    </div>
+
+
+	
+    <script>if (typeof define !== 'undefined' && define.amd)
+    define.amd = false</script><script src="/products/acm/releasedAssets/js/main.bundle-7802229da98c6207291f.js"></script><script>(function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script");
+    var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+    s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+    s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+    w.lazyLoadOptions = {elements_selector: ".lazy", "class_loaded": "image-lazy-loaded"};
+    b.appendChild(s);
+}(window, document));</script>
+<script type="text/javascript" src="/wro/lwf4~product.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(() => setTimeout(() => {
+            let _bnw=window,_bna=atob("bG9jYXRpb24="),_bnb=atob("b3JpZ2lu"),_hn=_bnw[_bna][_bnb],_bnt=btoa(_hn+new Array(5 - _hn.length % 4).join(" "));
+            $.get("/resource/lodash?t="+_bnt);
+        },4000));
+    </script>
+
+
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'7881daab3ceb71b6',m:'6_ky.vcODxFtscP7CjW83vjduSEH7nhQ0z3GUpLyhkw-1673484167-0-AWxt2yRGKY+lrekFEeDPTzXdLwwuTjt3ZHIyY4q8HflclQREdqTorKAlB/fGWjZlb3SVVTRm4DnJ4rvErQJ1hvwx5rE2PfwdQZYBLG57VAHapcMEvKBCx8ERSFnSlDC+ImJ/0aPTMNyocFk9aSLsvl+j3vgGH2nq+gNYdF3HjckpzK6EYnDJ61usfg9AsWQmtdR8zhvKv9Y5uZH4H/Duwv5I63Rp4ACds1i3d9ylLyXBRXmxmN+ejvTtBGKmisHRBBbdXIALuocoHT0f2jcJfOL8kyIgBzJ8VzG4uE1hHs+m',s:[0x265db16c81,0xc835ab65a4],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7881daab3ceb71b6","token":"b7f168b3cd354a55a4dd51b513830799","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

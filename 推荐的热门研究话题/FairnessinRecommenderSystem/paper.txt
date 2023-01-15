@@ -1,0 +1,7 @@
+Fairness-Aware Explainable Recommendation over Knowledge Graphs
+Ensuring Fairness in Group Recommendations by Rank-Sensitive Balancing of Relevance
+Fairness-Aware News Recommendation with Decomposed Adversarial Learning
+Practical Compositional Fairness Understanding Fairness in Multi-Component Recommender Systems
+Towards Long-term Fairness in Recommendation
+Learning Fair Representations for Recommendation: A Graph-based Perspective
+User-oriented Group Fairness In Recommender Systems

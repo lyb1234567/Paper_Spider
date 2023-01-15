@@ -1,0 +1,6 @@
+Measuring Recommendation Explanation Quality: The Conflicting Goals of Explanations
+Evaluating Conversational Recommender Systems via User Simulation
+On Sampled Metrics for Item Recommendation
+On Sampling Top-K Recommendation Evaluation
+Are We Evaluating Rigorously： Benchmarking Recommendation for Reproducible Evaluation and Fair Comparison
+On Target Item Sampling in Offline Recommender System Evaluation

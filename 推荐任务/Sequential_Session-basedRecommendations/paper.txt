@@ -1,0 +1,35 @@
+Sequential Recommendation with Self-attentive Multi-adversarial Network
+KERL: A Knowledge-Guided Reinforcement Learning Model for Sequential Recommendation
+Modeling Personalized Item Frequency Information for Next-basket Recommendation
+Incorporating User Micro-behaviors and Item Knowledge into Multi-task Learning for Session-based Recommendation
+ GAG: Global Attributed Graph Neural Network for Streaming Session-based Recommendation
+Next-item Recommendation with Sequential Hypergraphs
+A General Network Compression Framework for Sequential Recommender Systems
+Make It a Chorus: Knowledge- and Time-aware Item Modeling for Sequential Recommendation
+Global Context Enhanced Graph Neural Networks for Session-based Recommendation
+Self-Supervised Reinforcement Learning for Recommender Systems
+Time Matters: Sequential Recommendation with Complex Temporal Information
+Controllable Multi-Interest Framework for Recommendation
+Disentangled Self-Supervision in Sequential Recommenders
+Handling Information Loss of Graph Neural Networks for Session-based Recommendation
+Contextual and Sequential User Embeddings for Large-Scale Music Recommendation
+FISSA:Fusing Item Similarity Models with Self-Attention Networks for Sequential Recommendation
+From the lab to production: A case study of session-based recommendations in the home-improvement domain
+Recommending the Video to Watch Next: An Offline and Online Evaluation at YOUTV
+SSE-PT:Sequential Recommendation Via Personalized Transformer
+Improving End-to-End Sequential Recommendations with Intent-aware Diversification
+Quaternion-based self-Attentive Long Short-term User Preference Encoding for Recommendation
+Sequential Recommender via Time-aware Attentive Memory Network
+Star Graph Neural Networks for Session-based Recommendation
+Dynamic Memory Based Attention Network for Sequential Recommendation
+Noninvasive Self-Attention for Side Information Fusion in Sequential Recommendation
+Self-Supervised Hypergraph Convolutional Networks for Session-based Recommendation
+An Efficient and Effective Framework for Session-based Social Recommendation
+Sparse-Interest Network for Sequential Recommendation
+Dynamic Embeddings for Interaction Prediction
+Session-aware Linear Item-Item Models for Session-based Recommendation
+RetaGNN: Relational Temporal Attentive Graph Neural Networks for Holistic Sequential Recommendation
+Adversarial and Contrastive Variational Autoencoder for Sequential Recommendation
+Future-Aware Diverse Trends Framework for Recommendation
+Linear-Time Self Attention with Codeword Histogram for Efficient Recommendation
+DeepRec: On-device Deep Learning for Privacy-Preserving Sequential  Recommendation in Mobile Commerce

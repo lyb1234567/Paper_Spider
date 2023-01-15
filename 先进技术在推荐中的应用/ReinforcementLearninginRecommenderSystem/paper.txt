@@ -1,0 +1,10 @@
+MaHRL: Multi-goals Abstraction based Deep Hierarchical Reinforcement Learning for Recommendations
+Interactive Recommender System via Knowledge Graph-enhanced Reinforcement Learning
+Joint Policy-Value Learning for Recommendation
+BLOB: A Probabilistic Model for Recommendation that Combines Organic and Bandit Signals
+Learning to Collaborate in Multi-Module Recommendation via Multi-Agent Reinforcement Learning without Communication
+Reinforcement Learning with a Disentangled Universal Value Function for Item Recommendation
+User Response Models to Improve a REINFORCE Recommender System
+Cost-Effective and Interpretable Job Skill Recommendation with Deep Reinforcement Learning
+A Multi-Agent Reinforcement Learning Framework for Intelligent Electric Vehicle Charging Recommendation
+Reinforcement Recommendation with User Multi-aspect Preference

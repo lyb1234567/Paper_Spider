@@ -1,0 +1,8 @@
+Content-aware Neural Hashing for Cold-start Recommendation
+MAMO: Memory-Augmented Meta-Optimization for Cold-start Recommendation
+Learning Transferrable Parameters for Long-tailed Sequential User Behavior Modeling
+Meta-learning on Heterogeneous Information Networks for Cold-start Recommendation
+Cold-Start Sequential Recommendation via Meta Learner
+Personalized Adaptive Meta Learning for Cold-start User Preference Prediction
+Task-adaptive Neural Process for User Cold-Start Recommendation
+A Model of Two Tales: Dual Transfer Learning Framework for Improved Long-tail Item Recommendation

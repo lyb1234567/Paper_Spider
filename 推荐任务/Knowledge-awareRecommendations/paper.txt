@@ -1,0 +1,18 @@
+CKAN: Collaborative Knowledge-aware Attentive Network for Recommender Systems
+Attentional Graph Convolutional Networks for Knowledge Concept Recommendation in MOOCs in a Heterogeneous View
+MVIN: Learning multiview items for recommendation
+Jointly Non-Sampling Learning for Knowledge Graph Enhanced Recommendation
+Joint Item Recommendation and Attribute Inference: An Adaptive Graph Convolutional Network Approach
+Leveraging Demonstrations for Reinforcement Recommendation Reasoning over Knowledge Graphs
+SimClusters Community-Based Representations for Heterogenous Recommendations at Twitter
+Multi-modal Knowledge Graphs for Recommender Systems
+DisenHAN Disentangled Heterogeneous Graph Attention Network for Recommendation
+Genetic Meta-Structure Search for Recommendation on Heterogeneous Information Network
+TGCN Tag Graph Convolutional Network for Tag-Aware Recommendation
+Knowledge-Enhanced Top-K Recommendation in Poincaré Ball
+Graph Heterogeneous Multi-Relational Recommendation
+Knowledge-Enhanced Hierarchical Graph Transformer Network for Multi-Behavior Recommendation
+Alleviating Cold-Start Problems in Recommendation through Pseudo-Labelling over Knowledge Graph
+Decomposed Collaborative Filtering Modeling Explicit and Implicit Factors For Recommender Systems
+Temporal Meta-path Guided Explainable Recommendation
+Learning Intents behind Interactions with Knowledge Graph for Recommendation
